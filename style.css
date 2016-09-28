@@ -21,15 +21,47 @@
 
 }
 	
-
-
 body {
 	margin-top:0;
 }
 
 #psychomot-page {
-	padding-top: 51px;
+	padding-top: 70px;
 	height: 700px;
-	margin-top: 0;
+	background-color:  #82BDB5;
+	color: white;
+	
+}
+.border {
+	border: 5px solid white ;
+	margin-top: 20px
+
+}
+#psychomot-page h3, #psychomot-page h5{
+	text-align: center;
+
+}
+#psychomot-page p{
+	text-align: justify;
+	padding: 0px 15px 0px 15px;
 }
 
+#psychomot-page img{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 60px;
+}
+
+#psychomot-page h3{
+	background-color: #82BDB5;
+	
+	margin: -15px 120px 0 120px;
+
+
+}
+
+}
+.page-contact p, .page-contact h3 {
+	text-align: center;
+}
