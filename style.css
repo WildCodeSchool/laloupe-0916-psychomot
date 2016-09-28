@@ -1,3 +1,5 @@
+/*page home*/
+
 #page-home {
 	background: url("img/cabinet-grand.png") no-repeat center ;
 	height: 700px;
@@ -55,13 +57,22 @@ body {
 
 #psychomot-page h3{
 	background-color: #82BDB5;
-	
 	margin: -15px 120px 0 120px;
-
-
 }
 
+
+#page-contact {
+	padding-top: 70px;
+	height: 700px;
+	background-color: #82BDB5;
+	
 }
-.page-contact p, .page-contact h3 {
+#page-contact p, #page-contact h3 {
 	text-align: center;
+	color: white;
+}
+
+#page-contact h3{
+	background-color: #82BDB5;
+	margin: -15px 120px 0 120px;
 }
