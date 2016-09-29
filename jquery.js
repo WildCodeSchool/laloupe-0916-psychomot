@@ -1,3 +1,3 @@
-$(document).ready(function){
-	$(h1).animate
-}
+$(document).ready(function(){
+	$("h1").hide();
+});
