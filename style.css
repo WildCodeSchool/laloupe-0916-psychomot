@@ -249,8 +249,10 @@ body {
 
 #Psychomotricité {
     max-width: 2000px;
-    height: 800px;
+    /*height: 800px;*/
     background-color: #82BDB5;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
