@@ -31,15 +31,15 @@ body {
 
 }
 .left, .right{
-    background-color:  #82BDB5;
+    /*background-color:  #82BDB5;*/
     padding-bottom: 50px;
-    color: white;
+    /*color: white;*/
     padding-top: 70px;
 }
 
 .border {
-	border: 5px solid white ;
-	margin-top: 20px
+	border: 5px solid #82BDB5; 
+	margin-top: 20px;
     
 
 }
@@ -50,7 +50,7 @@ body {
 #psychomot-page p{
 	text-align: justify;
 	padding: 0px 15px 0px 15px;
-    font-size: 16px;
+  font-size: 16px;
     
 }
 
@@ -59,27 +59,33 @@ body {
 	margin-right: auto;
 	margin-left: auto;
 	margin-bottom: 60px;
+  border: 5px solid #82BDB5; 
     
 }
 
 #psychomot-page h3{
-	background-color: #82BDB5;
+	background-color: white;
 	margin: -15px 120px 0 120px;
+  color: #82BDB5;
 }
 
 #page-contact {
 	padding-top: 70px;
-	height: 700px;
-	background-color: #82BDB5;
+	/*height: 700px;*/
+	/*background-color: #82BDB5;*/
 	
 }
 #page-contact p, #page-contact h3 {
 	text-align: center;
-	color: white;
+	
+}
+
+#page-contact p{
+  font-size: 16px;
 }
 
 #page-contact h3{
-	background-color: #82BDB5;
+	background-color: white;
 	margin: -15px 120px 0 120px;
 }
 
@@ -89,7 +95,7 @@ body {
 }
 
 .contact {
-    border: 5px solid white ;
+    border: 5px solid #82BDB5;
     margin: 20px 20px 0 30px;
 
 }
