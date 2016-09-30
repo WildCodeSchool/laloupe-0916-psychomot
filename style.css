@@ -87,10 +87,12 @@ body {
        
         
         .accordion {
-            width: 100%;
+            /*width: 100%;*/
             max-width: 2500px;
             height: 600px;
-            overflow: scroll;
+            /*overflow: scroll;*/
+            padding-left: 0px;
+            padding-right: 0px;
 }
         
         .accordion ul {
