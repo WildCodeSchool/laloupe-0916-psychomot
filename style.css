@@ -349,7 +349,7 @@ h1 {
 
     
     width: 600px;
-    margin-top: 2vw;
+    
     color: black;
     
 }
@@ -502,6 +502,7 @@ h1 {
 .accordion1 ul li:nth-child(3) { background-image: url("https://unsplash.it/650/350?image=672"); }
 
 */
+.accordion1 ul li:nth-child(1) { background-image: url("./img/1_questcequecest.jpg"); }
 
 .accordion1 ul li:nth-child(1) { background-color:#e6ffee; }
 
@@ -513,7 +514,8 @@ h1 {
 
 .accordion1 ul:hover li { width: 4%; }
 
-.accordion1 ul:hover li:hover { width: 60%; }
+.accordion1 ul:hover li:hover { width: 60%; 
+background-image: none;}
 
 .accordion1 ul:hover li:hover a { background: rgba(0, 0, 0, 0); }
 
@@ -521,6 +523,7 @@ h1 {
   opacity: 1;
   -webkit-transform: translateX(0);
   transform: translateX(0);
+  background-image: none;
 }
 
  @media screen and (max-width: 600px) {
