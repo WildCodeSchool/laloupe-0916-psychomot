@@ -269,8 +269,9 @@ h1 {
 
 .accordion1 {
   width: 100%;
-  max-width: 2000px;
-  height: 600px;
+  
+  max-width: 2500px;
+  height: 700px;
   overflow: hidden;
   margin-top: 5vw;
   
@@ -346,26 +347,22 @@ h1 {
 .accordion1 ul li div a p {
   top: 60px;
   font-size: 16px;
-
-    
-    width: 600px;
-    
-    color: black;
+  width: 600px;
+  color: black;
     
 }
 .accordion1 ul li div a p span {
-  
-    font-weight:900;
+  font-weight:900;
     
 }
 
 .accordion1 ul li div a img {
     width: 500px;
-    height: 375px;
+    height: 575px;
     float: right;
-    
-
     margin-right: 5vw;
+    margin-top: -5vw;
+    height: auto;
     
 }
 
@@ -383,7 +380,6 @@ h1 {
 
 .accordion1 {
   width: 100%;
-  
   height: 900px;
   overflow: hidden;
   
@@ -450,37 +446,25 @@ h1 {
   text-overflow: clip;
   font-size: 24px;
   text-transform: uppercase;
-  
- 
+   
 }
 
 
 .accordion1 ul li div a p {
   top: 60px;
   font-size: 14px;
-
-    
-    width: 300px;
-    
-    
-    
+  width: 300px;
+     
 }
 .accordion1 ul li div a p span {
-  
-    font-weight:900;
+  font-weight:900;
     
 }
 
 .accordion1 ul li div a img {
-    
     height: 375px;
     width: 360px;
-
     height: auto;
-    
-    
-
-    
     
 }
 
@@ -502,7 +486,11 @@ h1 {
 .accordion1 ul li:nth-child(3) { background-image: url("https://unsplash.it/650/350?image=672"); }
 
 */
-.accordion1 ul li:nth-child(1) { background-image: url("./img/1_questcequecest.jpg"); }
+.accordion1 ul li:nth-child(1) { background-image: url("./img/1_questcequecest.jpg"); } 
+
+.accordion1 ul li:nth-child(2) { background-image: url("./img/1_Pour_qui.jpg"); }
+
+.accordion1 ul li:nth-child(3) { background-image: url("./img/1_Pourquoi.jpg"); }
 
 .accordion1 ul li:nth-child(1) { background-color:#e6ffee; }
 
@@ -526,23 +514,24 @@ background-image: none;}
   background-image: none;
 }
 
+
  @media screen and (max-width: 600px) {
 
-body { margin: 0; }
+  body { margin: 0; }
 
-.accordion1 { height: auto; }
+  .accordion1 { height: auto; }
 
-.accordion1 ul li,
-.accordion1 ul li:hover,
-.accordion1 ul:hover li,
-.accordion1 ul:hover li:hover {
-  position: relative;
-  display: table;
-  table-layout: fixed;
-  width: 100%;
-  -webkit-transition: none;
-  transition: none;
-}
+  .accordion1 ul li,
+  .accordion1 ul li:hover,
+  .accordion1 ul:hover li,
+  .accordion1 ul:hover li:hover {
+    position: relative;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    -webkit-transition: none;
+    transition: none;
+  }
 }
 /*--Fin Psychomotricité--*/
 
