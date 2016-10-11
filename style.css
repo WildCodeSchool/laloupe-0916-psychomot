@@ -94,7 +94,7 @@ body {
 
 }
 
-/*INTERVENTIONS*/
+/*--INTERVENTIONS--*/
 
 
  @import url(http://fonts.googleapis.com/css?family=Open+Sans);
@@ -241,7 +241,7 @@ body {
 
 
 
-/*FIN INTERVENTION*/
+/*--FIN INTERVENTION--*/
 
 
 /*--Début Psychomotricité--*/
@@ -547,12 +547,77 @@ body { margin: 0; }
 
 
 
+/*--DEBUT FOOTER--*/
+
+footer{
+    background-color: #ffff;
+    color: #82BDB5;
+    text-align: center;
+}
+
+.modal-body1{
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #000;
+    background-image: url(img/points.png);
+    background-position: bottom right;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    
+  }
+
+#background_opacity {
+    opacity: 0.2;
+}
+
+.modal-body{
+    color: black;
+}
+
+.modal-body h2{
+    color: #FE8801;
+  }
+
+.modal-body1 p{
+    color: black;
+    padding-bottom: 30px;
+  }
+
+.alert{
+    background-color: #FECC76;
+    border: none;
+}
+
+.alert-info{
+    color: #fff;
+}
+
+.lienLink:link {
+    color: #FECC76;
+}
+
+.lienLink:visited {
+    color: #FECC76;
+}
+
+.lienLink:hover {
+    color: #FE8801;
+}
+
+.lienLink:active {
+    color: #FE8801;
+} 
+
+#texteWCS{
+    margin-top: 60px;
+}
+
+
+.WCSlogo{
+    width: 30%;
+}
 
 
 
 
-
-
-
-
-
+/*--FIN FOOTER--*/
