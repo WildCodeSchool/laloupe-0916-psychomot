@@ -1,0 +1,7 @@
+psychomot_psychomot:
+    resource: "@PsychomotBundle/Resources/config/routing/psychomot.yml"
+    prefix:   /psychomot
+
+psychomot_homepage:
+    path:     /
+    defaults: { _controller: PsychomotBundle:Default:index }
