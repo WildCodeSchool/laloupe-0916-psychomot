@@ -3,72 +3,58 @@
 {% block body %}
     <h1>Psychomot list</h1>
 
-    <table>
-        <thead>
-            <tr>
-                <th>Id</th>
-                <th>Tel</th>
-                <th>Titledef</th>
-                <th>Txtdef</th>
-                <th>Titlewho</th>
-                <th>Txtwho</th>
-                <th>Titlewhy</th>
-                <th>Txtwhy</th>
-                <th>Titlepsy</th>
-                <th>Txtpsy1</th>
-                <th>Txtpsy2</th>
-                <th>Titleconsult</th>
-                <th>Txtconsult</th>
-                <th>Titleinterv</th>
-                <th>Txtinterv</th>
-                <th>Titlebilan</th>
-                <th>Txtbilan</th>
-                <th>Namepsy1</th>
-                <th>Namepsy2</th>
-                <th>Contactadress</th>
-                <th>Contactmail</th>
-                <th>Contacttel</th>
-                <th>Contactname</th>
-                <th>Actions</th>
-            </tr>
-        </thead>
         <tbody>
         {% for psychomot in psychomots %}
-            <tr>
-                <td><a href="{{ path('psychomot_show', { 'id': psychomot.id }) }}">{{ psychomot.id }}</a></td>
-                <td>{{ psychomot.tel }}</td>
-                <td>{{ psychomot.titleDef }}</td>
-                <td>{{ psychomot.txtDef }}</td>
-                <td>{{ psychomot.titleWho }}</td>
-                <td>{{ psychomot.txtWho }}</td>
-                <td>{{ psychomot.titleWhy }}</td>
-                <td>{{ psychomot.txtWhy }}</td>
-                <td>{{ psychomot.titlePsy }}</td>
-                <td>{{ psychomot.txtPsy1 }}</td>
-                <td>{{ psychomot.txtPsy2 }}</td>
-                <td>{{ psychomot.titleConsult }}</td>
-                <td>{{ psychomot.txtConsult }}</td>
-                <td>{{ psychomot.titleInterv }}</td>
-                <td>{{ psychomot.txtInterv }}</td>
-                <td>{{ psychomot.titleBilan }}</td>
-                <td>{{ psychomot.txtBilan }}</td>
-                <td>{{ psychomot.namePsy1 }}</td>
-                <td>{{ psychomot.namePsy2 }}</td>
-                <td>{{ psychomot.contactAdress }}</td>
-                <td>{{ psychomot.contactMail }}</td>
-                <td>{{ psychomot.contactTel }}</td>
-                <td>{{ psychomot.contactName }}</td>
-                <td>
+
+            <!--Début Intervention-->
+            <div class="row" id="consultation">
+                <div class="accordion col-xs-12">
                     <ul>
                         <li>
-                            <a href="{{ path('psychomot_show', { 'id': psychomot.id }) }}">show</a>
+                            <div>
+                                <a>
+                                    <div class="row">
+                                        <div class="accordion col-xs-4">
+                                            <h2>{{ psychomot.titleConsult }}</h2>
+                                            <p>{{ psychomot.txtConsult }}</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
                         </li>
                         <li>
-                            <a href="{{ path('psychomot_edit', { 'id': psychomot.id }) }}">edit</a>
+                            <div>
+                                <a>
+                                    <div class="row">
+                                        <div class="accordion col-xs-4">
+                                            <h2>{{ psychomot.titleInterv }}</h2>
+                                            <p>{{ psychomot.txtInterv }}</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div>
+                                <a>
+                                    <div class="row">
+                                        <div class="accordion col-xs-4">
+                                            <h2>{{ psychomot.titleBilan }}</h2>>
+                                            <p>{{ psychomot.txtBilan }}</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
                         </li>
                     </ul>
-                </td>
-            </tr>
+                </div>
+
+            </div>
+
+            <!--FIN INTERVENTIONS-->
+
+
         {% endfor %}
         </tbody>
     </table>

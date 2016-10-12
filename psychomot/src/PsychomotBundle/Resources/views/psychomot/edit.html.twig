@@ -2,23 +2,85 @@
 
 {% block body %}
 
+    <!--Début Intervention-->
+    <div class="row" id="consultation">
+        <div class="accordion col-xs-12">
+            <ul>
+                <li>
+                    <div>
+                        <!--<img src="img/essais1.jpg">-->
+                        <a>
+                            <div class="row">
+                                <div class="accordion col-xs-4">
+                                    <h2>{{ psychomot.titleConsult }}</h2>
+                                    {{ form_start(edit_form.titleConsult) }}
+                                    {{ form_widget(edit_form.titleConsult, {'attr': {'class': 'form-control'}}) }}
+                                    {{ form_errors(edit_form.titleConsult) }}
+                                    <input type="submit" value="Edit" />
+                                    <p>{{ psychomot.txtConsult }}</p>
+                                    {{ form_start(edit_form.txtConsult) }}
+                                    {{ form_widget(edit_form.txtConsult, {'attr': {'class': 'form-control'}}) }}
+                                    {{ form_errors(edit_form.txtConsult) }}
+                                    <input type="submit" value="Edit" />
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <!-- <img src="img/essais2.jpg">-->
+                        <a>
+                            <div class="row">
+                                <div class="accordion col-xs-4">
+                                    <h2>{{ psychomot.titleInterv }}</h2>
+                                    {{ form_start(edit_form.titleInterv) }}
+                                    {{ form_widget(edit_form.titleInterv, {'attr': {'class': 'form-control'}}) }}
+                                    {{ form_errors(edit_form.titleInterv) }}
+                                    <input type="submit" value="Edit" />
+                                    <p>{{ psychomot.txtInterv }}</p>
+                                    {{ form_start(edit_form.txtInterv) }}
+                                    {{ form_widget(edit_form.txtInterv, {'attr': {'class': 'form-control'}}) }}
+                                    {{ form_errors(edit_form.txtInterv) }}
+                                    <input type="submit" value="Edit" />
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+
+                <li>
+                    <div>
+                        <!--<img src="img/essais3.jpg">-->
+                        <a>
+                            <div class="row">
+                                <div class="accordion col-xs-4">
+                                    <h2>{{ psychomot.titleBilan }}</h2>
+                                    {{ form_start(edit_form.titleBilan) }}
+                                    {{ form_widget(edit_form.titleBilan, {'attr': {'class': 'form-control'}}) }}
+                                    {{ form_errors(edit_form.titleBilan) }}
+                                    <input type="submit" value="Edit" />
+                                    <p>{{ psychomot.txtBilan }}</p>
+                                    {{ form_start(edit_form.txtBilan) }}
+                                    {{ form_widget(edit_form.txtBilan, {'attr': {'class': 'form-control'}}) }}
+                                    {{ form_errors(edit_form.txtBilan) }}
+                                    <input type="submit" value="Edit" />
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+    {{ form_end(edit_form.titleConsult) }}
+    {{ form_end(edit_form.txtConsult) }}
+    {{ form_end(edit_form.titleInterv) }}
+    {{ form_end(edit_form.txtInterv) }}
+    {{ form_end(edit_form.titleBilan) }}
+    {{ form_end(edit_form.txtBilan) }}
 
 
-    <h1>Psychomot edit</h1>
-
-    {{ form_start(edit_form) }}
-        {{ form_widget(edit_form) }}
-        <input type="submit" value="Edit" />
-    {{ form_end(edit_form) }}
-
-    <ul>
-        <li>
-            <a href="{{ path('psychomot_index') }}">Back to the list</a>
-        </li>
-        <li>
-            {{ form_start(delete_form) }}
-                <input type="submit" value="Delete">
-            {{ form_end(delete_form) }}
-        </li>
-    </ul>
 {% endblock %}
