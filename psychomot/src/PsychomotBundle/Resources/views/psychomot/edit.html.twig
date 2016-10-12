@@ -21,4 +21,67 @@
             {{ form_end(delete_form) }}
         </li>
     </ul>
+
+
+
+    <!--Début Psychomotricité-->
+
+    <div id="Psychomotricité">
+        <div class="accordion1">
+
+            <ul>
+                <li>
+
+                    <div>
+                        <a href="#Psychomotricité">
+                            <!-- <img src="http://www.designchemical.com/lab/jquery/demo/images/section_1.png"></img>
+                <h2>Lorem Ipsum</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p> -->
+
+
+                            <h2 class="psyco_titre1"> {{ psychomot.titleDef }}</h2>
+
+
+                            <!-- <img class="psyco_img1" src="./img/SAM_2242-500_375.JPG"> -->
+
+                            <img class="psyco_img1" src="{{asset('bundles/psychomot/img/1_questcequecest_500-575.jpg')}}">
+
+
+                            <p class="psyco_texte1"> {{ psychomot.txtDef }} </p>
+
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="#Psychomotricité">
+                            <h2>{{ psychomot.titleWho }}</h2>
+                            <img class="psyco_img1" src="{{asset('bundles/psychomot/img/1_Pour_qui.jpg')}}">
+                            <p>{{ psychomot.txtWho }}</p>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="#Psychomotricité">
+                            <h2>{{ psychomot.titleWhy }}</h2>
+                            <img class="psyco_img1" src="{{asset('bundles/psychomot/img/1_Pourquoi.jpg')}}">
+                            <p>{{ psychomot.txtWhy }}
+                            </p>
+                        </a>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+
+    </div>
+    </div>
+
+
+    <!--Fin Psychomotricité-->
+
+
+
+
 {% endblock %}
