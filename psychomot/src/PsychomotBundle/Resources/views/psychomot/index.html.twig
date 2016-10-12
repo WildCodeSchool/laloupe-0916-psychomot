@@ -1,83 +1,67 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
+    {% for psychomot in psychomots %}
+
+    <!--Accueil-->
+
+
+    <div id="page-home">
+        <div id="title">
+            <hr/>
+            <h1>CABINET DE PSYCHOMOTRICITE</h1>
+            <hr/>
+        </div>
+    </div>
+
+
+    <!--Fin Accueil-->
+
+<!--Début Psychomotriciennes-->
+
+<div class="row">
+    <div id="psychomot-page" class="fond">
+        <div class="left col-xs-12 col-sm-6 col-md-6">
+            <div class="col-xs-12">
+                <img src="{{asset('bundles/psychomot/img/Psy2.jpg') }}" alt="Margaux Charrier" />
+                <div class="border">
+                    <h3>{{ psychomot.namePsy1 }}</h3>
+
+                    <h5>Psychomotricienne diplomée</h5>
+
+                    <p>{{ psychomot.txtPsy1 }}</p>
 
 
 
 
+                </div>
+            </div>
+        </div>
+        <div class="right col-xs-12 col-sm-6 col-md-6">
+            <div class="col-xs-12">
+                <img src="{{asset('bundles/psychomot/img/Psy1.jpg') }}" alt="Adeline Florentin" />
+
+                <div class="border">
+                    <h3>{{ psychomot.namePsy2 }}</h3>
 
 
-    <h1>Psychomot list</h1>
+                    <h5>Psychomotricienne diplomée</h5>
+                    <p>{{ psychomot.txtPsy2 }}</p>
 
-    <table>
-        <thead>
-            <tr>
-                <th>Id</th>
-                <th>Tel</th>
-                <th>Titledef</th>
-                <th>Txtdef</th>
-                <th>Titlewho</th>
-                <th>Txtwho</th>
-                <th>Titlewhy</th>
-                <th>Txtwhy</th>
-                <th>Titlepsy</th>
-                <th>Txtpsy1</th>
-                <th>Txtpsy2</th>
-                <th>Titleconsult</th>
-                <th>Txtconsult</th>
-                <th>Titleinterv</th>
-                <th>Txtinterv</th>
-                <th>Titlebilan</th>
-                <th>Txtbilan</th>
-                <th>Namepsy1</th>
-                <th>Namepsy2</th>
-                <th>Contactadress</th>
-                <th>Contactmail</th>
-                <th>Contacttel</th>
-                <th>Contactname</th>
-                <th>Actions</th>
-            </tr>
-        </thead>
-        <tbody>
-        {% for psychomot in psychomots %}
-            <tr>
-                <td><a href="{{ path('psychomot_show', { 'id': psychomot.id }) }}">{{ psychomot.id }}</a></td>
-                <td>{{ psychomot.tel }}</td>
-                <td>{{ psychomot.titleDef }}</td>
-                <td>{{ psychomot.txtDef }}</td>
-                <td>{{ psychomot.titleWho }}</td>
-                <td>{{ psychomot.txtWho }}</td>
-                <td>{{ psychomot.titleWhy }}</td>
-                <td>{{ psychomot.txtWhy }}</td>
-                <td>{{ psychomot.titlePsy }}</td>
-                <td>{{ psychomot.txtPsy1 }}</td>
-                <td>{{ psychomot.txtPsy2 }}</td>
-                <td>{{ psychomot.titleConsult }}</td>
-                <td>{{ psychomot.txtConsult }}</td>
-                <td>{{ psychomot.titleInterv }}</td>
-                <td>{{ psychomot.txtInterv }}</td>
-                <td>{{ psychomot.titleBilan }}</td>
-                <td>{{ psychomot.txtBilan }}</td>
-                <td>{{ psychomot.namePsy1 }}</td>
-                <td>{{ psychomot.namePsy2 }}</td>
-                <td>{{ psychomot.contactAdress }}</td>
-                <td>{{ psychomot.contactMail }}</td>
-                <td>{{ psychomot.contactTel }}</td>
-                <td>{{ psychomot.contactName }}</td>
-                <td>
-                    <ul>
-                        <li>
-                            <a href="{{ path('psychomot_show', { 'id': psychomot.id }) }}">show</a>
-                        </li>
-                        <li>
-                            <a href="{{ path('psychomot_edit', { 'id': psychomot.id }) }}">edit</a>
-                        </li>
-                    </ul>
-                </td>
-            </tr>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--Fin Psychomotriciennes-->
+
+
+
         {% endfor %}
-        </tbody>
-    </table>
+
 
     <ul>
         <li>

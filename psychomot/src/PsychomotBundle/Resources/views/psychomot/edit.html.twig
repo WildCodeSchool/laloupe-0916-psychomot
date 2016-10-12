@@ -1,19 +1,8 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-    <!--Accueil-->
 
-
-    <div id="page-home">
-        <div id="title">
-            <hr/>
-            <h1>CABINET DE PSYCHOMOTRICITE</h1>
-            <hr/>
-        </div>
-    </div>
-
-
-    <!--Fin Accueil-->
+    {{ form_start(edit_form) }}
 
     <!--Début Psychomotriciennes-->
 
@@ -21,25 +10,57 @@
         <div id="psychomot-page" class="fond">
             <div class="left col-xs-12 col-sm-6 col-md-6">
                 <div class="col-xs-12">
-                    <img src="{{ asset('bundles/psychomot/img/Psy1.jpg')}}" alt="Margaux Charrier" />
+                    <img src="{{asset('bundles/psychomot/img/Psy2.jpg') }}" alt="Margaux Charrier" />
                     <div class="border">
-                        <h3>Margaux CHARRIER</h3>
+                        <h3>{{ psychomot.namePsy1 }}</h3>
+                        <div>
+                            {{ form_widget(edit_form.namePsy1, {'attr': {'class': 'form-control'}}) }}
+                            {{ form_errors(edit_form.namePsy1) }}
+                            <input type="submit" value="Edit" />
+                            {{ form_end(edit_form.namePsy1) }}
+
+                        </div>
 
                         <h5>Psychomotricienne diplomée</h5>
 
                         <p>{{ psychomot.txtPsy1 }}</p>
+                        <div>
+                            {{ form_widget(edit_form.txtPsy1, {'attr': {'class': 'form-control'}}) }}
+                            {{ form_errors(edit_form.txtPsy1) }}
+                            <input type="submit" value="Edit" />
+                            {{ form_end(edit_form.txtPsy1) }}
+
+                        </div>
+
+
 
                     </div>
                 </div>
             </div>
             <div class="right col-xs-12 col-sm-6 col-md-6">
                 <div class="col-xs-12">
-                    <img src="{{ asset('bundles/psychomot/img/Psy2.jpg')}}" alt="Adeline Florentin" />
+                    <img src="{{asset('bundles/psychomot/img/Psy1.jpg') }}" alt="Adeline Florentin" />
+
                     <div class="border">
-                        <h3>Adeline FLORENTIN</h3>
+                        <h3>{{ psychomot.namePsy2 }}</h3>
+                        <div>
+                            {{ form_widget(edit_form.namePsy2, {'attr': {'class': 'form-control'}}) }}
+                            {{ form_errors(edit_form.namePsy2) }}
+                            <input type="submit" value="Edit" />
+                            {{ form_end(edit_form.namePsy2) }}
+
+                        </div>
+
                         <h5>Psychomotricienne diplomée</h5>
                         <p>{{ psychomot.txtPsy2 }}</p>
-                    </div>
+                        <div>
+                            {{ form_widget(edit_form.txtPsy2, {'attr': {'class': 'form-control'}}) }}
+                            {{ form_errors(edit_form.txtPsy2) }}
+                            <input type="submit" value="Edit" />
+                            {{ form_end(edit_form.txtPsy2) }}
+
+                        </div>
+
                 </div>
             </div>
         </div>
@@ -59,8 +80,23 @@
 
                 <div class="adress">
                     <p>Cabinet de psychomotricité C3S</p>
-                    <p>38 rue Arnold Dolmetsh</p>
-                    <p>72000 Le Mans</p>
+                    <div>
+                        {{ form_widget(edit_form.contactName, {'attr': {'class': 'form-control'}}) }}
+                        {{ form_errors(edit_form.contactName) }}
+                        <input type="submit" value="Edit" />
+                        {{ form_end(edit_form.contactName) }}
+
+                    </div>
+                    <p>38 rue Arnold Dolmetsh - 2000 Le Mans</p>
+                    <div>
+                        {{ form_widget(edit_form.contactAdress, {'attr': {'class': 'form-control'}}) }}
+                        {{ form_errors(edit_form.contactAdress) }}
+                        <input type="submit" value="Edit" />
+                        {{ form_end(edit_form.contactAdress) }}
+
+                    </div>
+
+
                 </div>
 
 
@@ -107,21 +143,5 @@
 
 
 
-    <h1>Psychomot edit</h1>
 
-    {{ form_start(edit_form) }}
-        {{ form_widget(edit_form) }}
-        <input type="submit" value="Edit" />
-    {{ form_end(edit_form) }}
-
-    <ul>
-        <li>
-            <a href="{{ path('psychomot_index') }}">Back to the list</a>
-        </li>
-        <li>
-            {{ form_start(delete_form) }}
-                <input type="submit" value="Delete">
-            {{ form_end(delete_form) }}
-        </li>
-    </ul>
 {% endblock %}
