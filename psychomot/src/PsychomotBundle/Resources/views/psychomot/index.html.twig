@@ -1,77 +1,69 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-    <h1>Psychomot list</h1>
 
-    <table>
-        <thead>
-            <tr>
-                <th>Id</th>
-                <th>Tel</th>
-                <th>Titledef</th>
-                <th>Txtdef</th>
-                <th>Titlewho</th>
-                <th>Txtwho</th>
-                <th>Titlewhy</th>
-                <th>Txtwhy</th>
-                <th>Titlepsy</th>
-                <th>Txtpsy1</th>
-                <th>Txtpsy2</th>
-                <th>Titleconsult</th>
-                <th>Txtconsult</th>
-                <th>Titleinterv</th>
-                <th>Txtinterv</th>
-                <th>Titlebilan</th>
-                <th>Txtbilan</th>
-                <th>Namepsy1</th>
-                <th>Namepsy2</th>
-                <th>Contactadress</th>
-                <th>Contactmail</th>
-                <th>Contacttel</th>
-                <th>Contactname</th>
-                <th>Actions</th>
-            </tr>
-        </thead>
-        <tbody>
+
         {% for psychomot in psychomots %}
-            <tr>
-                <td><a href="{{ path('psychomot_show', { 'id': psychomot.id }) }}">{{ psychomot.id }}</a></td>
-                <td>{{ psychomot.tel }}</td>
-                <td>{{ psychomot.titleDef }}</td>
-                <td>{{ psychomot.txtDef }}</td>
-                <td>{{ psychomot.titleWho }}</td>
-                <td>{{ psychomot.txtWho }}</td>
-                <td>{{ psychomot.titleWhy }}</td>
-                <td>{{ psychomot.txtWhy }}</td>
-                <td>{{ psychomot.titlePsy }}</td>
-                <td>{{ psychomot.txtPsy1 }}</td>
-                <td>{{ psychomot.txtPsy2 }}</td>
-                <td>{{ psychomot.titleConsult }}</td>
-                <td>{{ psychomot.txtConsult }}</td>
-                <td>{{ psychomot.titleInterv }}</td>
-                <td>{{ psychomot.txtInterv }}</td>
-                <td>{{ psychomot.titleBilan }}</td>
-                <td>{{ psychomot.txtBilan }}</td>
-                <td>{{ psychomot.namePsy1 }}</td>
-                <td>{{ psychomot.namePsy2 }}</td>
-                <td>{{ psychomot.contactAdress }}</td>
-                <td>{{ psychomot.contactMail }}</td>
-                <td>{{ psychomot.contactTel }}</td>
-                <td>{{ psychomot.contactName }}</td>
-                <td>
+
+            <!--Début Psychomotricité-->
+
+            <div id="Psychomotricité">
+                <div class="accordion1">
+
                     <ul>
                         <li>
-                            <a href="{{ path('psychomot_show', { 'id': psychomot.id }) }}">show</a>
+
+                            <div>
+                                <a href="#Psychomotricité">
+                                    <!-- <img src="http://www.designchemical.com/lab/jquery/demo/images/section_1.png"></img>
+                        <h2>Lorem Ipsum</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p> -->
+                                    <div>
+                                        <h2 class="psyco_titre1"> {{ psychomot.titleDef }}</h2>
+                                        <p class="psyco_texte1"> {{ psychomot.txtDef }} </p>
+
+                                    </div>
+
+                                    <div>
+                                        <!-- <img class="psyco_img1" src="./img/SAM_2242-500_375.JPG"> -->
+
+                                        <!-- <img class="psyco_img1" src="{{asset('bundles/psychomot/img/1_questcequecest_500-575.jpg')}}"> -->
+                                    </div>
+
+                                </a>
+                            </div>
                         </li>
                         <li>
-                            <a href="{{ path('psychomot_edit', { 'id': psychomot.id }) }}">edit</a>
+                            <div>
+                                <a href="#Psychomotricité">
+                                    <h2>{{ psychomot.titleWho }}</h2>
+                                    <img class="psyco_img1" src="{{asset('bundles/psychomot/img/1_Pour_qui.jpg')}}">
+                                    <p>{{ psychomot.txtWho }}</p>
+                                </a>
+                            </div>
                         </li>
+                        <li>
+                            <div>
+                                <a href="#Psychomotricité">
+                                    <h2>{{ psychomot.titleWhy }}</h2>
+                                    <img class="psyco_img1" src="{{asset('bundles/psychomot/img/1_Pourquoi.jpg')}}">
+                                    <p>{{ psychomot.txtWhy }}
+                                    </p>
+                                </a>
+                            </div>
+                        </li>
+
                     </ul>
-                </td>
-            </tr>
+                </div>
+
+            </div>
+
+
+            <!--Fin Psychomotricité-->
+
+
+
         {% endfor %}
-        </tbody>
-    </table>
 
     <ul>
         <li>
@@ -79,3 +71,4 @@
         </li>
     </ul>
 {% endblock %}
+

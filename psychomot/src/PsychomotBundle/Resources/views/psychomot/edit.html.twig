@@ -6,22 +6,9 @@
 
     <h1>Psychomot edit</h1>
 
-    {{ form_start(edit_form) }}
-        {{ form_widget(edit_form) }}
-        <input type="submit" value="Edit" />
-    {{ form_end(edit_form) }}
 
-    <ul>
-        <li>
-            <a href="{{ path('psychomot_index') }}">Back to the list</a>
-        </li>
-        <li>
-            {{ form_start(delete_form) }}
-                <input type="submit" value="Delete">
-            {{ form_end(delete_form) }}
-        </li>
-    </ul>
 
+    {{ form_start(form) }}
 
 
     <!--Début Psychomotricité-->
@@ -39,15 +26,27 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p> -->
 
 
+                        <div>
+
                             <h2 class="psyco_titre1"> {{ psychomot.titleDef }}</h2>
-
-
-                            <!-- <img class="psyco_img1" src="./img/SAM_2242-500_375.JPG"> -->
-
-                            <img class="psyco_img1" src="{{asset('bundles/psychomot/img/1_questcequecest_500-575.jpg')}}">
+                            {{ form_widget(form.titleDef, {'attr': {'class': 'form-control'}}) }}
+                            {{ form_errors(form.titleDef) }}
 
 
                             <p class="psyco_texte1"> {{ psychomot.txtDef }} </p>
+                            {{ form_widget(form.txtDef, {'attr': {'class': 'form-control'}}) }}
+                            {{ form_errors(form.txtDef) }}
+                            <input type="submit" value="Edit" />
+
+
+
+                        </div>
+
+                        <div>
+                            <!-- <img class="psyco_img1" src="./img/SAM_2242-500_375.JPG"> -->
+
+                            <!-- <img class="psyco_img1" src="{{asset('bundles/psychomot/img/1_questcequecest_500-575.jpg')}}"> -->
+                        </div>
 
                         </a>
                     </div>
@@ -76,11 +75,12 @@
         </div>
 
     </div>
-    </div>
 
 
     <!--Fin Psychomotricité-->
 
+    <input type="submit" value="Edit" />
+    {{ form_end(form) }}
 
 
 
