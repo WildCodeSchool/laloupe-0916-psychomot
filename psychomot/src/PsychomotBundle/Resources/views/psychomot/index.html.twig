@@ -1,63 +1,117 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
+
     <h1>Psychomot list</h1>
 
         <tbody>
         {% for psychomot in psychomots %}
 
-            <!--Début Intervention-->
-            <div class="row" id="consultation">
-                <div class="accordion col-xs-12">
-                    <ul>
-                        <li>
-                            <div>
-                                <a>
-                                    <div class="row">
-                                        <div class="accordion col-xs-4">
-                                            <h2>{{ psychomot.titleConsult }}</h2>
-                                            <p>{{ psychomot.txtConsult }}</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <a>
-                                    <div class="row">
-                                        <div class="accordion col-xs-4">
-                                            <h2>{{ psychomot.titleInterv }}</h2>
-                                            <p>{{ psychomot.txtInterv }}</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </li>
+    <!--Accueil-->
 
-                        <li>
-                            <div>
-                                <a>
-                                    <div class="row">
-                                        <div class="accordion col-xs-4">
-                                            <h2>{{ psychomot.titleBilan }}</h2>>
-                                            <p>{{ psychomot.txtBilan }}</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </li>
-                    </ul>
+
+    <div id="page-home">
+        <div id="title">
+            <hr/>
+            <h1>CABINET DE PSYCHOMOTRICITE</h1>
+            <hr/>
+        </div>
+    </div>
+
+
+    <!--Fin Accueil-->
+
+<!--Début Psychomotriciennes-->
+
+<div class="row">
+    <div id="psychomot-page" class="fond">
+        <div class="left col-xs-12 col-sm-6 col-md-6">
+            <div class="col-xs-12">
+                <img src="{{asset('bundles/psychomot/img/Psy2.jpg') }}" alt="Margaux Charrier" />
+                <div class="border">
+                    <h3>{{ psychomot.namePsy1 }}</h3>
+
+                    <h5>Psychomotricienne diplomée</h5>
+
+                    <p>{{ psychomot.txtPsy1 }}</p>
+
+
+
+
                 </div>
-
             </div>
+        </div>
+        <div class="right col-xs-12 col-sm-6 col-md-6">
+            <div class="col-xs-12">
+                <img src="{{asset('bundles/psychomot/img/Psy1.jpg') }}" alt="Adeline Florentin" />
 
-            <!--FIN INTERVENTIONS-->
+                <div class="border">
+                    <h3>{{ psychomot.namePsy2 }}</h3>
+
+
+                    <h5>Psychomotricienne diplomée</h5>
+                    <p>{{ psychomot.txtPsy2 }}</p>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Fin Psychomotriciennes-->
+
+
+    <!--Début Intervention-->
+    <div class="row" id="consultation">
+        <div class="accordion col-xs-12">
+            <ul>
+                <li>
+                    <div>
+                        <a>
+                            <div class="row">
+                                <div class="accordion col-xs-4">
+                                    <h2>{{ psychomot.titleConsult }}</h2>
+                                    <p>{{ psychomot.txtConsult }}</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a>
+                            <div class="row">
+                                <div class="accordion col-xs-4">
+                                    <h2>{{ psychomot.titleInterv }}</h2>
+                                    <p>{{ psychomot.txtInterv }}</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+
+                <li>
+                    <div>
+                        <a>
+                            <div class="row">
+                                <div class="accordion col-xs-4">
+                                    <h2>{{ psychomot.titleBilan }}</h2>>
+                                    <p>{{ psychomot.txtBilan }}</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!--FIN INTERVENTIONS-->
+
 
 
         {% endfor %}
-        </tbody>
-    </table>
+
 
     <ul>
         <li>
