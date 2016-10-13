@@ -2,7 +2,7 @@
 
 {% block body %}
 
-    {{ form_start(edit_form) }}
+    {{ form_start(form) }}
 
     <!--Début Psychomotriciennes-->
 
@@ -14,10 +14,8 @@
                     <div class="border">
                         <h3>{{ psychomot.namePsy1 }}</h3>
                         <div>
-                            {{ form_widget(edit_form.namePsy1, {'attr': {'class': 'form-control'}}) }}
-                            {{ form_errors(edit_form.namePsy1) }}
-                            <input type="submit" value="Edit" />
-                            {{ form_end(edit_form.namePsy1) }}
+                            {{ form_widget(form.namePsy1, {'attr': {'class': 'form-control'}}) }}
+                            {{ form_errors(form.namePsy1) }}
 
                         </div>
 
@@ -25,10 +23,8 @@
 
                         <p>{{ psychomot.txtPsy1 }}</p>
                         <div>
-                            {{ form_widget(edit_form.txtPsy1, {'attr': {'class': 'form-control'}}) }}
-                            {{ form_errors(edit_form.txtPsy1) }}
-                            <input type="submit" value="Edit" />
-                            {{ form_end(edit_form.txtPsy1) }}
+                            {{ form_widget(form.txtPsy1, {'attr': {'class': 'form-control'}}) }}
+                            {{ form_errors(form.txtPsy1) }}
 
                         </div>
 
@@ -44,22 +40,21 @@
                     <div class="border">
                         <h3>{{ psychomot.namePsy2 }}</h3>
                         <div>
-                            {{ form_widget(edit_form.namePsy2, {'attr': {'class': 'form-control'}}) }}
-                            {{ form_errors(edit_form.namePsy2) }}
-                            <input type="submit" value="Edit" />
-                            {{ form_end(edit_form.namePsy2) }}
+                            {{ form_widget(form.namePsy2, {'attr': {'class': 'form-control'}}) }}
+                            {{ form_errors(form.namePsy2) }}
+
 
                         </div>
 
                         <h5>Psychomotricienne diplomée</h5>
                         <p>{{ psychomot.txtPsy2 }}</p>
                         <div>
-                            {{ form_widget(edit_form.txtPsy2, {'attr': {'class': 'form-control'}}) }}
-                            {{ form_errors(edit_form.txtPsy2) }}
-                            <input type="submit" value="Edit" />
-                            {{ form_end(edit_form.txtPsy2) }}
+                            {{ form_widget(form.txtPsy2, {'attr': {'class': 'form-control'}}) }}
+                            {{ form_errors(form.txtPsy2) }}
 
                         </div>
+
+
 
                 </div>
             </div>
@@ -79,20 +74,16 @@
                 <h3>Nous contacter</h3>
 
                 <div class="adress">
-                    <p>Cabinet de psychomotricité C3S</p>
+                    <p>{{ psychomot.contactName }}</p>
                     <div>
-                        {{ form_widget(edit_form.contactName, {'attr': {'class': 'form-control'}}) }}
-                        {{ form_errors(edit_form.contactName) }}
-                        <input type="submit" value="Edit" />
-                        {{ form_end(edit_form.contactName) }}
+                        {{ form_widget(form.contactName, {'attr': {'class': 'form-control'}}) }}
+                        {{ form_errors(form.contactName) }}
 
                     </div>
-                    <p>38 rue Arnold Dolmetsh - 2000 Le Mans</p>
+                    <p>{{ psychomot.contactAdress }}</p>
                     <div>
-                        {{ form_widget(edit_form.contactAdress, {'attr': {'class': 'form-control'}}) }}
-                        {{ form_errors(edit_form.contactAdress) }}
-                        <input type="submit" value="Edit" />
-                        {{ form_end(edit_form.contactAdress) }}
+                        {{ form_widget(form.contactAdress, {'attr': {'class': 'form-control'}}) }}
+                        {{ form_errors(form.contactAdress) }}
 
                     </div>
 
@@ -139,9 +130,21 @@
     </div>
 
 
+
+
     <!--Fin Contact-->
 
+        <li>
+            <a href="{{ path('psychomot_index') }}">Back to the list</a>
+        </li>
+        <li>
 
+            <input type="submit" value="Edit" />
+            {{ form_end(form) }}
+
+            {{ form_start(delete_form) }}
+            <input type="submit" value="Delete">
+            {{ form_end(delete_form) }}
 
 
 {% endblock %}
