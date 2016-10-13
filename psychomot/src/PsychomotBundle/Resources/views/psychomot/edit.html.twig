@@ -31,6 +31,7 @@
                             <h2 class="psyco_titre1"> {{ psychomot.titleDef }}</h2>
                             {{ form_widget(form.titleDef, {'attr': {'class': 'form-control'}}) }}
                             {{ form_errors(form.titleDef) }}
+                            <input type="submit" value="Edit" />
 
 
                             <p class="psyco_texte1"> {{ psychomot.txtDef }} </p>
@@ -54,19 +55,37 @@
                 <li>
                     <div>
                         <a href="#Psychomotricité">
-                            <h2>{{ psychomot.titleWho }}</h2>
-                            <img class="psyco_img1" src="{{asset('bundles/psychomot/img/1_Pour_qui.jpg')}}">
-                            <p>{{ psychomot.txtWho }}</p>
+                            <div>
+                                <h2>{{ psychomot.titleWho }}</h2>
+                                {{ form_widget(form.titleWho, {'attr': {'class': 'form-control'}}) }}
+                                {{ form_errors(form.titleWho) }}
+                                <input type="submit" value="Edit" />
+
+                                <!--<img class="psyco_img1" src="{{asset('bundles/psychomot/img/1_Pour_qui.jpg')}}"> -->
+
+                                <p>{{ psychomot.txtWho }}</p>
+                                {{ form_widget(form.txtWho, {'attr': {'class': 'form-control'}}) }}
+                                {{ form_errors(form.txtWho) }}
+                                <input type="submit" value="Edit" />
+                            </div>
                         </a>
+
                     </div>
                 </li>
                 <li>
                     <div>
                         <a href="#Psychomotricité">
-                            <h2>{{ psychomot.titleWhy }}</h2>
-                            <img class="psyco_img1" src="{{asset('bundles/psychomot/img/1_Pourquoi.jpg')}}">
-                            <p>{{ psychomot.txtWhy }}
-                            </p>
+                            <div>
+                                <h2>{{ psychomot.titleWhy }}</h2>
+                                {{ form_widget(form.titleWhy, {'attr': {'class': 'form-control'}}) }}
+                                {{ form_errors(form.titleWhy) }}
+                                <input type="submit" value="Edit" />
+                                <!--<img class="psyco_img1" src="{{asset('bundles/psychomot/img/1_Pourquoi.jpg')}}">-->
+                                <p>{{ psychomot.txtWhy }}</p>
+                                {{ form_widget(form.txtWhy, {'attr': {'class': 'form-control'}}) }}
+                                {{ form_errors(form.txtWhy) }}
+                                <input type="submit" value="Edit" />
+                            </div>
                         </a>
                     </div>
                 </li>
