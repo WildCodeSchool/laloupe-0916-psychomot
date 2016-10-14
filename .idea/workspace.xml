@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf3c4855-9dd7-49db-b044-34727f4a23b7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psychomot/src/PsychomotBundle/Resources/public/img/Bilan.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psychomot/src/PsychomotBundle/Resources/public/img/plaquette psychomotricité [4627].doc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/psychomot/.gitignore" afterPath="$PROJECT_DIR$/psychomot/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/psychomot/app/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/psychomot/app/Resources/views/base.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/psychomot/src/PsychomotBundle/Form/PsychomotType.php" afterPath="$PROJECT_DIR$/psychomot/src/PsychomotBundle/Form/PsychomotType.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/psychomot/src/PsychomotBundle/Resources/config/doctrine/Psychomot.orm.yml" afterPath="$PROJECT_DIR$/psychomot/src/PsychomotBundle/Resources/config/doctrine/Psychomot.orm.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/psychomot/src/PsychomotBundle/Resources/public/css/style.css" afterPath="$PROJECT_DIR$/psychomot/src/PsychomotBundle/Resources/public/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/psychomot/src/PsychomotBundle/Resources/views/psychomot/edit.html.twig" afterPath="$PROJECT_DIR$/psychomot/src/PsychomotBundle/Resources/views/psychomot/edit.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/psychomot/src/PsychomotBundle/Resources/views/psychomot/index.html.twig" afterPath="$PROJECT_DIR$/psychomot/src/PsychomotBundle/Resources/views/psychomot/index.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/psychomot/src/PsychomotBundle/Resources/views/psychomot/new.html.twig" afterPath="$PROJECT_DIR$/psychomot/src/PsychomotBundle/Resources/views/psychomot/new.html.twig" />
     </list>
     <ignored path="laloupe-0916-psychomot.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,8 +27,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/psychomot/src/PsychomotBundle/Resources/public/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-165">
-              <caret line="554" column="0" selection-start-line="554" selection-start-column="0" selection-end-line="554" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -48,7 +39,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="e#40#99#0#PHP" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -120,7 +113,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
+              <folding>
+                <marker date="1476430854439" expanded="true" signature="32:349" ph="{% block body ...%}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -879,12 +874,12 @@
       <workItem from="1476371982653" duration="950000" />
       <workItem from="1476372948691" duration="1122000" />
       <workItem from="1476374221505" duration="435000" />
-      <workItem from="1476430176709" duration="1288000" />
+      <workItem from="1476430176709" duration="1906000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44371000" />
+    <option name="totallyTimeSpent" value="44989000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1535" height="876" extended-state="6" />
@@ -946,7 +941,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#40#99#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1004,7 +1001,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1476430854439" expanded="true" signature="32:349" ph="{% block body ...%}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1028,7 +1027,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#40#99#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1086,7 +1087,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1476430854439" expanded="true" signature="32:349" ph="{% block body ...%}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1110,7 +1113,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#40#99#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1168,7 +1173,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1476430854439" expanded="true" signature="32:349" ph="{% block body ...%}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1192,7 +1199,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#40#99#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1250,7 +1259,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1476430854439" expanded="true" signature="32:349" ph="{% block body ...%}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1266,7 +1277,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#40#99#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1298,7 +1311,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1476430854439" expanded="true" signature="32:349" ph="{% block body ...%}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1338,8 +1353,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/psychomot/src/PsychomotBundle/Resources/public/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-165">
-          <caret line="554" column="0" selection-start-line="554" selection-start-column="0" selection-end-line="554" selection-end-column="0" />
+        <state relative-caret-position="270">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding />
         </state>
       </provider>

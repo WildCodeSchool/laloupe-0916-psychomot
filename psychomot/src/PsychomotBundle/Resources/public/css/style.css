@@ -2,11 +2,9 @@
 
 #page-home {
 
-<<<<<<< HEAD
-    background: url(../img/Acceuil.jpg) no-repeat center ;
-=======
+
     background: url(../img/Acceuil.jpg) no-repeat ;
->>>>>>> 059a41c4b8b07766a9d297e5af08a4236472ac7c
+
 
 
     height: 700px;
@@ -50,7 +48,7 @@
 
 }
 
-}
+
 
 body {
     margin-top:0;
@@ -519,11 +517,11 @@ h1 {
 
 */
 
-.accordion1 ul li:nth-child(1) { background-image: url("./img/1_questcequecest_1.png");height: 700px; }
+.accordion1 ul li:nth-child(1) { background-image: url("../img/1_questcequecest_1.png");height: 700px; }
 
-.accordion1 ul li:nth-child(2) { background-image: url("./img/1_Pour_qui_1.png");height: 700px; }
+.accordion1 ul li:nth-child(2) { background-image: url("../img/1_Pour_qui_1.png");height: 700px; }
 
-.accordion1 ul li:nth-child(3) { background-image: url("./img/1_Pourquoi_1.png");height: 700px; }
+.accordion1 ul li:nth-child(3) { background-image: url("../img/1_Pourquoi_1.png");height: 700px; }
 
 
 .accordion1 ul li:nth-child(1) { background-color:#e6ffee; }
@@ -556,7 +554,7 @@ h1 {
 /*--DEBUT FOOTER--*/
 
 footer{
-    background-color: #ffff;
+    background-color: #FFFFFF;
     text-align: center;
     width: 100%;
     height: 50px;
@@ -594,7 +592,7 @@ footer{
     color: #15496C;
     text-decoration: none;
 
-
+}
 
 
 #background_opacity {
