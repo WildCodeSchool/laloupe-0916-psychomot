@@ -54,7 +54,7 @@ PsychomotBundle\Entity\Psychomot:
             column: title_consult
         txtConsult:
             type: string
-            length: 255
+            length: 1000
             column: txt_consult
         titleInterv:
             type: string
@@ -62,7 +62,7 @@ PsychomotBundle\Entity\Psychomot:
             column: title_interv
         txtInterv:
             type: string
-            length: 255
+            length: 1000
             column: txt_interv
         titleBilan:
             type: string
@@ -70,7 +70,7 @@ PsychomotBundle\Entity\Psychomot:
             column: title_bilan
         txtBilan:
             type: string
-            length: 255
+            length: 1000
             column: txt_bilan
         namePsy1:
             type: string

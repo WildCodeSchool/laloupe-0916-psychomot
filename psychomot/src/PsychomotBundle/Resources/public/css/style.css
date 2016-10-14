@@ -2,7 +2,11 @@
 
 #page-home {
 
+<<<<<<< HEAD
     background: url(../img/Acceuil.jpg) no-repeat center ;
+=======
+    background: url(../img/Acceuil.jpg) no-repeat ;
+>>>>>>> 059a41c4b8b07766a9d297e5af08a4236472ac7c
 
 
     height: 700px;
@@ -212,15 +216,15 @@ body {
 }
 
 .accordion ul li:nth-child(1) {
-    background-image: url(img/slide1.jpg);
+    background-image: url(../img/slide1.jpg);
 }
 
 .accordion ul li:nth-child(2) {
-    background-image: url(img/slide2.jpg);
+    background-image: url(../img/slide2.jpg);
 }
 
 .accordion ul li:nth-child(3) {
-    background-image: url(img/slide3.jpg);
+    background-image: url(../img/slide3.jpg);
 }
 
 
@@ -374,6 +378,7 @@ h1 {
     font-size: 16px;
     width: 600px;
     height: 300px;
+
     color: black;
 
 }
@@ -513,11 +518,13 @@ h1 {
 .accordion1 ul li:nth-child(3) { background-image: url("https://unsplash.it/650/350?image=672"); }
 
 */
-.accordion1 ul li:nth-child(1) { background-image: url(../img/1_questcequecest_1.png);height: 700px; }
 
-.accordion1 ul li:nth-child(2) { background-image: url(../img/1_Pour_qui_1.png);height: 700px; }
+.accordion1 ul li:nth-child(1) { background-image: url("./img/1_questcequecest_1.png");height: 700px; }
 
-.accordion1 ul li:nth-child(3) { background-image: url(../img/1_Pourquoi_1.png);height: 700px; }
+.accordion1 ul li:nth-child(2) { background-image: url("./img/1_Pour_qui_1.png");height: 700px; }
+
+.accordion1 ul li:nth-child(3) { background-image: url("./img/1_Pourquoi_1.png");height: 700px; }
+
 
 .accordion1 ul li:nth-child(1) { background-color:#e6ffee; }
 
@@ -546,27 +553,49 @@ h1 {
 /*--Fin Psychomotricité--*/
 
 
-
-
-
 /*--DEBUT FOOTER--*/
 
 footer{
     background-color: #ffff;
-    color: #82BDB5;
     text-align: center;
+    width: 100%;
+    height: 50px;
+    bottom : 0px;
+    padding-top: 20px;
 }
 
 .modal-body1{
     padding-left: 30px;
     padding-right: 30px;
     color: #000;
-    background-image: url(img/points.png);
+    background-image: url(../img/points.png);
     background-position: bottom right;
     background-size: 80%;
     background-repeat: no-repeat;
-
 }
+
+
+.ML:link {
+    color: #82BDB5;
+    text-decoration: none;
+}
+
+.ML:visited {
+    color: #15496C;
+    text-decoration: none;
+}
+
+.ML:hover {
+    color: #15496C;
+    text-decoration: none;
+}
+
+.ML:active {
+    color: #15496C;
+    text-decoration: none;
+
+
+
 
 #background_opacity {
     opacity: 0.2;
@@ -596,30 +625,31 @@ footer{
 
 .lienLink:link {
     color: #FECC76;
+    text-decoration: none;
 }
 
 .lienLink:visited {
     color: #FECC76;
+    text-decoration: none;
 }
 
 .lienLink:hover {
     color: #FE8801;
+    text-decoration: none;
 }
 
 .lienLink:active {
     color: #FE8801;
+    text-decoration: none;
 }
 
 #texteWCS{
     margin-top: 60px;
 }
 
-
-.WCSlogo{
-    width: 30%;
+.wcs{
+    height: 30%;
 }
-
-
 
 
 /*--FIN FOOTER--*/

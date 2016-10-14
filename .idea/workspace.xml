@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf3c4855-9dd7-49db-b044-34727f4a23b7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/php.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psychomot/src/PsychomotBundle/Resources/public/img/Bilan.doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/psychomot/src/PsychomotBundle/Resources/public/img/plaquette psychomotricité [4627].doc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/psychomot/.gitignore" afterPath="$PROJECT_DIR$/psychomot/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/psychomot/app/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/psychomot/app/Resources/views/base.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/psychomot/src/PsychomotBundle/Form/PsychomotType.php" afterPath="$PROJECT_DIR$/psychomot/src/PsychomotBundle/Form/PsychomotType.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/psychomot/src/PsychomotBundle/Resources/config/doctrine/Psychomot.orm.yml" afterPath="$PROJECT_DIR$/psychomot/src/PsychomotBundle/Resources/config/doctrine/Psychomot.orm.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/psychomot/src/PsychomotBundle/Resources/public/css/style.css" afterPath="$PROJECT_DIR$/psychomot/src/PsychomotBundle/Resources/public/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/psychomot/src/PsychomotBundle/Resources/views/psychomot/edit.html.twig" afterPath="$PROJECT_DIR$/psychomot/src/PsychomotBundle/Resources/views/psychomot/edit.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/psychomot/src/PsychomotBundle/Resources/views/psychomot/index.html.twig" afterPath="$PROJECT_DIR$/psychomot/src/PsychomotBundle/Resources/views/psychomot/index.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/psychomot/src/PsychomotBundle/Resources/views/psychomot/new.html.twig" afterPath="$PROJECT_DIR$/psychomot/src/PsychomotBundle/Resources/views/psychomot/new.html.twig" />
     </list>
     <ignored path="laloupe-0916-psychomot.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,11 +33,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/psychomot/src/PsychomotBundle/Resources/public/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5625">
-              <caret line="375" column="13" selection-start-line="375" selection-start-column="13" selection-end-line="375" selection-end-column="13" />
+            <state relative-caret-position="-165">
+              <caret line="554" column="0" selection-start-line="554" selection-start-column="0" selection-end-line="554" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -45,7 +53,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PsychomotController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PsychomotController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/psychomot/src/PsychomotBundle/Controller/PsychomotController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="260">
@@ -68,9 +76,11 @@
       <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/psychomot/src/PsychomotBundle/Resources/views/psychomot/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="49" column="83" selection-start-line="49" selection-start-column="83" selection-end-line="49" selection-end-column="83" />
-              <folding />
+            <state relative-caret-position="391">
+              <caret line="254" column="24" selection-start-line="254" selection-start-column="24" selection-end-line="254" selection-end-column="24" />
+              <folding>
+                <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#div#2;n#div#2;n#tbody#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,8 +88,8 @@
       <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/psychomot/app/Resources/views/base.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="85" selection-start-line="7" selection-start-column="85" selection-end-line="7" selection-end-column="85" />
+            <state relative-caret-position="541">
+              <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -98,8 +108,8 @@
       <file leaf-file-name="edit.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/psychomot/src/PsychomotBundle/Resources/views/psychomot/edit.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1275">
-              <caret line="85" column="58" selection-start-line="85" selection-start-column="58" selection-end-line="85" selection-end-column="58" />
+            <state relative-caret-position="4665">
+              <caret line="311" column="58" selection-start-line="311" selection-start-column="58" selection-end-line="311" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -109,7 +119,7 @@
         <entry file="file://$PROJECT_DIR$/psychomot/src/PsychomotBundle/Resources/views/psychomot/new.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -134,12 +144,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/psychomot/src/PsychomotBundle/Resources/config/routing/psychomot.yml" />
-        <option value="$PROJECT_DIR$/psychomot/app/Resources/views/base.html.twig" />
         <option value="$PROJECT_DIR$/psychomot/src/PsychomotBundle/Resources/config/doctrine/Psychomot.orm.yml" />
-        <option value="$PROJECT_DIR$/psychomot/src/PsychomotBundle/Resources/public/css/style.css" />
         <option value="$PROJECT_DIR$/psychomot/src/PsychomotBundle/Resources/views/psychomot/edit.html.twig" />
-        <option value="$PROJECT_DIR$/psychomot/src/PsychomotBundle/Resources/views/psychomot/index.html.twig" />
         <option value="$PROJECT_DIR$/psychomot/src/PsychomotBundle/Controller/PsychomotController.php" />
+        <option value="$PROJECT_DIR$/psychomot/src/PsychomotBundle/Resources/views/psychomot/index.html.twig" />
+        <option value="$PROJECT_DIR$/psychomot/app/Resources/views/base.html.twig" />
+        <option value="$PROJECT_DIR$/psychomot/src/PsychomotBundle/Resources/public/css/style.css" />
       </list>
     </option>
   </component>
@@ -869,20 +879,20 @@
       <workItem from="1476371982653" duration="950000" />
       <workItem from="1476372948691" duration="1122000" />
       <workItem from="1476374221505" duration="435000" />
-      <workItem from="1476430176709" duration="237000" />
+      <workItem from="1476430176709" duration="1288000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43320000" />
+    <option name="totallyTimeSpent" value="44371000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1535" height="876" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2495114" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32876712" sideWeight="0.5022801" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09215442" sideWeight="0.5022801" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -960,7 +970,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#div#2;n#div#2;n#tbody#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1040,7 +1052,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#div#2;n#div#2;n#tbody#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1120,7 +1134,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#div#2;n#div#2;n#tbody#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1200,7 +1216,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#div#2;n#div#2;n#tbody#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1244,14 +1262,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/psychomot/src/PsychomotBundle/Resources/public/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5625">
-          <caret line="375" column="13" selection-start-line="375" selection-start-column="13" selection-end-line="375" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/psychomot/src/AppBundle/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1268,22 +1278,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/psychomot/src/PsychomotBundle/Resources/views/psychomot/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="49" column="83" selection-start-line="49" selection-start-column="83" selection-end-line="49" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/psychomot/app/Resources/views/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="85" selection-start-line="7" selection-start-column="85" selection-end-line="7" selection-end-column="85" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/psychomot/src/PsychomotBundle/Tests/Controller/PsychomotControllerTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1294,8 +1288,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/psychomot/src/PsychomotBundle/Resources/views/psychomot/edit.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="85" column="58" selection-start-line="85" selection-start-column="58" selection-end-line="85" selection-end-column="58" />
+        <state relative-caret-position="4665">
+          <caret line="311" column="58" selection-start-line="311" selection-start-column="58" selection-end-line="311" selection-end-column="58" />
           <folding />
         </state>
       </provider>
@@ -1303,7 +1297,7 @@
     <entry file="file://$PROJECT_DIR$/psychomot/src/PsychomotBundle/Resources/views/psychomot/new.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1320,6 +1314,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="76" column="44" selection-start-line="76" selection-start-column="44" selection-end-line="76" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/psychomot/src/PsychomotBundle/Resources/views/psychomot/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="254" column="24" selection-start-line="254" selection-start-column="24" selection-end-line="254" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#div#2;n#div#2;n#tbody#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/psychomot/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/psychomot/src/PsychomotBundle/Resources/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-165">
+          <caret line="554" column="0" selection-start-line="554" selection-start-column="0" selection-end-line="554" selection-end-column="0" />
           <folding />
         </state>
       </provider>
