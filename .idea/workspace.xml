@@ -101,8 +101,8 @@
       <file leaf-file-name="edit.html.twig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/psychomot/src/PsychomotBundle/Resources/views/psychomot/edit.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+            <state relative-caret-position="915">
+              <caret line="131" column="26" selection-start-line="131" selection-start-column="26" selection-end-line="131" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -874,12 +874,12 @@
       <workItem from="1476371982653" duration="950000" />
       <workItem from="1476372948691" duration="1122000" />
       <workItem from="1476374221505" duration="435000" />
-      <workItem from="1476430176709" duration="2702000" />
+      <workItem from="1476430176709" duration="2852000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45785000" />
+    <option name="totallyTimeSpent" value="45935000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1535" height="876" extended-state="6" />
@@ -1353,8 +1353,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/psychomot/src/PsychomotBundle/Resources/views/psychomot/edit.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        <state relative-caret-position="915">
+          <caret line="131" column="26" selection-start-line="131" selection-start-column="26" selection-end-line="131" selection-end-column="26" />
           <folding />
         </state>
       </provider>
