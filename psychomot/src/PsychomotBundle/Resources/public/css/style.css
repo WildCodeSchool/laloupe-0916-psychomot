@@ -550,80 +550,39 @@ h1 {
 
 /*--DEBUT FOOTER--*/
 
-footer{
-    background-color: #ffff;
-    color: #82BDB5;
-    text-align: center;
-}
-
-.modal-body1{
-    padding-left: 30px;
-    padding-right: 30px;
-    color: #000;
-    background-image: url(img/points.png);
-    background-position: bottom right;
-    background-size: 80%;
-    background-repeat: no-repeat;
-
-}
-
-#background_opacity {
-    opacity: 0.2;
-}
-
-.modal-body{
-    color: black;
-}
-
-.modal-body h2{
-    color: #FE8801;
-}
-
-.modal-body1 p{
-    color: black;
-    padding-bottom: 30px;
-}
-
-.alert{
-    background-color: #FECC76;
-    border: none;
-}
-
-.alert-info{
-    color: #fff;
-}
-
-.lienLink:link {
-    color: #FECC76;
-}
-
-.lienLink:visited {
-    color: #FECC76;
-}
-
-.lienLink:hover {
-    color: #FE8801;
-}
-
-.lienLink:active {
-    color: #FE8801;
-}
-
-#texteWCS{
-    margin-top: 60px;
-}
-
-
-/*--DEBUT FOOTER--*/
 
 footer{
-    background-color: #ffff;
+    background-color: #82BDB5;
     text-align: center;
     width: 100%;
     height: 50px;
     bottom : 0px;
     padding-top: 20px;
 }
+
+
+.ML:link {
+    color: white;
+    text-decoration: none;
+}
+
+.ML:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.ML:hover {
+    color: #BCECE9;
+    text-decoration: none;
+}
+
+.ML:active {
+    color: #BCECE9;
+    text-decoration: none;
+}
+
+
+/*modal ML*/
 
 .modal-body1{
     padding-left: 30px;
@@ -635,32 +594,7 @@ footer{
     background-repeat: no-repeat;
 }
 
-
-.ML:link {
-    color: #82BDB5;
-    text-decoration: none;
-}
-
-.ML:visited {
-    color: #15496C;
-    text-decoration: none;
-}
-
-.ML:hover {
-    color: #15496C;
-    text-decoration: none;
-}
-
-.ML:active {
-    color: #15496C;
-    text-decoration: none;
-
-
-
-
-#background_opacity {
-    opacity: 0.2;
-}
+/*modal Eleves*/
 
 .modal-body{
     color: black;
