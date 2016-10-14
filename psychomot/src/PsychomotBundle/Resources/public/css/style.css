@@ -560,7 +560,7 @@ footer{
     padding-left: 30px;
     padding-right: 30px;
     color: #000;
-    background-image: url(img/points.png);
+    background-image: url(../img/points.png);
     background-position: bottom right;
     background-size: 80%;
     background-repeat: no-repeat;
