@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cf3c4855-9dd7-49db-b044-34727f4a23b7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/psychomot/src/PsychomotBundle/Resources/views/psychomot/edit.html.twig" afterPath="$PROJECT_DIR$/psychomot/src/PsychomotBundle/Resources/views/psychomot/edit.html.twig" />
-    </list>
+    <list default="true" id="cf3c4855-9dd7-49db-b044-34727f4a23b7" name="Default" comment="" />
     <ignored path="laloupe-0916-psychomot.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -874,12 +872,12 @@
       <workItem from="1476371982653" duration="950000" />
       <workItem from="1476372948691" duration="1122000" />
       <workItem from="1476374221505" duration="435000" />
-      <workItem from="1476430176709" duration="2852000" />
+      <workItem from="1476430176709" duration="3235000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45935000" />
+    <option name="totallyTimeSpent" value="46318000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1535" height="876" extended-state="6" />
