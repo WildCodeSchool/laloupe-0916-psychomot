@@ -3,6 +3,7 @@
 {% block body %}
 
     {{ form_start(form) }}
+<<<<<<< HEAD
 
 
     <!-- Début Nav Bar -->
@@ -40,6 +41,8 @@
         </div>
     </nav>
 <!-- Fin Nav Bar -->
+=======
+>>>>>>> dd0014c6ce55374a4b88eebc1d26e6e8506c18b6
 
     <!--Début Psychomotriciennes-->
 
@@ -83,25 +86,82 @@
 
                         </div>
 
-                        <h5>Psychomotricienne diplomée</h5>
-                        <p>{{ psychomot.txtPsy2 }}</p>
-                        <div>
-                            {{ form_widget(form.txtPsy2, {'attr': {'class': 'form-control'}}) }}
-                            {{ form_errors(form.txtPsy2) }}
-
-                        </div>
 
 
-
+                    </div>
                 </div>
             </div>
-        </div>
     </div>
 
 
 
     <!--Fin Psychomotriciennes-->
 
+
+    <!--Début Intervention-->
+
+        <div class="row" id="consultation">
+            <div class="accordion col-xs-12">
+                <ul>
+                    <li>
+                        <div>
+                            <!--<img src="img/essais1.jpg">-->
+                            <a>
+                                <div class="row">
+                                    <div class="accordion col-xs-4">
+                                        <h2>{{ psychomot.titleConsult }}</h2>
+                                        {{ form_widget(form.titleConsult, {'attr': {'class': 'form-control'}}) }}
+                                        {{ form_errors(form.titleConsult) }}
+                                        <p>{{ psychomot.txtConsult }}</p>
+                                        {{ form_widget(form.txtConsult, {'attr': {'class': 'form-control'}}) }}
+                                        {{ form_errors(form.txtConsult) }}
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <!-- <img src="img/essais2.jpg">-->
+                            <a>
+                                <div class="row">
+                                    <div class="accordion col-xs-4">
+                                        <h2>{{ psychomot.titleInterv }}</h2>
+                                        {{ form_widget(form.titleInterv, {'attr': {'class': 'form-control'}}) }}
+                                        {{ form_errors(form.titleInterv) }}
+                                        <p>{{ psychomot.txtInterv }}</p>
+                                        {{ form_widget(form.txtInterv, {'attr': {'class': 'form-control'}}) }}
+                                        {{ form_errors(form.txtInterv) }}
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <!--<img src="img/essais3.jpg">-->
+                            <a>
+                                <div class="row">
+                                    <div class="accordion col-xs-4">
+                                        <h2>{{ psychomot.titleBilan }}</h2>
+                                        {{ form_widget(form.titleBilan, {'attr': {'class': 'form-control'}}) }}
+                                        {{ form_errors(form.titleBilan) }}
+                                        <p>{{ psychomot.txtBilan }}</p>
+                                        {{ form_widget(form.txtBilan, {'attr': {'class': 'form-control'}}) }}
+                                        {{ form_errors(form.txtBilan) }}
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+
+
+    <!--Fin Intervention-->
     <!--Début Contact-->
 
 
@@ -171,10 +231,12 @@
 
     <!--Fin Contact-->
 
+
         <li>
             <a href="{{ path('psychomot_index') }}">Back to the list</a>
         </li>
-        <li>
+
+
 
             <input type="submit" value="Edit" />
             {{ form_end(form) }}

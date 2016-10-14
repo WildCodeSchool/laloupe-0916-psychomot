@@ -1,7 +1,9 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-    {% for psychomot in psychomots %}
+
+        <tbody>
+        {% for psychomot in psychomots %}
 
 <!-- Début Nav Bar -->
 <nav class="navbar navbar-default navbar-fixed-top">
@@ -84,10 +86,56 @@
             </div>
         </div>
     </div>
-
-
-
     <!--Fin Psychomotriciennes-->
+
+
+    <!--Début Intervention-->
+    <div class="row" id="consultation">
+        <div class="accordion col-xs-12">
+            <ul>
+                <li>
+                    <div>
+                        <a>
+                            <div class="row">
+                                <div class="accordion col-xs-4">
+                                    <h2>{{ psychomot.titleConsult }}</h2>
+                                    <p>{{ psychomot.txtConsult }}</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a>
+                            <div class="row">
+                                <div class="accordion col-xs-4">
+                                    <h2>{{ psychomot.titleInterv }}</h2>
+                                    <p>{{ psychomot.txtInterv }}</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+
+                <li>
+                    <div>
+                        <a>
+                            <div class="row">
+                                <div class="accordion col-xs-4">
+                                    <h2>{{ psychomot.titleBilan }}</h2>>
+                                    <p>{{ psychomot.txtBilan }}</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!--FIN INTERVENTIONS-->
 
     <!--Début Contact-->
 
