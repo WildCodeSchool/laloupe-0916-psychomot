@@ -2,7 +2,9 @@
 
 #page-home {
 
+
     background: url(../img/Acceuil.jpg) no-repeat ;
+
 
 
     height: 700px;
@@ -46,7 +48,7 @@
 
 }
 
-}
+
 
 body {
     margin-top:0;
@@ -373,6 +375,8 @@ h1 {
     top: 60px;
     font-size: 16px;
     width: 600px;
+    height: 300px;
+
     color: black;
 
 }
@@ -512,11 +516,13 @@ h1 {
 .accordion1 ul li:nth-child(3) { background-image: url("https://unsplash.it/650/350?image=672"); }
 
 */
-.accordion1 ul li:nth-child(1) { background-image: url("./img/1_questcequecest_1.png");height: 700px; }
 
-.accordion1 ul li:nth-child(2) { background-image: url("./img/1_Pour_qui_1.png");height: 700px; }
+.accordion1 ul li:nth-child(1) { background-image: url("../img/1_questcequecest_1.png");height: 700px; }
 
-.accordion1 ul li:nth-child(3) { background-image: url("./img/1_Pourquoi_1.png");height: 700px; }
+.accordion1 ul li:nth-child(2) { background-image: url("../img/1_Pour_qui_1.png");height: 700px; }
+
+.accordion1 ul li:nth-child(3) { background-image: url("../img/1_Pourquoi_1.png");height: 700px; }
+
 
 .accordion1 ul li:nth-child(1) { background-color:#e6ffee; }
 
@@ -545,11 +551,7 @@ h1 {
 /*--Fin Psychomotricité--*/
 
 
-
-
-
 /*--DEBUT FOOTER--*/
-
 
 footer{
     background-color: #82BDB5;
@@ -583,6 +585,7 @@ footer{
 
 
 /*modal ML*/
+
 
 .modal-body1{
     padding-left: 30px;
