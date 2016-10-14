@@ -33,7 +33,7 @@
 
 
             </ul>
-            <div>
+            <div class="field">
                 {{ form_widget(form.tel, {'attr': {'class': 'form-control'}}) }}
                 {{ form_errors(form.tel) }}
             </div>
@@ -54,10 +54,6 @@
 
                 <div>
                     <a href="#Psychomotricité">
-                        <!-- <img src="http://www.designchemical.com/lab/jquery/demo/images/section_1.png"></img>
-            <h2>Lorem Ipsum</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p> -->
-
 
                         <div>
 
@@ -76,11 +72,6 @@
 
                         </div>
 
-                        <div>
-                            <!-- <img class="psyco_img1" src="./img/SAM_2242-500_375.JPG"> -->
-
-                            <!-- <img class="psyco_img1" src="{{asset('bundles/psychomot/img/1_questcequecest_500-575.jpg')}}"> -->
-                        </div>
 
                     </a>
                 </div>
@@ -94,7 +85,7 @@
                             {{ form_errors(form.titleWho) }}
                             <input type="submit" value="Edit" />
 
-                            <!--<img class="psyco_img1" src="{{asset('bundles/psychomot/img/1_Pour_qui.jpg')}}"> -->
+
 
                             <p>{{ psychomot.txtWho }}</p>
                             {{ form_widget(form.txtWho, {'attr': {'class': 'form-control'}}) }}
@@ -113,7 +104,7 @@
                             {{ form_widget(form.titleWhy, {'attr': {'class': 'form-control'}}) }}
                             {{ form_errors(form.titleWhy) }}
                             <input type="submit" value="Edit" />
-                            <!--<img class="psyco_img1" src="{{asset('bundles/psychomot/img/1_Pourquoi.jpg')}}">-->
+
                             <p>{{ psychomot.txtWhy }}</p>
                             {{ form_widget(form.txtWhy, {'attr': {'class': 'form-control'}}) }}
                             {{ form_errors(form.txtWhy) }}
@@ -140,7 +131,7 @@
                     <img src="{{asset('bundles/psychomot/img/Psy2.jpg') }}" alt="Margaux Charrier" />
                     <div class="border">
                         <h3>{{ psychomot.namePsy1 }}</h3>
-                        <div>
+                        <div class="field">
                             {{ form_widget(form.namePsy1, {'attr': {'class': 'form-control'}}) }}
                             {{ form_errors(form.namePsy1) }}
 
@@ -149,7 +140,7 @@
                         <h5>Psychomotricienne diplomée</h5>
 
                         <p>{{ psychomot.txtPsy1 }}</p>
-                        <div>
+                        <div class="field">
                             {{ form_widget(form.txtPsy1, {'attr': {'class': 'form-control'}}) }}
                             {{ form_errors(form.txtPsy1) }}
 
@@ -166,10 +157,17 @@
 
                     <div class="border">
                         <h3>{{ psychomot.namePsy2 }}</h3>
-                        <div>
+                        <div class="field">
                             {{ form_widget(form.namePsy2, {'attr': {'class': 'form-control'}}) }}
                             {{ form_errors(form.namePsy2) }}
 
+
+                        </div>
+                        <h5>Psychomotricienne diplomée</h5>
+                        <p>{{ psychomot.txtPsy2 }}</p>
+                        <div class="field">
+                            {{ form_widget(form.txtPsy2, {'attr': {'class': 'form-control'}}) }}
+                            {{ form_errors(form.txtPsy2) }}
 
                         </div>
 
@@ -178,8 +176,8 @@
                     </div>
                 </div>
             </div>
+        </div>
     </div>
-
 
 
     <!--Fin Psychomotriciennes-->
@@ -259,13 +257,13 @@
 
                 <div class="adress">
                     <p>{{ psychomot.contactName }}</p>
-                    <div>
+                    <div class="field">
                         {{ form_widget(form.contactName, {'attr': {'class': 'form-control'}}) }}
                         {{ form_errors(form.contactName) }}
 
                     </div>
                     <p>{{ psychomot.contactAdress }}</p>
-                    <div>
+                    <div class="field">
                         {{ form_widget(form.contactAdress, {'attr': {'class': 'form-control'}}) }}
                         {{ form_errors(form.contactAdress) }}
 
@@ -321,22 +319,14 @@
 
 
 
-
-
-
-        <li>
-            <a href="{{ path('psychomot_index') }}">Back to the list</a>
-        </li>
-
-
-
-            <input type="submit" value="Edit" />
+        <div class="edit-button">
+            <a href="{{ path('psychomot_index') }}"><input type="submit" value="Valider les modifications" class="btn btn-success"/></a>
             {{ form_end(form) }}
 
             {{ form_start(delete_form) }}
-            <input type="submit" value="Delete">
+            <input type="submit" value="Delete" class="btn btn-warning">
             {{ form_end(delete_form) }}
-
+        </div >
 
 
 {% endblock %}
