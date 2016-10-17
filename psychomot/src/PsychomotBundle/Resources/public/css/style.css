@@ -3,7 +3,7 @@
 #page-home {
 
 
-    background: url(../img/Acceuil.jpg) no-repeat ;
+    background: url(../img/Acceuil.jpg) no-repeat center;
 
 
 
@@ -656,4 +656,13 @@ footer{
 
 .field{
     margin: 0 25px 10px 25px;
+
+}
+.edit-button{
+    margin-top: 25px;
+}
+
+.send{
+    margin-bottom: 10px;
+
 }

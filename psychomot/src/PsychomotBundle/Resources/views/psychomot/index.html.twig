@@ -150,7 +150,8 @@
 
 
     <!--Début Intervention-->
-    <div class="row" id="consultation">
+    <div class="row" >
+        <div id="consultation"
         <div class="accordion col-xs-12">
             <ul>
                 <li>
@@ -210,6 +211,7 @@
 
                     <p>{{ psychomot.contactAdress }}</p>
                     <p>{{ psychomot.contactMail }}</p>
+                    <p>{{ psychomot.contactTel }}</p>
 
 
 
@@ -241,6 +243,10 @@
                     <div class="form-group ">
                         <label for="exampleTextarea" >Votre message :</label>
                         <textarea class="form-control" id="exampleTextarea" rows="10"></textarea>
+                    </div>
+
+                    <div class="col-xs-offset-5 col-xs-2 send">
+                        <input type="submit" value="Envoyer" class="btn btn-success">
                     </div>
                 </div>
 

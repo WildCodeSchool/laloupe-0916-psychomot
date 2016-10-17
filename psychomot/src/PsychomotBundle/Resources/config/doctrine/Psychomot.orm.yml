@@ -42,11 +42,11 @@ PsychomotBundle\Entity\Psychomot:
             column: title_psy
         txtPsy1:
             type: string
-            length: 255
+            length: 900
             column: txt_psy1
         txtPsy2:
             type: string
-            length: 255
+            length: 900
             column: txt_psy2
         titleConsult:
             type: string
