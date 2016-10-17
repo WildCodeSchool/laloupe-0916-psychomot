@@ -26,168 +26,155 @@
             <ul class="nav navbar-nav ">
                 <li class="active"><a href="#page-home">Accueil <span class="sr-only">(current)</span></a></li>
                 <li><a href="#Psychomotricité">Psychomotricité</a></li>
-                <li><a href="#psychomot-page">Les psychomotriciennes</a></li>
-                <li><a href="#consultation">Interventions</a></li>
+                <li><a href="#psychomot">Les psychomotriciennes</a></li>
+                <li><a href="#consultation-page">Interventions</a></li>
                 <li><a href="#page-contact">Contact</a></li>
                 <li>{{ psychomot.tel }}</li>
-
-
             </ul>
             <div>
                 {{ form_widget(form.tel, {'attr': {'class': 'form-control'}}) }}
                 {{ form_errors(form.tel) }}
             </div>
-
         </div>
     </nav>
-<!-- Fin Nav Bar -->
-{{ form_start(form) }}
+    <!-- Fin Nav Bar -->
 
 
-<!--Début Psychomotricité-->
+    <!--Début Psychomotricité-->
+    <div id="Psychomotricité">
+        <div class="accordion1">
+            <ul>
+                <li>
 
-<div id="Psychomotricité">
-    <div class="accordion1">
-
-        <ul>
-            <li>
-
-                <div>
-                    <a href="#Psychomotricité">
-                        <!-- <img src="http://www.designchemical.com/lab/jquery/demo/images/section_1.png"></img>
-            <h2>Lorem Ipsum</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p> -->
+                    <div>
+                        <a href="#Psychomotricité">
+                            <!-- <img src="http://www.designchemical.com/lab/jquery/demo/images/section_1.png"></img>
+                <h2>Lorem Ipsum</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p> -->
 
 
-                        <div>
+                            <div>
 
-                            <h2 class="psyco_titre1"> {{ psychomot.titleDef }}</h2>
-                            {{ form_widget(form.titleDef, {'attr': {'class': 'form-control'}}) }}
-                            {{ form_errors(form.titleDef) }}
-                            <input type="submit" value="Edit" />
+                                <h2 class="psyco_titre1"> {{ psychomot.titleDef }}</h2>
+                                {{ form_widget(form.titleDef, {'attr': {'class': 'form-control'}}) }}
+                                {{ form_errors(form.titleDef) }}
+                                <input type="submit" value="Edit" />
 
 
-                            <p class="psyco_texte1"> {{ psychomot.txtDef }} </p>
-                            {{ form_widget(form.txtDef, {'attr': {'class': 'form-control'}}) }}
-                            {{ form_errors(form.txtDef) }}
-                            <input type="submit" value="Edit" />
+                                <p class="psyco_texte1"> {{ psychomot.txtDef }} </p>
+                                {{ form_widget(form.txtDef, {'attr': {'class': 'form-control'}}) }}
+                                {{ form_errors(form.txtDef) }}
+                                <input type="submit" value="Edit" />
 
 
 
-                        </div>
+                            </div>
 
-                        <div>
-                            <!-- <img class="psyco_img1" src="./img/SAM_2242-500_375.JPG"> -->
+                            <div>
+                                <!-- <img class="psyco_img1" src="./img/SAM_2242-500_375.JPG"> -->
 
-                            <!-- <img class="psyco_img1" src="{{asset('bundles/psychomot/img/1_questcequecest_500-575.jpg')}}"> -->
-                        </div>
+                                <!-- <img class="psyco_img1" src="{{asset('bundles/psychomot/img/1_questcequecest_500-575.jpg')}}"> -->
+                            </div>
 
-                    </a>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <a href="#Psychomotricité">
-                        <div>
-                            <h2>{{ psychomot.titleWho }}</h2>
-                            {{ form_widget(form.titleWho, {'attr': {'class': 'form-control'}}) }}
-                            {{ form_errors(form.titleWho) }}
-                            <input type="submit" value="Edit" />
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="#Psychomotricité">
+                            <div>
+                                <h2>{{ psychomot.titleWho }}</h2>
+                                {{ form_widget(form.titleWho, {'attr': {'class': 'form-control'}}) }}
+                                {{ form_errors(form.titleWho) }}
+                                <input type="submit" value="Edit" />
 
-                            <!--<img class="psyco_img1" src="{{asset('bundles/psychomot/img/1_Pour_qui.jpg')}}"> -->
+                                <!--<img class="psyco_img1" src="{{asset('bundles/psychomot/img/1_Pour_qui.jpg')}}"> -->
 
-                            <p>{{ psychomot.txtWho }}</p>
-                            {{ form_widget(form.txtWho, {'attr': {'class': 'form-control'}}) }}
-                            {{ form_errors(form.txtWho) }}
-                            <input type="submit" value="Edit" />
-                        </div>
-                    </a>
+                                <p>{{ psychomot.txtWho }}</p>
+                                {{ form_widget(form.txtWho, {'attr': {'class': 'form-control'}}) }}
+                                {{ form_errors(form.txtWho) }}
+                                <input type="submit" value="Edit" />
+                            </div>
+                        </a>
 
-                </div>
-            </li>
-            <li>
-                <div>
-                    <a href="#Psychomotricité">
-                        <div>
-                            <h2>{{ psychomot.titleWhy }}</h2>
-                            {{ form_widget(form.titleWhy, {'attr': {'class': 'form-control'}}) }}
-                            {{ form_errors(form.titleWhy) }}
-                            <input type="submit" value="Edit" />
-                            <!--<img class="psyco_img1" src="{{asset('bundles/psychomot/img/1_Pourquoi.jpg')}}">-->
-                            <p>{{ psychomot.txtWhy }}</p>
-                            {{ form_widget(form.txtWhy, {'attr': {'class': 'form-control'}}) }}
-                            {{ form_errors(form.txtWhy) }}
-                            <input type="submit" value="Edit" />
-                        </div>
-                    </a>
-                </div>
-            </li>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="#Psychomotricité">
+                            <div>
+                                <h2>{{ psychomot.titleWhy }}</h2>
+                                {{ form_widget(form.titleWhy, {'attr': {'class': 'form-control'}}) }}
+                                {{ form_errors(form.titleWhy) }}
+                                <input type="submit" value="Edit" />
+                                <!--<img class="psyco_img1" src="{{asset('bundles/psychomot/img/1_Pourquoi.jpg')}}">-->
+                                <p>{{ psychomot.txtWhy }}</p>
+                                {{ form_widget(form.txtWhy, {'attr': {'class': 'form-control'}}) }}
+                                {{ form_errors(form.txtWhy) }}
+                                <input type="submit" value="Edit" />
+                            </div>
+                        </a>
+                    </div>
+                </li>
 
-        </ul>
+            </ul>
+        </div>
     </div>
+    <!--Fin Psychomotricité-->
 
-</div>
-
-
-<!--Fin Psychomotricité-->
 
     <!--Début Psychomotriciennes-->
-
     <div class="row">
-        <div id="psychomot-page" class="fond">
-            <div class="left col-xs-12 col-sm-6 col-md-6">
-                <div class="col-xs-12">
-                    <img src="{{asset('bundles/psychomot/img/Psy2.jpg') }}" alt="Margaux Charrier" />
-                    <div class="border">
-                        <h3>{{ psychomot.namePsy1 }}</h3>
-                        <div>
-                            {{ form_widget(form.namePsy1, {'attr': {'class': 'form-control'}}) }}
-                            {{ form_errors(form.namePsy1) }}
+        <div id="psychomot">
+            <div class="fond">
+                <div class="left col-xs-12 col-sm-6 col-md-6">
+                    <div class="col-xs-12">
+                        <img src="{{asset('bundles/psychomot/img/Psy2.jpg') }}" alt="Margaux Charrier" />
+                        <div class="border">
+                            <h3>{{ psychomot.namePsy1 }}</h3>
+                            <div>
+                                {{ form_widget(form.namePsy1, {'attr': {'class': 'form-control'}}) }}
+                                {{ form_errors(form.namePsy1) }}
+                            </div>
+
+                            <h5>Psychomotricienne diplomée</h5>
+
+                            <p>{{ psychomot.txtPsy1 }}</p>
+                            <div>
+                                {{ form_widget(form.txtPsy1, {'attr': {'class': 'form-control'}}) }}
+                                {{ form_errors(form.txtPsy1) }}
+                            </div>
 
                         </div>
+                    </div>
+                </div>
+                <div class="right col-xs-12 col-sm-6 col-md-6">
+                    <div class="col-xs-12">
+                        <img src="{{asset('bundles/psychomot/img/Psy1.jpg') }}" alt="Adeline Florentin" />
 
-                        <h5>Psychomotricienne diplomée</h5>
+                        <div class="border">
+                            <h3>{{ psychomot.namePsy2 }}</h3>
+                            <div>
+                                {{ form_widget(form.namePsy2, {'attr': {'class': 'form-control'}}) }}
+                                {{ form_errors(form.namePsy2) }}
 
-                        <p>{{ psychomot.txtPsy1 }}</p>
-                        <div>
-                            {{ form_widget(form.txtPsy1, {'attr': {'class': 'form-control'}}) }}
-                            {{ form_errors(form.txtPsy1) }}
+
+                            </div>
+
+
 
                         </div>
-
-
-
                     </div>
                 </div>
             </div>
-            <div class="right col-xs-12 col-sm-6 col-md-6">
-                <div class="col-xs-12">
-                    <img src="{{asset('bundles/psychomot/img/Psy1.jpg') }}" alt="Adeline Florentin" />
-
-                    <div class="border">
-                        <h3>{{ psychomot.namePsy2 }}</h3>
-                        <div>
-                            {{ form_widget(form.namePsy2, {'attr': {'class': 'form-control'}}) }}
-                            {{ form_errors(form.namePsy2) }}
-
-
-                        </div>
-
-
-
-                    </div>
-                </div>
-            </div>
+        </div>
     </div>
-
-
-
     <!--Fin Psychomotriciennes-->
 
 
     <!--Début Intervention-->
-
-        <div class="row" id="consultation">
+    <div class="row">
+        <div id="consultation-page">
             <div class="accordion col-xs-12">
                 <ul>
                     <li>
@@ -244,14 +231,11 @@
                 </ul>
             </div>
         </div>
-
-
-
-
+    </div>
     <!--Fin Intervention-->
+
+
     <!--Début Contact-->
-
-
     <div class="row">
         <div id="page-contact">
             <div class="essai1 border col-xs-12 col-sm-5">
@@ -312,13 +296,7 @@
 
         </div>
     </div>
-
-
-
-
     <!--Fin Contact-->
-
-
 
 
 

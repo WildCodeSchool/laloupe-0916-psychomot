@@ -563,23 +563,23 @@ footer{
 }
 
 
-.ML:link {
+.ml:link {
     color: white;
     text-decoration: none;
 }
 
-.ML:visited {
+.ml:visited {
     color: white;
     text-decoration: none;
 }
 
-.ML:hover {
+.ml:hover {
     color: #BCECE9;
     text-decoration: none;
 }
 
-.ML:active {
-    color: #BCECE9;
+.ml:active {
+    color: white;
     text-decoration: none;
 }
 
@@ -646,7 +646,8 @@ footer{
 }
 
 .wcs{
-    height: 30%;
+    height: 15em;
+    margin-top:20px;
 }
 
 

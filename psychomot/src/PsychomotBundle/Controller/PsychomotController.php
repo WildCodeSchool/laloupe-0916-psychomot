@@ -4,8 +4,8 @@ namespace PsychomotBundle\Controller;
 
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
-
 use PsychomotBundle\Entity\Psychomot;
+
 use PsychomotBundle\Form\PsychomotType;
 
 /**
@@ -87,7 +87,7 @@ class PsychomotController extends Controller
 
         return $this->render('PsychomotBundle:psychomot:edit.html.twig', array(
             'psychomot' => $psychomot,
-            'form' => $editForm->createView(),
+            'edit_form' => $editForm->createView(),
             'delete_form' => $deleteForm->createView(),
         ));
     }
