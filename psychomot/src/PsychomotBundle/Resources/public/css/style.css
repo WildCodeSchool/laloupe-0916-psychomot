@@ -1,18 +1,44 @@
 /*page home*/
 
 #page-home {
-
-
     background: url(../img/Acceuil.jpg) no-repeat ;
-
-
-
     height: 700px;
     margin-top: 0;
 }
+
 #title {
     padding-top: 100px;
 }
+
+/* navbar */
+.navbar-default {
+    background-color: #82bdb5;
+    font-size: 1.2em;
+}
+/* title */
+.navbar-default .navbar-brand {
+    color: white;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: lightblue;
+}
+/* link */
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: white;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: lightblue;
+    background-color: #518e86;
+}
+
+
 #page-home h1 {
     background-color: rgba(255,255,255,0.7);
     text-align: center;
@@ -25,7 +51,6 @@
     padding-top: 5px;
     margin: 5px 250px 5px 250px;
     height: 5px;
-
 }
 
 
