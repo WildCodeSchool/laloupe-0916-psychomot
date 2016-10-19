@@ -18,20 +18,20 @@ class PsychomotType extends AbstractType
         $builder
             ->add('tel')
             ->add('titleDef')
-            ->add('txtDef')
+            ->add('txtDef', 'textarea', array('attr' => array('rows' => '10')))
             ->add('titleWho')
-            ->add('txtWho')
+            ->add('txtWho', 'textarea', array('attr' => array('rows' => '10')))
             ->add('titleWhy')
-            ->add('txtWhy')
+            ->add('txtWhy', 'textarea', array('attr' => array('rows' => '10')))
             ->add('titlePsy')
-            ->add('txtPsy1')
-            ->add('txtPsy2')
+            ->add('txtPsy1', 'textarea', array('attr' => array('rows' => '10')))
+            ->add('txtPsy2', 'textarea', array('attr' => array('rows' => '10')))
             ->add('titleConsult')
-            ->add('txtConsult')
+            ->add('txtConsult', 'textarea', array('attr' => array('rows' => '10')))
             ->add('titleInterv')
-            ->add('txtInterv')
+            ->add('txtInterv', 'textarea', array('attr' => array('rows' => '10')))
             ->add('titleBilan')
-            ->add('txtBilan')
+            ->add('txtBilan', 'textarea', array('attr' => array('rows' => '10')))
             ->add('namePsy1')
             ->add('namePsy2')
             ->add('contactAdress')
@@ -40,7 +40,9 @@ class PsychomotType extends AbstractType
             ->add('contactName')
         ;
     }
-    
+
+
+
     /**
      * @param OptionsResolver $resolver
      */
