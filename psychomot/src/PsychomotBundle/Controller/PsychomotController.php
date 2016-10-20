@@ -38,7 +38,6 @@ class PsychomotController extends Controller
         $psychomot = new Psychomot();
         $form = $this->createForm('PsychomotBundle\Form\PsychomotType', $psychomot);
         $form->handleRequest($request);
-
         if ($form->isSubmitted() && $form->isValid()) {
             $em = $this->getDoctrine()->getManager();
             $em->persist($psychomot);
@@ -125,6 +124,29 @@ class PsychomotController extends Controller
             ->getForm()
         ;
     }
+    public function RedirectionAction()
+    {
+        return $this->render('PsychomotBundle:psychomot:mail.html.twig');
+    }
+    public function mailAction()
+    {
+        $Request = $this->getRequest();
+        if ($Request->getMethod() == "POST") {
+            $subject = $Request->get("Subject");
+            $email = $Request->get("email");
+            $message = $Request->get("message");
 
-    
+            $message = \Swift_Message::newInstance('Test')
+                ->setSubject($subject)
+                ->setFrom('psychomot72@gmail.com')
+                ->setTo('psychomot72@gmail.com')
+                ->setBody($message);
+            $this->get('mailer')->send($message);
+
+
+        }
+        return $this->render('PsychomotBundle:psychomot:mail.html.twig');
+    }
+
+
 }

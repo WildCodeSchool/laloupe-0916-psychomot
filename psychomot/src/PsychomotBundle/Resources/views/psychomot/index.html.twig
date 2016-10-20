@@ -2,10 +2,6 @@
 
 {% block body %}
 
-
-
-
-        <tbody>
         {% for psychomot in psychomots %}
 
 <!-- Début Nav Bar -->
@@ -196,6 +192,8 @@
 
     </div>
 
+
+
     <!--FIN INTERVENTIONS-->
 
     <!--Début Contact-->
@@ -216,46 +214,61 @@
 
 
                 </div>
+                {% endfor %}
+                <form action="{{ path('psychomot_mail') }}" method="post">
+                    <h1>Essai d'envoi de mail</h1>
+                    <br/>
+                    <h2>Subject :</h2>
+                    <input type="text" name="Subject"/>
+                    <br/>
+                    <h2>Email :</h2>
+                    <input type="text" name="email"/>
+                    <br/>
+                    <h2>Text :</h2>
+                    <textarea  name="message" cols="10"></textarea>
+                    <br/>
+                    <input type="submit" value="Send" />
 
+                </form>
 
-                <div class="formulaire">
+                <!--<form class="formulaire" action="{{ path('psychomot_mail') }}">
                     <div class="form-group row">
                         <label for="example-text-input" class="col-xs-3 col-form-label">Nom :</label>
                         <div class="col-xs-9">
-                            <input class="form-control" type="text" value="ex : Doe" id="example-text-input">
+                            <input class="form-control" type="text" value="ex : Doe" name="lastname" id="example-text-input">
                         </div>
                     </div>
 
                     <div class="form-group row">
                         <label for="example-text-input" class="col-xs-3 col-form-label">Prénom :</label>
                         <div class="col-xs-9">
-                            <input class="form-control" type="text" value="ex : John" id="example-text-input">
+                            <input class="form-control" type="text" value="ex : John" name="Subject" id="example-text-input">
                         </div>
                     </div>
 
                     <div class="form-group row">
                         <label for="example-email-input" class="col-xs-3 col-form-label">Email :</label>
                         <div class="col-xs-9">
-                            <input class="form-control" type="email" value="john.doe@free.fr" id="example-email-input">
+                            <input class="form-control" type="email" value="john.doe@free.fr" name="email" id="example-email-input">
                         </div>
                     </div>
 
                     <div class="form-group ">
                         <label for="exampleTextarea" >Votre message :</label>
-                        <textarea class="form-control" id="exampleTextarea" rows="10"></textarea>
+                        <textarea class="form-control" id="exampleTextarea" rows="10" name="message"></textarea>
                     </div>
 
                     <div class="col-xs-offset-5 col-xs-2 send">
-                        <input type="submit" value="Envoyer" class="btn btn-success">
+                        <input type="submit" value="Envoyer" name="Send" class="btn btn-success">
                     </div>
-                </div>
+                </form>-->
 
 
             </div>
 
             <div class="map col-xs-12 col-sm-6">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2668.900152456399!2d0.1456287153106367!3d48.015638879213896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e286137f09c6d3%3A0x2ebd30be841e5f73!2s38+Rue+Arnold+Dolmetsch%2C+72000+Le+Mans!5e0!3m2!1sfr!2sfr!4v1476182827751" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-            </div>
+            </div>-->
 
         </div>
     </div>
@@ -264,7 +277,6 @@
 
 
 
-        {% endfor %}
 
 
     <!--<ul>
