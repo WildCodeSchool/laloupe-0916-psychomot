@@ -304,8 +304,9 @@
             <a href="{{ path('psychomot_index') }}">Back to the list</a>
         </li>
 
-
-
+    {{ psychomot.image }}
+    {{ form_widget(form.image) }}
+    {{ form_errors(form.image) }}
             <input type="submit" value="Edit" />
             {{ form_end(form) }}
 
