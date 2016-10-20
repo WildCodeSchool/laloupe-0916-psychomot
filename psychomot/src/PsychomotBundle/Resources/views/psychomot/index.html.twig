@@ -180,7 +180,7 @@
                         <a>
                             <div class="row">
                                 <div class="accordion col-xs-4">
-                                    <h2>{{ psychomot.titleBilan }}</h2>>
+                                    <h2>{{ psychomot.titleBilan }}</h2>
                                     <p>{{ psychomot.txtBilan }}</p>
                                 </div>
                             </div>
@@ -216,20 +216,50 @@
                 </div>
                 {% endfor %}
                 <form action="{{ path('psychomot_mail') }}" method="post">
-                    <h1>Essai d'envoi de mail</h1>
-                    <br/>
-                    <h2>Subject :</h2>
-                    <input type="text" name="Subject"/>
-                    <br/>
-                    <h2>Email :</h2>
-                    <input type="text" name="email"/>
-                    <br/>
-                    <h2>Text :</h2>
-                    <textarea  name="message" cols="10"></textarea>
-                    <br/>
-                    <input type="submit" value="Send" />
 
+
+                    <div class="form-group row">
+                        <label for="example-text-input" class="col-xs-3 col-form-label">Nom :</label>
+                        <div class="col-xs-9">
+                            <input class="form-control" type="text" value="ex : Doe" name="firstname" id="example-text-input">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="example-text-input" class="col-xs-3 col-form-label">Nom :</label>
+                        <div class="col-xs-9">
+                            <input class="form-control" type="text" value="ex : Doe" name="lastname" id="example-text-input">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="example-email-input" class="col-xs-3 col-form-label">Email :</label>
+                        <div class="col-xs-9">
+                            <input class="form-control" type="email" value="john.doe@free.fr" name="email" id="example-email-input">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="example-text-input" class="col-xs-3 col-form-label">Objet :</label>
+                        <div class="col-xs-9">
+                            <input class="form-control" type="text" value="ex : Doe" name="object" id="example-text-input">
+                        </div>
+                    </div>
+
+                    <div class="form-group ">
+                        <label for="exampleTextarea" >Votre message :</label>
+                        <textarea class="form-control" id="exampleTextarea" rows="10" name="message"></textarea>
+                    </div>
+
+                    <div class="col-xs-offset-5 col-xs-2 send">
+                        <input type="submit" value="Envoyer" class="btn btn-success">
+                    </div>
                 </form>
+
+
+
+
+
 
                 <!--<form class="formulaire" action="{{ path('psychomot_mail') }}">
                     <div class="form-group row">
