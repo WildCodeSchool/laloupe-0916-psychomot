@@ -327,6 +327,12 @@ h1 {
     margin-top: 100px;
 }
 
+h3 {
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    margin-top: 100px;
+}
+
 .accordion1 {
 
 
@@ -634,6 +640,7 @@ footer{
 
 .modal-body{
     color: black;
+    font-size: 1.2em;
 }
 
 .modal-body h2{
@@ -646,7 +653,7 @@ footer{
 }
 
 .alert{
-    background-color: #FECC76;
+    background-color: #FE9B1A;
     border: none;
 }
 
@@ -655,22 +662,22 @@ footer{
 }
 
 .lienLink:link {
-    color: #FECC76;
+    color: #FE9B1A;
     text-decoration: none;
 }
 
 .lienLink:visited {
-    color: #FECC76;
+    color: #FE9B1A;
     text-decoration: none;
 }
 
 .lienLink:hover {
-    color: #FE8801;
+    color: #FECC76;
     text-decoration: none;
 }
 
 .lienLink:active {
-    color: #FE8801;
+    color: #FECC76;
     text-decoration: none;
 }
 

@@ -41,7 +41,7 @@ class PsychomotType extends AbstractType
         ;
     }
 
-
+        
 
     /**
      * @param OptionsResolver $resolver

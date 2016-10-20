@@ -11,7 +11,6 @@ PsychomotBundle\Entity\Psychomot:
     fields:
         tel:
             type: string
-            length: '14'
         titleDef:
             type: string
             length: 255
@@ -86,12 +85,8 @@ PsychomotBundle\Entity\Psychomot:
             column: contact_adress
         contactMail:
             type: string
-            length: 255
-            column: contact_mail
         contactTel:
             type: string
-            length: 255
-            column: contact_tel
         contactName:
             type: string
             length: 255
