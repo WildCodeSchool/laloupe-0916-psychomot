@@ -3,6 +3,7 @@
 namespace PsychomotBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Validator\Constraints as Assert;
 
 /**
  * Psychomot
@@ -66,14 +67,14 @@ class Psychomot
     private $id;
 
     /**
-     * @var string
+     * @Assert\Regex(pattern="/^(0|(\\+33)|(0033))[1-9][0-9]{8}$/")
      */
     private $tel;
 
     /**
      * @var string
      */
-    private $titleDef;
+    private $titleDef;  
 
     /**
      * @var string
@@ -161,12 +162,12 @@ class Psychomot
     private $contactAdress;
 
     /**
-     * @var string
+     * @Assert\Regex(pattern="/^[^\W][a-zA-Z0-9_]+(\.[a-zA-Z0-9_]+)*\@[a-zA-Z0-9_]+(\.[a-zA-Z0-9_]+)*\.[a-zA-Z]{2,4}$/")
      */
     private $contactMail;
 
     /**
-     * @var string
+     *  @Assert\Regex(pattern="/^(0|(\\+33)|(0033))[1-9][0-9]{8}$/")
      */
     private $contactTel;
 
