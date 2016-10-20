@@ -96,4 +96,13 @@ PsychomotBundle\Entity\Psychomot:
             type: string
             length: 255
             column: contact_name
-    lifecycleCallbacks: {  }
+        image:
+            type: string
+            length: 255
+
+    lifecycleCallbacks:
+      prePersist: [ preUpload ]
+      preUpdate: [ preUpload ]
+      postPersist: [ upload ]
+      postUpdate: [ upload ]
+      postRemove: [ removeUpload ]

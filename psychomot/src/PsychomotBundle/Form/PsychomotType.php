@@ -3,6 +3,8 @@
 namespace PsychomotBundle\Form;
 
 use Symfony\Component\Form\AbstractType;
+use Symfony\Component\Form\Extension\Core\Type\FileType;
+use Symfony\Component\Form\Extension\Core\Type\TextareaType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 use Symfony\Component\Form\Extension\Core\Type\TextType;
@@ -31,13 +33,14 @@ class PsychomotType extends AbstractType
             ->add('titleInterv')
             ->add('txtInterv', 'textarea', array('attr' => array('rows' => '10')))
             ->add('titleBilan')
-            ->add('txtBilan', 'textarea', array('attr' => array('rows' => '10')))
+            ->add('txtBilan', TextareaType::class, array('attr' => array('rows' => '10')))
             ->add('namePsy1')
             ->add('namePsy2')
             ->add('contactAdress')
             ->add('contactMail')
             ->add('contactTel')
             ->add('contactName')
+            ->add('file', 'file', array('label' => 'Inserer une image', 'required' => false));
         ;
     }
 
