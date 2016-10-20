@@ -162,7 +162,7 @@ class Psychomot
     private $contactAdress;
 
     /**
-     * @Assert\Regex(pattern="/^[^\W][a-zA-Z0-9_]+(\.[a-zA-Z0-9_]+)*\@[a-zA-Z0-9_]+(\.[a-zA-Z0-9_]+)*\.[a-zA-Z]{2,4}$/")
+     * @var string
      */
     private $contactMail;
 
