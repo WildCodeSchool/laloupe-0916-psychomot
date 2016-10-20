@@ -176,18 +176,7 @@ class Psychomot
      */
     private $contactName;
 
-    /**
-     * @var string
-     */
-    private $files;
-
-    /**
-     * @var string
-     */
-    private $path;
-
-
-    /**
+       /**
      * Get id
      *
      * @return integer 
