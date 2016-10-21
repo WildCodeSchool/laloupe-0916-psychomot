@@ -140,6 +140,7 @@ body {
     padding-top: 70px;
     /*height: 700px;*/
     /*background-color: #82BDB5;*/
+    margin-left:10%;
 
 }
 #page-contact p, #page-contact h3 {
@@ -160,6 +161,10 @@ body {
     border: 5px solid #82BDB5;
     margin: 20px 20px 0 30px;
 
+}
+
+.send{
+    margin-bottom: 10px;
 }
 
 /*--INTERVENTIONS--*/

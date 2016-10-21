@@ -21,20 +21,20 @@ class __TwigTemplate_4e092e62c94df5f83c9d34585a9a47addb8aaf69a98b83251a57447b29f
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_10a77ac589953908199f00219f8b04edd065b0cc1744c56ffc88ac9332790448 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_10a77ac589953908199f00219f8b04edd065b0cc1744c56ffc88ac9332790448->enter($__internal_10a77ac589953908199f00219f8b04edd065b0cc1744c56ffc88ac9332790448_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "PsychomotBundle:psychomot:edit.html.twig"));
+        $__internal_91d92a050fdbd4822bea24053ac0e0d318d137d6286cb742de37968b56d6cbfd = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_91d92a050fdbd4822bea24053ac0e0d318d137d6286cb742de37968b56d6cbfd->enter($__internal_91d92a050fdbd4822bea24053ac0e0d318d137d6286cb742de37968b56d6cbfd_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "PsychomotBundle:psychomot:edit.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_10a77ac589953908199f00219f8b04edd065b0cc1744c56ffc88ac9332790448->leave($__internal_10a77ac589953908199f00219f8b04edd065b0cc1744c56ffc88ac9332790448_prof);
+        $__internal_91d92a050fdbd4822bea24053ac0e0d318d137d6286cb742de37968b56d6cbfd->leave($__internal_91d92a050fdbd4822bea24053ac0e0d318d137d6286cb742de37968b56d6cbfd_prof);
 
     }
 
     // line 3
     public function block_body($context, array $blocks = array())
     {
-        $__internal_099c73a0f3faea81bc32af11381034333763ef4e89f343b436616d5b9dddc310 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_099c73a0f3faea81bc32af11381034333763ef4e89f343b436616d5b9dddc310->enter($__internal_099c73a0f3faea81bc32af11381034333763ef4e89f343b436616d5b9dddc310_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_1b6f41eddd1b0492691bab7dae46c15277121dbc6d86492bfeec41ff32757455 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_1b6f41eddd1b0492691bab7dae46c15277121dbc6d86492bfeec41ff32757455->enter($__internal_1b6f41eddd1b0492691bab7dae46c15277121dbc6d86492bfeec41ff32757455_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 4
         echo "
@@ -42,6 +42,7 @@ class __TwigTemplate_4e092e62c94df5f83c9d34585a9a47addb8aaf69a98b83251a57447b29f
         // line 5
         echo         $this->env->getExtension('Symfony\Bridge\Twig\Extension\FormExtension')->renderer->renderBlock((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), 'form_start');
         echo "
+
 
 
     <!-- Début Nav Bar -->
@@ -67,17 +68,17 @@ class __TwigTemplate_4e092e62c94df5f83c9d34585a9a47addb8aaf69a98b83251a57447b29f
                 <li><a class=\"js-scrollTo\" href=\"#consultation\">Interventions</a></li>
                 <li><a class=\"js-scrollTo\" href=\"#page-contact\">Contact</a></li>
                 <li><a>";
-        // line 30
+        // line 31
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["psychomot"]) ? $context["psychomot"] : $this->getContext($context, "psychomot")), "tel", array()), "html", null, true);
         echo "</a></li>
             </ul>
             <div>
                 ";
-        // line 33
+        // line 34
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\FormExtension')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "tel", array()), 'widget', array("attr" => array("class" => "form-control")));
         echo "
                 ";
-        // line 34
+        // line 35
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\FormExtension')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "tel", array()), 'errors');
         echo "
             </div>
@@ -85,6 +86,7 @@ class __TwigTemplate_4e092e62c94df5f83c9d34585a9a47addb8aaf69a98b83251a57447b29f
     </nav>
 
     <!-- Fin Nav Bar -->
+
 
     <br/>
 
@@ -96,30 +98,33 @@ class __TwigTemplate_4e092e62c94df5f83c9d34585a9a47addb8aaf69a98b83251a57447b29f
                 <li>
                     <div>
                         <a href=\"#Psychomotricité\">
+                            <!-- <img src=\"http://www.designchemical.com/lab/jquery/demo/images/section_1.png\"></img>
+                <h2>Lorem Ipsum</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p> -->
                             <div>
                                 <h2 class=\"psyco_titre1\"> ";
-        // line 52
+        // line 57
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["psychomot"]) ? $context["psychomot"] : $this->getContext($context, "psychomot")), "titleDef", array()), "html", null, true);
         echo "</h2>
                                 ";
-        // line 53
+        // line 58
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\FormExtension')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "titleDef", array()), 'widget', array("attr" => array("class" => "form-control")));
         echo "
                                 ";
-        // line 54
+        // line 59
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\FormExtension')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "titleDef", array()), 'errors');
         echo "
                                 <input type=\"submit\" value=\"Edit\" />
                                 <p class=\"psyco_texte1\"> ";
-        // line 56
+        // line 61
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["psychomot"]) ? $context["psychomot"] : $this->getContext($context, "psychomot")), "txtDef", array()), "html", null, true);
         echo " </p>
                                 ";
-        // line 57
+        // line 62
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\FormExtension')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "txtDef", array()), 'widget', array("attr" => array("class" => "form-control")));
         echo "
                                 ";
-        // line 58
+        // line 63
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\FormExtension')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "txtDef", array()), 'errors');
         echo "
                                 <input type=\"submit\" value=\"Edit\" />
@@ -127,7 +132,7 @@ class __TwigTemplate_4e092e62c94df5f83c9d34585a9a47addb8aaf69a98b83251a57447b29f
                             <div>
                                 <!-- <img class=\"psyco_img1\" src=\"./img/SAM_2242-500_375.JPG\"> -->
                                 <!-- <img class=\"psyco_img1\" src=\"";
-        // line 63
+        // line 68
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("bundles/psychomot/img/1_questcequecest_500-575.jpg"), "html", null, true);
         echo "\"> -->
                             </div>
@@ -139,32 +144,32 @@ class __TwigTemplate_4e092e62c94df5f83c9d34585a9a47addb8aaf69a98b83251a57447b29f
                         <a href=\"#Psychomotricité\">
                             <div>
                                 <h2>";
-        // line 72
+        // line 77
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["psychomot"]) ? $context["psychomot"] : $this->getContext($context, "psychomot")), "titleWho", array()), "html", null, true);
         echo "</h2>
                                 ";
-        // line 73
+        // line 78
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\FormExtension')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "titleWho", array()), 'widget', array("attr" => array("class" => "form-control")));
         echo "
                                 ";
-        // line 74
+        // line 79
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\FormExtension')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "titleWho", array()), 'errors');
         echo "
                                 <input type=\"submit\" value=\"Edit\" />
                                 <!--<img class=\"psyco_img1\" src=\"";
-        // line 76
+        // line 81
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("bundles/psychomot/img/1_Pour_qui.jpg"), "html", null, true);
         echo "\"> -->
                                 <p>";
-        // line 77
+        // line 82
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["psychomot"]) ? $context["psychomot"] : $this->getContext($context, "psychomot")), "txtWho", array()), "html", null, true);
         echo "</p>
                                 ";
-        // line 78
+        // line 83
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\FormExtension')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "txtWho", array()), 'widget', array("attr" => array("class" => "form-control")));
         echo "
                                 ";
-        // line 79
+        // line 84
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\FormExtension')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "txtWho", array()), 'errors');
         echo "
                                 <input type=\"submit\" value=\"Edit\" />
@@ -177,32 +182,32 @@ class __TwigTemplate_4e092e62c94df5f83c9d34585a9a47addb8aaf69a98b83251a57447b29f
                         <a href=\"#Psychomotricité\">
                             <div>
                                 <h2>";
-        // line 89
+        // line 94
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["psychomot"]) ? $context["psychomot"] : $this->getContext($context, "psychomot")), "titleWhy", array()), "html", null, true);
         echo "</h2>
                                 ";
-        // line 90
+        // line 95
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\FormExtension')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "titleWhy", array()), 'widget', array("attr" => array("class" => "form-control")));
         echo "
                                 ";
-        // line 91
+        // line 96
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\FormExtension')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "titleWhy", array()), 'errors');
         echo "
                                 <input type=\"submit\" value=\"Edit\" />
                                 <!--<img class=\"psyco_img1\" src=\"";
-        // line 93
+        // line 98
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("bundles/psychomot/img/1_Pourquoi.jpg"), "html", null, true);
         echo "\">-->
                                 <p>";
-        // line 94
+        // line 99
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["psychomot"]) ? $context["psychomot"] : $this->getContext($context, "psychomot")), "txtWhy", array()), "html", null, true);
         echo "</p>
                                 ";
-        // line 95
+        // line 100
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\FormExtension')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "txtWhy", array()), 'widget', array("attr" => array("class" => "form-control")));
         echo "
                                 ";
-        // line 96
+        // line 101
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\FormExtension')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "txtWhy", array()), 'errors');
         echo "
                                 <input type=\"submit\" value=\"Edit\" />
@@ -224,16 +229,16 @@ class __TwigTemplate_4e092e62c94df5f83c9d34585a9a47addb8aaf69a98b83251a57447b29f
     <div class=\"row\">
         <div id=\"psychomot\">
             <H3>";
-        // line 115
+        // line 120
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["psychomot"]) ? $context["psychomot"] : $this->getContext($context, "psychomot")), "titlePsy", array()), "html", null, true);
         echo "</H3>
             <div>
                 ";
-        // line 117
+        // line 122
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\FormExtension')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "titlePsy", array()), 'widget', array("attr" => array("class" => "form-control")));
         echo "
                 ";
-        // line 118
+        // line 123
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\FormExtension')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "titlePsy", array()), 'errors');
         echo "
             </div>
@@ -241,36 +246,36 @@ class __TwigTemplate_4e092e62c94df5f83c9d34585a9a47addb8aaf69a98b83251a57447b29f
                 <div class=\"left col-xs-12 col-sm-6 col-md-6\">
                     <div class=\"col-xs-12\">
                         <img src=\"";
-        // line 123
+        // line 128
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("bundles/psychomot/img/Psy2.jpg"), "html", null, true);
         echo "\" alt=\"Margaux Charrier\" />
                         <div class=\"border\">
                             <h3>";
-        // line 125
+        // line 130
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["psychomot"]) ? $context["psychomot"] : $this->getContext($context, "psychomot")), "namePsy1", array()), "html", null, true);
         echo "</h3>
                             <div>
                                 ";
-        // line 127
+        // line 132
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\FormExtension')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "namePsy1", array()), 'widget', array("attr" => array("class" => "form-control")));
         echo "
                                 ";
-        // line 128
+        // line 133
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\FormExtension')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "namePsy1", array()), 'errors');
         echo "
                             </div>
                             <h5>Psychomotricienne diplomée</h5>
                             <p>";
-        // line 131
+        // line 136
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["psychomot"]) ? $context["psychomot"] : $this->getContext($context, "psychomot")), "txtPsy1", array()), "html", null, true);
         echo "</p>
                             <div>
                                 ";
-        // line 133
+        // line 138
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\FormExtension')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "txtPsy1", array()), 'widget', array("attr" => array("class" => "form-control")));
         echo "
                                 ";
-        // line 134
+        // line 139
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\FormExtension')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "txtPsy1", array()), 'errors');
         echo "
                             </div>
@@ -280,36 +285,36 @@ class __TwigTemplate_4e092e62c94df5f83c9d34585a9a47addb8aaf69a98b83251a57447b29f
                 <div class=\"right col-xs-12 col-sm-6 col-md-6\">
                     <div class=\"col-xs-12\">
                         <img src=\"";
-        // line 141
+        // line 146
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("bundles/psychomot/img/Psy1.jpg"), "html", null, true);
         echo "\" alt=\"Adeline Florentin\" />
                         <div class=\"border\">
                             <h3>";
-        // line 143
+        // line 148
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["psychomot"]) ? $context["psychomot"] : $this->getContext($context, "psychomot")), "namePsy2", array()), "html", null, true);
         echo "</h3>
                             <div>
                                 ";
-        // line 145
+        // line 150
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\FormExtension')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "namePsy2", array()), 'widget', array("attr" => array("class" => "form-control")));
         echo "
                                 ";
-        // line 146
+        // line 151
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\FormExtension')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "namePsy2", array()), 'errors');
         echo "
                             </div>
                             <h5>Psychomotricienne diplomée</h5>
                             <p>";
-        // line 149
+        // line 154
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["psychomot"]) ? $context["psychomot"] : $this->getContext($context, "psychomot")), "txtPsy2", array()), "html", null, true);
         echo "</p>
                             <div>
                                 ";
-        // line 151
+        // line 156
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\FormExtension')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "txtPsy2", array()), 'widget', array("attr" => array("class" => "form-control")));
         echo "
                                 ";
-        // line 152
+        // line 157
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\FormExtension')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "txtPsy2", array()), 'errors');
         echo "
                             </div>
@@ -317,6 +322,7 @@ class __TwigTemplate_4e092e62c94df5f83c9d34585a9a47addb8aaf69a98b83251a57447b29f
                     </div>
                 </div>
             </div>
+        </div>
     </div>
 
     <!--Fin Psychomotriciennes-->
@@ -332,31 +338,32 @@ class __TwigTemplate_4e092e62c94df5f83c9d34585a9a47addb8aaf69a98b83251a57447b29f
                 <ul>
                     <li>
                         <div>
+                            <!--<img src=\"img/essais1.jpg\">-->
                             <a>
                                 <div class=\"row\">
                                     <div class=\"accordion col-xs-4\">
                                         <h2>";
-        // line 176
+        // line 183
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["psychomot"]) ? $context["psychomot"] : $this->getContext($context, "psychomot")), "titleConsult", array()), "html", null, true);
         echo "</h2>
                                         ";
-        // line 177
+        // line 184
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\FormExtension')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "titleConsult", array()), 'widget', array("attr" => array("class" => "form-control")));
         echo "
                                         ";
-        // line 178
+        // line 185
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\FormExtension')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "titleConsult", array()), 'errors');
         echo "
                                         <p>";
-        // line 179
+        // line 186
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["psychomot"]) ? $context["psychomot"] : $this->getContext($context, "psychomot")), "txtConsult", array()), "html", null, true);
         echo "</p>
                                         ";
-        // line 180
+        // line 187
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\FormExtension')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "txtConsult", array()), 'widget', array("attr" => array("class" => "form-control")));
         echo "
                                         ";
-        // line 181
+        // line 188
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\FormExtension')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "txtConsult", array()), 'errors');
         echo "
                                     </div>
@@ -366,31 +373,32 @@ class __TwigTemplate_4e092e62c94df5f83c9d34585a9a47addb8aaf69a98b83251a57447b29f
                     </li>
                     <li>
                         <div>
+                            <!-- <img src=\"img/essais2.jpg\">-->
                             <a>
                                 <div class=\"row\">
                                     <div class=\"accordion col-xs-4\">
                                         <h2>";
-        // line 192
+        // line 200
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["psychomot"]) ? $context["psychomot"] : $this->getContext($context, "psychomot")), "titleInterv", array()), "html", null, true);
         echo "</h2>
                                         ";
-        // line 193
+        // line 201
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\FormExtension')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "titleInterv", array()), 'widget', array("attr" => array("class" => "form-control")));
         echo "
                                         ";
-        // line 194
+        // line 202
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\FormExtension')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "titleInterv", array()), 'errors');
         echo "
                                         <p>";
-        // line 195
+        // line 203
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["psychomot"]) ? $context["psychomot"] : $this->getContext($context, "psychomot")), "txtInterv", array()), "html", null, true);
         echo "</p>
                                         ";
-        // line 196
+        // line 204
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\FormExtension')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "txtInterv", array()), 'widget', array("attr" => array("class" => "form-control")));
         echo "
                                         ";
-        // line 197
+        // line 205
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\FormExtension')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "txtInterv", array()), 'errors');
         echo "
                                     </div>
@@ -400,31 +408,32 @@ class __TwigTemplate_4e092e62c94df5f83c9d34585a9a47addb8aaf69a98b83251a57447b29f
                     </li>
                     <li>
                         <div>
+                            <!--<img src=\"img/essais3.jpg\">-->
                             <a>
                                 <div class=\"row\">
                                     <div class=\"accordion col-xs-4\">
                                         <h2>";
-        // line 208
+        // line 217
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["psychomot"]) ? $context["psychomot"] : $this->getContext($context, "psychomot")), "titleBilan", array()), "html", null, true);
         echo "</h2>
                                         ";
-        // line 209
+        // line 218
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\FormExtension')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "titleBilan", array()), 'widget', array("attr" => array("class" => "form-control")));
         echo "
                                         ";
-        // line 210
+        // line 219
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\FormExtension')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "titleBilan", array()), 'errors');
         echo "
                                         <p>";
-        // line 211
+        // line 220
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["psychomot"]) ? $context["psychomot"] : $this->getContext($context, "psychomot")), "txtBilan", array()), "html", null, true);
         echo "</p>
                                         ";
-        // line 212
+        // line 221
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\FormExtension')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "txtBilan", array()), 'widget', array("attr" => array("class" => "form-control")));
         echo "
                                         ";
-        // line 213
+        // line 222
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\FormExtension')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "txtBilan", array()), 'errors');
         echo "
                                     </div>
@@ -450,62 +459,89 @@ class __TwigTemplate_4e092e62c94df5f83c9d34585a9a47addb8aaf69a98b83251a57447b29f
                 <h3>Nous contacter</h3>
                 <div class=\"adress\">
                     <p>";
-        // line 236
+        // line 245
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["psychomot"]) ? $context["psychomot"] : $this->getContext($context, "psychomot")), "contactName", array()), "html", null, true);
         echo "</p>
-                    <div class=\"field\">
+                    <div>
                         ";
-        // line 238
+        // line 247
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\FormExtension')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "contactName", array()), 'widget', array("attr" => array("class" => "form-control")));
         echo "
                         ";
-        // line 239
+        // line 248
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\FormExtension')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "contactName", array()), 'errors');
         echo "
                     </div>
                     <p>";
-        // line 241
+        // line 250
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["psychomot"]) ? $context["psychomot"] : $this->getContext($context, "psychomot")), "contactAdress", array()), "html", null, true);
         echo "</p>
-                    <div class=\"field\">
+                    <div>
                         ";
-        // line 243
+        // line 252
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\FormExtension')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "contactAdress", array()), 'widget', array("attr" => array("class" => "form-control")));
         echo "
                         ";
-        // line 244
+        // line 253
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\FormExtension')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "contactAdress", array()), 'errors');
         echo "
                     </div>
                     <p>";
-        // line 246
+        // line 255
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["psychomot"]) ? $context["psychomot"] : $this->getContext($context, "psychomot")), "contactMail", array()), "html", null, true);
         echo "</p>
-                    <div class=\"field\">
+                    <div>
                         ";
-        // line 248
+        // line 257
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\FormExtension')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "contactMail", array()), 'widget', array("attr" => array("class" => "form-control")));
         echo "
                         ";
-        // line 249
+        // line 258
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\FormExtension')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "contactMail", array()), 'errors');
         echo "
                     </div>
                     <p>";
-        // line 251
+        // line 260
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["psychomot"]) ? $context["psychomot"] : $this->getContext($context, "psychomot")), "contactTel", array()), "html", null, true);
         echo "</p>
-                    <div class=\"field\">
+                    <div>
                         ";
-        // line 253
+        // line 262
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\FormExtension')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "contactTel", array()), 'widget', array("attr" => array("class" => "form-control")));
         echo "
                         ";
-        // line 254
+        // line 263
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\FormExtension')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "contactTel", array()), 'errors');
         echo "
                     </div>
                 </div>
+                <div class=\"formulaire\">
+                    <div class=\"form-group row\">
+                        <label for=\"example-text-input\" class=\"col-xs-3 col-form-label\">Nom :</label>
+                        <div class=\"col-xs-9\">
+                            <input class=\"form-control\" type=\"text\" value=\"ex : Doe\" id=\"example-text-input\">
+                        </div>
+                    </div>
+                    <div class=\"form-group row\">
+                        <label for=\"example-text-input\" class=\"col-xs-3 col-form-label\">Prénom :</label>
+                        <div class=\"col-xs-9\">
+                            <input class=\"form-control\" type=\"text\" value=\"ex : John\" id=\"example-text-input\">
+                        </div>
+                    </div>
+                    <div class=\"form-group row\">
+                        <label for=\"example-email-input\" class=\"col-xs-3 col-form-label\">Email :</label>
+                        <div class=\"col-xs-9\">
+                            <input class=\"form-control\" type=\"email\" value=\"john.doe@free.fr\" id=\"example-email-input\">
+                        </div>
+                    </div>
+                    <div class=\"form-group \">
+                        <label for=\"exampleTextarea\" >Votre message :</label>
+                        <textarea class=\"form-control\" id=\"exampleTextarea\" rows=\"10\"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class=\"map col-xs-12 col-sm-6\">
+                <iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2668.900152456399!2d0.1456287153106367!3d48.015638879213896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e286137f09c6d3%3A0x2ebd30be841e5f73!2s38+Rue+Arnold+Dolmetsch%2C+72000+Le+Mans!5e0!3m2!1sfr!2sfr!4v1476182827751\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>
             </div>
         </div>
     </div>
@@ -516,42 +552,38 @@ class __TwigTemplate_4e092e62c94df5f83c9d34585a9a47addb8aaf69a98b83251a57447b29f
 
 
 
-
-
-        <li>
-            <a href=\"";
-        // line 270
+    <li>
+        <a href=\"";
+        // line 304
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("psychomot_index");
         echo "\">Back to the list</a>
-        </li>
+    </li>
 
-
-
-    <input type=\"submit\" value=\"Edit\" />
     ";
-        // line 276
+        // line 307
+        echo twig_escape_filter($this->env, $this->getAttribute((isset($context["psychomot"]) ? $context["psychomot"] : $this->getContext($context, "psychomot")), "image", array()), "html", null, true);
+        echo "
+            <input type=\"submit\" value=\"Edit\" />
+            ";
+        // line 309
         echo         $this->env->getExtension('Symfony\Bridge\Twig\Extension\FormExtension')->renderer->renderBlock((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), 'form_end');
         echo "
 
-    ";
-        // line 278
+            ";
+        // line 311
         echo         $this->env->getExtension('Symfony\Bridge\Twig\Extension\FormExtension')->renderer->renderBlock((isset($context["delete_form"]) ? $context["delete_form"] : $this->getContext($context, "delete_form")), 'form_start');
         echo "
-    <input type=\"submit\" value=\"Delete\">
-    ";
-        // line 280
+            <input type=\"submit\" value=\"Delete\">
+            ";
+        // line 313
         echo         $this->env->getExtension('Symfony\Bridge\Twig\Extension\FormExtension')->renderer->renderBlock((isset($context["delete_form"]) ? $context["delete_form"] : $this->getContext($context, "delete_form")), 'form_end');
-        echo "
-
-  ";
-        // line 287
         echo "
 
 
 
 ";
         
-        $__internal_099c73a0f3faea81bc32af11381034333763ef4e89f343b436616d5b9dddc310->leave($__internal_099c73a0f3faea81bc32af11381034333763ef4e89f343b436616d5b9dddc310_prof);
+        $__internal_1b6f41eddd1b0492691bab7dae46c15277121dbc6d86492bfeec41ff32757455->leave($__internal_1b6f41eddd1b0492691bab7dae46c15277121dbc6d86492bfeec41ff32757455_prof);
 
     }
 
@@ -567,7 +599,7 @@ class __TwigTemplate_4e092e62c94df5f83c9d34585a9a47addb8aaf69a98b83251a57447b29f
 
     public function getDebugInfo()
     {
-        return array (  548 => 287,  543 => 280,  538 => 278,  533 => 276,  524 => 270,  505 => 254,  501 => 253,  496 => 251,  491 => 249,  487 => 248,  482 => 246,  477 => 244,  473 => 243,  468 => 241,  463 => 239,  459 => 238,  454 => 236,  428 => 213,  424 => 212,  420 => 211,  416 => 210,  412 => 209,  408 => 208,  394 => 197,  390 => 196,  386 => 195,  382 => 194,  378 => 193,  374 => 192,  360 => 181,  356 => 180,  352 => 179,  348 => 178,  344 => 177,  340 => 176,  313 => 152,  309 => 151,  304 => 149,  298 => 146,  294 => 145,  289 => 143,  284 => 141,  274 => 134,  270 => 133,  265 => 131,  259 => 128,  255 => 127,  250 => 125,  245 => 123,  237 => 118,  233 => 117,  228 => 115,  206 => 96,  202 => 95,  198 => 94,  194 => 93,  189 => 91,  185 => 90,  181 => 89,  168 => 79,  164 => 78,  160 => 77,  156 => 76,  151 => 74,  147 => 73,  143 => 72,  131 => 63,  123 => 58,  119 => 57,  115 => 56,  110 => 54,  106 => 53,  102 => 52,  81 => 34,  77 => 33,  71 => 30,  43 => 5,  40 => 4,  34 => 3,  11 => 1,);
+        return array (  579 => 313,  574 => 311,  569 => 309,  564 => 307,  558 => 304,  514 => 263,  510 => 262,  505 => 260,  500 => 258,  496 => 257,  491 => 255,  486 => 253,  482 => 252,  477 => 250,  472 => 248,  468 => 247,  463 => 245,  437 => 222,  433 => 221,  429 => 220,  425 => 219,  421 => 218,  417 => 217,  402 => 205,  398 => 204,  394 => 203,  390 => 202,  386 => 201,  382 => 200,  367 => 188,  363 => 187,  359 => 186,  355 => 185,  351 => 184,  347 => 183,  318 => 157,  314 => 156,  309 => 154,  303 => 151,  299 => 150,  294 => 148,  289 => 146,  279 => 139,  275 => 138,  270 => 136,  264 => 133,  260 => 132,  255 => 130,  250 => 128,  242 => 123,  238 => 122,  233 => 120,  211 => 101,  207 => 100,  203 => 99,  199 => 98,  194 => 96,  190 => 95,  186 => 94,  173 => 84,  169 => 83,  165 => 82,  161 => 81,  156 => 79,  152 => 78,  148 => 77,  136 => 68,  128 => 63,  124 => 62,  120 => 61,  115 => 59,  111 => 58,  107 => 57,  82 => 35,  78 => 34,  72 => 31,  43 => 5,  40 => 4,  34 => 3,  11 => 1,);
     }
 
     public function getSource()
@@ -577,6 +609,7 @@ class __TwigTemplate_4e092e62c94df5f83c9d34585a9a47addb8aaf69a98b83251a57447b29f
 {% block body %}
 
     {{ form_start(form) }}
+
 
 
     <!-- Début Nav Bar -->
@@ -612,6 +645,7 @@ class __TwigTemplate_4e092e62c94df5f83c9d34585a9a47addb8aaf69a98b83251a57447b29f
 
     <!-- Fin Nav Bar -->
 
+
     <br/>
 
     <!--Début Psychomotricité-->
@@ -622,6 +656,9 @@ class __TwigTemplate_4e092e62c94df5f83c9d34585a9a47addb8aaf69a98b83251a57447b29f
                 <li>
                     <div>
                         <a href=\"#Psychomotricité\">
+                            <!-- <img src=\"http://www.designchemical.com/lab/jquery/demo/images/section_1.png\"></img>
+                <h2>Lorem Ipsum</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p> -->
                             <div>
                                 <h2 class=\"psyco_titre1\"> {{ psychomot.titleDef }}</h2>
                                 {{ form_widget(form.titleDef, {'attr': {'class': 'form-control'}}) }}
@@ -729,6 +766,7 @@ class __TwigTemplate_4e092e62c94df5f83c9d34585a9a47addb8aaf69a98b83251a57447b29f
                     </div>
                 </div>
             </div>
+        </div>
     </div>
 
     <!--Fin Psychomotriciennes-->
@@ -744,6 +782,7 @@ class __TwigTemplate_4e092e62c94df5f83c9d34585a9a47addb8aaf69a98b83251a57447b29f
                 <ul>
                     <li>
                         <div>
+                            <!--<img src=\"img/essais1.jpg\">-->
                             <a>
                                 <div class=\"row\">
                                     <div class=\"accordion col-xs-4\">
@@ -760,6 +799,7 @@ class __TwigTemplate_4e092e62c94df5f83c9d34585a9a47addb8aaf69a98b83251a57447b29f
                     </li>
                     <li>
                         <div>
+                            <!-- <img src=\"img/essais2.jpg\">-->
                             <a>
                                 <div class=\"row\">
                                     <div class=\"accordion col-xs-4\">
@@ -776,6 +816,7 @@ class __TwigTemplate_4e092e62c94df5f83c9d34585a9a47addb8aaf69a98b83251a57447b29f
                     </li>
                     <li>
                         <div>
+                            <!--<img src=\"img/essais3.jpg\">-->
                             <a>
                                 <div class=\"row\">
                                     <div class=\"accordion col-xs-4\">
@@ -808,26 +849,53 @@ class __TwigTemplate_4e092e62c94df5f83c9d34585a9a47addb8aaf69a98b83251a57447b29f
                 <h3>Nous contacter</h3>
                 <div class=\"adress\">
                     <p>{{ psychomot.contactName }}</p>
-                    <div class=\"field\">
+                    <div>
                         {{ form_widget(form.contactName, {'attr': {'class': 'form-control'}}) }}
                         {{ form_errors(form.contactName) }}
                     </div>
                     <p>{{ psychomot.contactAdress }}</p>
-                    <div class=\"field\">
+                    <div>
                         {{ form_widget(form.contactAdress, {'attr': {'class': 'form-control'}}) }}
                         {{ form_errors(form.contactAdress) }}
                     </div>
                     <p>{{ psychomot.contactMail }}</p>
-                    <div class=\"field\">
+                    <div>
                         {{ form_widget(form.contactMail, {'attr': {'class': 'form-control'}}) }}
                         {{ form_errors(form.contactMail) }}
                     </div>
                     <p>{{ psychomot.contactTel }}</p>
-                    <div class=\"field\">
+                    <div>
                         {{ form_widget(form.contactTel, {'attr': {'class': 'form-control'}}) }}
                         {{ form_errors(form.contactTel) }}
                     </div>
                 </div>
+                <div class=\"formulaire\">
+                    <div class=\"form-group row\">
+                        <label for=\"example-text-input\" class=\"col-xs-3 col-form-label\">Nom :</label>
+                        <div class=\"col-xs-9\">
+                            <input class=\"form-control\" type=\"text\" value=\"ex : Doe\" id=\"example-text-input\">
+                        </div>
+                    </div>
+                    <div class=\"form-group row\">
+                        <label for=\"example-text-input\" class=\"col-xs-3 col-form-label\">Prénom :</label>
+                        <div class=\"col-xs-9\">
+                            <input class=\"form-control\" type=\"text\" value=\"ex : John\" id=\"example-text-input\">
+                        </div>
+                    </div>
+                    <div class=\"form-group row\">
+                        <label for=\"example-email-input\" class=\"col-xs-3 col-form-label\">Email :</label>
+                        <div class=\"col-xs-9\">
+                            <input class=\"form-control\" type=\"email\" value=\"john.doe@free.fr\" id=\"example-email-input\">
+                        </div>
+                    </div>
+                    <div class=\"form-group \">
+                        <label for=\"exampleTextarea\" >Votre message :</label>
+                        <textarea class=\"form-control\" id=\"exampleTextarea\" rows=\"10\"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class=\"map col-xs-12 col-sm-6\">
+                <iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2668.900152456399!2d0.1456287153106367!3d48.015638879213896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e286137f09c6d3%3A0x2ebd30be841e5f73!2s38+Rue+Arnold+Dolmetsch%2C+72000+Le+Mans!5e0!3m2!1sfr!2sfr!4v1476182827751\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>
             </div>
         </div>
     </div>
@@ -838,27 +906,17 @@ class __TwigTemplate_4e092e62c94df5f83c9d34585a9a47addb8aaf69a98b83251a57447b29f
 
 
 
+    <li>
+        <a href=\"{{ path('psychomot_index') }}\">Back to the list</a>
+    </li>
 
-
-        <li>
-            <a href=\"{{ path('psychomot_index') }}\">Back to the list</a>
-        </li>
-
-
-
-    <input type=\"submit\" value=\"Edit\" />
-    {{ form_end(form) }}
-
-    {{ form_start(delete_form) }}
-    <input type=\"submit\" value=\"Delete\">
-    {{ form_end(delete_form) }}
-
-  {#  {{ psychomot.image }}
+    {{ psychomot.image }}
             <input type=\"submit\" value=\"Edit\" />
             {{ form_end(form) }}
 
-            #}
-
+            {{ form_start(delete_form) }}
+            <input type=\"submit\" value=\"Delete\">
+            {{ form_end(delete_form) }}
 
 
 

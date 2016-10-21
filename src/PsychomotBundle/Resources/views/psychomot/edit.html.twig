@@ -5,6 +5,7 @@
     {{ form_start(form) }}
 
 
+
     <!-- Début Nav Bar -->
 
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -38,6 +39,7 @@
 
     <!-- Fin Nav Bar -->
 
+
     <br/>
 
     <!--Début Psychomotricité-->
@@ -48,6 +50,9 @@
                 <li>
                     <div>
                         <a href="#Psychomotricité">
+                            <!-- <img src="http://www.designchemical.com/lab/jquery/demo/images/section_1.png"></img>
+                <h2>Lorem Ipsum</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p> -->
                             <div>
                                 <h2 class="psyco_titre1"> {{ psychomot.titleDef }}</h2>
                                 {{ form_widget(form.titleDef, {'attr': {'class': 'form-control'}}) }}
@@ -155,6 +160,7 @@
                     </div>
                 </div>
             </div>
+        </div>
     </div>
 
     <!--Fin Psychomotriciennes-->
@@ -170,6 +176,7 @@
                 <ul>
                     <li>
                         <div>
+                            <!--<img src="img/essais1.jpg">-->
                             <a>
                                 <div class="row">
                                     <div class="accordion col-xs-4">
@@ -186,6 +193,7 @@
                     </li>
                     <li>
                         <div>
+                            <!-- <img src="img/essais2.jpg">-->
                             <a>
                                 <div class="row">
                                     <div class="accordion col-xs-4">
@@ -202,6 +210,7 @@
                     </li>
                     <li>
                         <div>
+                            <!--<img src="img/essais3.jpg">-->
                             <a>
                                 <div class="row">
                                     <div class="accordion col-xs-4">
@@ -234,26 +243,53 @@
                 <h3>Nous contacter</h3>
                 <div class="adress">
                     <p>{{ psychomot.contactName }}</p>
-                    <div class="field">
+                    <div>
                         {{ form_widget(form.contactName, {'attr': {'class': 'form-control'}}) }}
                         {{ form_errors(form.contactName) }}
                     </div>
                     <p>{{ psychomot.contactAdress }}</p>
-                    <div class="field">
+                    <div>
                         {{ form_widget(form.contactAdress, {'attr': {'class': 'form-control'}}) }}
                         {{ form_errors(form.contactAdress) }}
                     </div>
                     <p>{{ psychomot.contactMail }}</p>
-                    <div class="field">
+                    <div>
                         {{ form_widget(form.contactMail, {'attr': {'class': 'form-control'}}) }}
                         {{ form_errors(form.contactMail) }}
                     </div>
                     <p>{{ psychomot.contactTel }}</p>
-                    <div class="field">
+                    <div>
                         {{ form_widget(form.contactTel, {'attr': {'class': 'form-control'}}) }}
                         {{ form_errors(form.contactTel) }}
                     </div>
                 </div>
+                <div class="formulaire">
+                    <div class="form-group row">
+                        <label for="example-text-input" class="col-xs-3 col-form-label">Nom :</label>
+                        <div class="col-xs-9">
+                            <input class="form-control" type="text" value="ex : Doe" id="example-text-input">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="example-text-input" class="col-xs-3 col-form-label">Prénom :</label>
+                        <div class="col-xs-9">
+                            <input class="form-control" type="text" value="ex : John" id="example-text-input">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="example-email-input" class="col-xs-3 col-form-label">Email :</label>
+                        <div class="col-xs-9">
+                            <input class="form-control" type="email" value="john.doe@free.fr" id="example-email-input">
+                        </div>
+                    </div>
+                    <div class="form-group ">
+                        <label for="exampleTextarea" >Votre message :</label>
+                        <textarea class="form-control" id="exampleTextarea" rows="10"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="map col-xs-12 col-sm-6">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2668.900152456399!2d0.1456287153106367!3d48.015638879213896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e286137f09c6d3%3A0x2ebd30be841e5f73!2s38+Rue+Arnold+Dolmetsch%2C+72000+Le+Mans!5e0!3m2!1sfr!2sfr!4v1476182827751" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
         </div>
     </div>
@@ -264,27 +300,17 @@
 
 
 
+    <li>
+        <a href="{{ path('psychomot_index') }}">Back to the list</a>
+    </li>
 
-
-        <li>
-            <a href="{{ path('psychomot_index') }}">Back to the list</a>
-        </li>
-
-
-
-    <input type="submit" value="Edit" />
-    {{ form_end(form) }}
-
-    {{ form_start(delete_form) }}
-    <input type="submit" value="Delete">
-    {{ form_end(delete_form) }}
-
-  {#  {{ psychomot.image }}
+    {{ psychomot.image }}
             <input type="submit" value="Edit" />
             {{ form_end(form) }}
 
-            #}
-
+            {{ form_start(delete_form) }}
+            <input type="submit" value="Delete">
+            {{ form_end(delete_form) }}
 
 
 
