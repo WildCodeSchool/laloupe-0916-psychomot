@@ -87,6 +87,13 @@ body {
     margin-top:0;
 
 }
+
+
+
+
+
+/*psychomotriciennes*/
+
 #fond {
     background-color: yellow;
 }
@@ -103,18 +110,18 @@ body {
 
 
 }
-#psychomot-page h3, #psychomot-page h5{
+#psychomot h3, #psychomot h5{
     text-align: center;
 
 }
-#psychomot-page p{
+#psychomot p{
     text-align: justify;
     padding: 0px 15px 0px 15px;
     font-size: 16px;
 
 }
 
-#psychomot-page img{
+#psychomot img{
     display: block;
     margin-right: auto;
     margin-left: auto;
@@ -123,7 +130,7 @@ body {
 
 }
 
-#psychomot-page h3{
+#psychomot h3{
     background-color: white;
     margin: -15px 120px 0 120px;
     color: #82BDB5;
@@ -623,7 +630,6 @@ footer{
 }
 
 
-/*modal ML*/
 
 
 .modal-body1{

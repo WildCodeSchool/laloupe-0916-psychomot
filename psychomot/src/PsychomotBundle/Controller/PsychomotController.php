@@ -125,4 +125,25 @@ class PsychomotController extends Controller
             ->getForm()
         ;
     }
+
+    public function mailAction()
+    {
+        $Request = $this->getRequest();
+        if ($Request->getMethod() == "POST") {
+            $subject = $Request->get("object");
+            
+            $message = $Request->get("message");
+            
+            $message = \Swift_Message::newInstance('Test')
+                ->setSubject($subject)
+                ->setFrom('psychomot72@gmail.com')
+                ->setTo('florian.galerne@free.fr', 'retatsylvie@gmail.com')
+                ->setBody($message);
+            $this->get('mailer')->send($message);
+        }
+        return $this->render('PsychomotBundle:psychomot:mail.html.twig');
+    }
 }
+
+
+
