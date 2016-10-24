@@ -60,6 +60,7 @@ class Psychomot
         }
     }
 
+    
     //** CODE GENERE **/
     /**
      * @var int

@@ -24,8 +24,8 @@ PsychomotBundle\Entity\Psychomot:
             length: 255
             column: title_who
         txtWho:
-            type: string
-            length: 700
+            type: text
+            length: 4000
             column: txt_who
         titleWhy:
             type: string
@@ -33,7 +33,7 @@ PsychomotBundle\Entity\Psychomot:
             column: title_why
         txtWhy:
             type: string
-            length: 700
+            length: 4000
             column: txt_why
         titlePsy:
             type: string

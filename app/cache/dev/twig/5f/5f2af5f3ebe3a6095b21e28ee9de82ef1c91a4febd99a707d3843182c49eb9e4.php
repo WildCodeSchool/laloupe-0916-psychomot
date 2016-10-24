@@ -21,20 +21,20 @@ class __TwigTemplate_3b11b210654f720ece2122f293ce932bb701082b22943073a6c74e127a6
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_658e2689f218b0b91cbe474266e45a456825eb384403f47b908088402d4ecb4a = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_658e2689f218b0b91cbe474266e45a456825eb384403f47b908088402d4ecb4a->enter($__internal_658e2689f218b0b91cbe474266e45a456825eb384403f47b908088402d4ecb4a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "PsychomotBundle:psychomot:index.html.twig"));
+        $__internal_03b04e0c3531a58ad5cc8df808c159e397d0f1c8400b0e9c223e92d4c1c97e6b = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_03b04e0c3531a58ad5cc8df808c159e397d0f1c8400b0e9c223e92d4c1c97e6b->enter($__internal_03b04e0c3531a58ad5cc8df808c159e397d0f1c8400b0e9c223e92d4c1c97e6b_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "PsychomotBundle:psychomot:index.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_658e2689f218b0b91cbe474266e45a456825eb384403f47b908088402d4ecb4a->leave($__internal_658e2689f218b0b91cbe474266e45a456825eb384403f47b908088402d4ecb4a_prof);
+        $__internal_03b04e0c3531a58ad5cc8df808c159e397d0f1c8400b0e9c223e92d4c1c97e6b->leave($__internal_03b04e0c3531a58ad5cc8df808c159e397d0f1c8400b0e9c223e92d4c1c97e6b_prof);
 
     }
 
     // line 3
     public function block_body($context, array $blocks = array())
     {
-        $__internal_71c733d26681fcd55fe0d2658d30a195ea4cbb1ce1a7f81f03c592b304fe937e = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_71c733d26681fcd55fe0d2658d30a195ea4cbb1ce1a7f81f03c592b304fe937e->enter($__internal_71c733d26681fcd55fe0d2658d30a195ea4cbb1ce1a7f81f03c592b304fe937e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_f30d5cfb71571a54124e5682e9320b6178c1e543efed21432e371b7b7ecdcc64 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_f30d5cfb71571a54124e5682e9320b6178c1e543efed21432e371b7b7ecdcc64->enter($__internal_f30d5cfb71571a54124e5682e9320b6178c1e543efed21432e371b7b7ecdcc64_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 4
         echo "
@@ -98,12 +98,12 @@ class __TwigTemplate_3b11b210654f720ece2122f293ce932bb701082b22943073a6c74e127a6
 
         <!--Début Psychomotricité-->
 
-        <div id=\"Psychomotricité\">
+        <div id=\"Psychomotricité\" >
             <div class=\"accordion1\">
                 <ul>
                     <li>
                         <div>
-                            <a href=\"#Psychomotricité\">
+                            <a>
                                 <!-- <img src=\"http://www.designchemical.com/lab/jquery/demo/images/section_1.png\"></img>
                     <h2>Lorem Ipsum</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p> -->
@@ -120,12 +120,11 @@ class __TwigTemplate_3b11b210654f720ece2122f293ce932bb701082b22943073a6c74e127a6
             // line 69
             echo twig_escape_filter($this->env, $this->getAttribute($context["psychomot"], "txtDef", array()), "html", null, true);
             echo " </p>
-                                </div>
-                                <div>
+                                
                                     <!-- <img class=\"psyco_img1\" src=\"./img/SAM_2242-500_375.JPG\"> -->
 
                                     <!-- <img class=\"psyco_img1\" src=\"";
-            // line 74
+            // line 73
             echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("bundles/psychomot/img/1_questcequecest_500-575.jpg"), "html", null, true);
             echo "\"> -->
                                 </div>
@@ -134,17 +133,17 @@ class __TwigTemplate_3b11b210654f720ece2122f293ce932bb701082b22943073a6c74e127a6
                     </li>
                     <li>
                         <div>
-                            <a href=\"#Psychomotricité\">
+                            <a>
                                 <h2>";
-            // line 82
+            // line 81
             echo twig_escape_filter($this->env, $this->getAttribute($context["psychomot"], "titleWho", array()), "html", null, true);
             echo "</h2>
                                 <img class=\"psyco_img1\" src=\"";
-            // line 83
+            // line 82
             echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("bundles/psychomot/img/1_Pour_qui.jpg"), "html", null, true);
             echo "\">
                                 <p>";
-            // line 84
+            // line 83
             echo twig_escape_filter($this->env, $this->getAttribute($context["psychomot"], "txtWho", array()), "html", null, true);
             echo "</p>
                             </a>
@@ -152,17 +151,17 @@ class __TwigTemplate_3b11b210654f720ece2122f293ce932bb701082b22943073a6c74e127a6
                     </li>
                     <li>
                         <div>
-                            <a href=\"#Psychomotricité\">
+                            <a>
                                 <h2>";
-            // line 91
+            // line 90
             echo twig_escape_filter($this->env, $this->getAttribute($context["psychomot"], "titleWhy", array()), "html", null, true);
             echo "</h2>
                                 <img class=\"psyco_img1\" src=\"";
-            // line 92
+            // line 91
             echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("bundles/psychomot/img/1_Pourquoi.jpg"), "html", null, true);
             echo "\">
                                 <p>";
-            // line 93
+            // line 92
             echo twig_escape_filter($this->env, $this->getAttribute($context["psychomot"], "txtWhy", array()), "html", null, true);
             echo "
                                 </p>
@@ -185,17 +184,17 @@ class __TwigTemplate_3b11b210654f720ece2122f293ce932bb701082b22943073a6c74e127a6
                 <div class=\"left col-xs-12 col-sm-6 col-md-6\">
                     <div class=\"col-xs-12\">
                         <img src=\"";
-            // line 113
+            // line 112
             echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("bundles/psychomot/img/Psy2.jpg"), "html", null, true);
             echo "\" alt=\"Margaux Charrier\" />
                         <div class=\"border\">
                             <h3>";
-            // line 115
+            // line 114
             echo twig_escape_filter($this->env, $this->getAttribute($context["psychomot"], "namePsy1", array()), "html", null, true);
             echo "</h3>
                             <h5>Psychomotricienne diplomée</h5>
                             <p>";
-            // line 117
+            // line 116
             echo twig_escape_filter($this->env, $this->getAttribute($context["psychomot"], "txtPsy1", array()), "html", null, true);
             echo "</p>
                         </div>
@@ -204,17 +203,17 @@ class __TwigTemplate_3b11b210654f720ece2122f293ce932bb701082b22943073a6c74e127a6
                 <div class=\"right col-xs-12 col-sm-6 col-md-6\">
                     <div class=\"col-xs-12\">
                         <img src=\"";
-            // line 123
+            // line 122
             echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("bundles/psychomot/img/Psy1.jpg"), "html", null, true);
             echo "\" alt=\"Adeline Florentin\" />
                         <div class=\"border\">
                             <h3>";
-            // line 125
+            // line 124
             echo twig_escape_filter($this->env, $this->getAttribute($context["psychomot"], "namePsy2", array()), "html", null, true);
             echo "</h3>
                             <h5>Psychomotricienne diplomée</h5>
                             <p>";
-            // line 127
+            // line 126
             echo twig_escape_filter($this->env, $this->getAttribute($context["psychomot"], "txtPsy2", array()), "html", null, true);
             echo "</p>
                         </div>
@@ -239,11 +238,11 @@ class __TwigTemplate_3b11b210654f720ece2122f293ce932bb701082b22943073a6c74e127a6
                                 <div class=\"row\">
                                     <div class=\"accordion col-xs-4\">
                                         <h2>";
-            // line 149
+            // line 148
             echo twig_escape_filter($this->env, $this->getAttribute($context["psychomot"], "titleConsult", array()), "html", null, true);
             echo "</h2>
                                         <p>";
-            // line 150
+            // line 149
             echo twig_escape_filter($this->env, $this->getAttribute($context["psychomot"], "txtConsult", array()), "html", null, true);
             echo "</p>
                                     </div>
@@ -257,11 +256,11 @@ class __TwigTemplate_3b11b210654f720ece2122f293ce932bb701082b22943073a6c74e127a6
                                 <div class=\"row\">
                                     <div class=\"accordion col-xs-4\">
                                         <h2>";
-            // line 161
+            // line 160
             echo twig_escape_filter($this->env, $this->getAttribute($context["psychomot"], "titleInterv", array()), "html", null, true);
             echo "</h2>
                                         <p>";
-            // line 162
+            // line 161
             echo twig_escape_filter($this->env, $this->getAttribute($context["psychomot"], "txtInterv", array()), "html", null, true);
             echo "</p>
                                     </div>
@@ -276,11 +275,11 @@ class __TwigTemplate_3b11b210654f720ece2122f293ce932bb701082b22943073a6c74e127a6
                                 <div class=\"row\">
                                     <div class=\"accordion col-xs-4\">
                                         <h2>";
-            // line 174
+            // line 173
             echo twig_escape_filter($this->env, $this->getAttribute($context["psychomot"], "titleBilan", array()), "html", null, true);
             echo "</h2>
                                         <p>";
-            // line 175
+            // line 174
             echo twig_escape_filter($this->env, $this->getAttribute($context["psychomot"], "txtBilan", array()), "html", null, true);
             echo "</p>
                                     </div>
@@ -304,19 +303,19 @@ class __TwigTemplate_3b11b210654f720ece2122f293ce932bb701082b22943073a6c74e127a6
                 <h3>Nous contacter</h3>
                 <div class=\"adress\">
                     <p>";
-            // line 196
+            // line 195
             echo twig_escape_filter($this->env, $this->getAttribute($context["psychomot"], "contactName", array()), "html", null, true);
             echo "</p>
                     <p>";
-            // line 197
+            // line 196
             echo twig_escape_filter($this->env, $this->getAttribute($context["psychomot"], "contactAdress", array()), "html", null, true);
             echo "</p>
                     <p>";
-            // line 198
+            // line 197
             echo twig_escape_filter($this->env, $this->getAttribute($context["psychomot"], "contactMail", array()), "html", null, true);
             echo "</p>
                     <p>";
-            // line 199
+            // line 198
             echo twig_escape_filter($this->env, $this->getAttribute($context["psychomot"], "contactTel", array()), "html", null, true);
             echo "</p>
                 </div>
@@ -325,7 +324,7 @@ class __TwigTemplate_3b11b210654f720ece2122f293ce932bb701082b22943073a6c74e127a6
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['psychomot'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 202
+        // line 201
         echo "                <form action=\"";
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("psychomot_mail");
         echo "\" method=\"post\">
@@ -375,7 +374,7 @@ class __TwigTemplate_3b11b210654f720ece2122f293ce932bb701082b22943073a6c74e127a6
         <br/>
         <br/>
    ";
-        // line 249
+        // line 248
         echo "
 
 
@@ -383,14 +382,14 @@ class __TwigTemplate_3b11b210654f720ece2122f293ce932bb701082b22943073a6c74e127a6
     <!--<ul>
         <li>
             <a href=\"";
-        // line 255
+        // line 254
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("psychomot_new");
         echo "\">Create a new entry</a>
         </li>
     </ul>-->
 ";
         
-        $__internal_71c733d26681fcd55fe0d2658d30a195ea4cbb1ce1a7f81f03c592b304fe937e->leave($__internal_71c733d26681fcd55fe0d2658d30a195ea4cbb1ce1a7f81f03c592b304fe937e_prof);
+        $__internal_f30d5cfb71571a54124e5682e9320b6178c1e543efed21432e371b7b7ecdcc64->leave($__internal_f30d5cfb71571a54124e5682e9320b6178c1e543efed21432e371b7b7ecdcc64_prof);
 
     }
 
@@ -406,7 +405,7 @@ class __TwigTemplate_3b11b210654f720ece2122f293ce932bb701082b22943073a6c74e127a6
 
     public function getDebugInfo()
     {
-        return array (  387 => 255,  379 => 249,  329 => 202,  320 => 199,  316 => 198,  312 => 197,  308 => 196,  284 => 175,  280 => 174,  265 => 162,  261 => 161,  247 => 150,  243 => 149,  218 => 127,  213 => 125,  208 => 123,  199 => 117,  194 => 115,  189 => 113,  166 => 93,  162 => 92,  158 => 91,  148 => 84,  144 => 83,  140 => 82,  129 => 74,  121 => 69,  117 => 68,  113 => 67,  74 => 31,  48 => 7,  44 => 6,  40 => 4,  34 => 3,  11 => 1,);
+        return array (  386 => 254,  378 => 248,  328 => 201,  319 => 198,  315 => 197,  311 => 196,  307 => 195,  283 => 174,  279 => 173,  264 => 161,  260 => 160,  246 => 149,  242 => 148,  217 => 126,  212 => 124,  207 => 122,  198 => 116,  193 => 114,  188 => 112,  165 => 92,  161 => 91,  157 => 90,  147 => 83,  143 => 82,  139 => 81,  128 => 73,  121 => 69,  117 => 68,  113 => 67,  74 => 31,  48 => 7,  44 => 6,  40 => 4,  34 => 3,  11 => 1,);
     }
 
     public function getSource()
@@ -467,12 +466,12 @@ class __TwigTemplate_3b11b210654f720ece2122f293ce932bb701082b22943073a6c74e127a6
 
         <!--Début Psychomotricité-->
 
-        <div id=\"Psychomotricité\">
+        <div id=\"Psychomotricité\" >
             <div class=\"accordion1\">
                 <ul>
                     <li>
                         <div>
-                            <a href=\"#Psychomotricité\">
+                            <a>
                                 <!-- <img src=\"http://www.designchemical.com/lab/jquery/demo/images/section_1.png\"></img>
                     <h2>Lorem Ipsum</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p> -->
@@ -480,8 +479,7 @@ class __TwigTemplate_3b11b210654f720ece2122f293ce932bb701082b22943073a6c74e127a6
                                     <h2 class=\"psyco_titre1\"> {{ psychomot.titleDef }}</h2>
                                     <img class=\"psyco_img1\" src=\"{{asset('bundles/psychomot/img/1_questcequecest_500-575.jpg')}}\">
                                     <p class=\"psyco_texte1\"> {{ psychomot.txtDef }} </p>
-                                </div>
-                                <div>
+                                
                                     <!-- <img class=\"psyco_img1\" src=\"./img/SAM_2242-500_375.JPG\"> -->
 
                                     <!-- <img class=\"psyco_img1\" src=\"{{asset('bundles/psychomot/img/1_questcequecest_500-575.jpg')}}\"> -->
@@ -491,7 +489,7 @@ class __TwigTemplate_3b11b210654f720ece2122f293ce932bb701082b22943073a6c74e127a6
                     </li>
                     <li>
                         <div>
-                            <a href=\"#Psychomotricité\">
+                            <a>
                                 <h2>{{ psychomot.titleWho }}</h2>
                                 <img class=\"psyco_img1\" src=\"{{asset('bundles/psychomot/img/1_Pour_qui.jpg')}}\">
                                 <p>{{ psychomot.txtWho }}</p>
@@ -500,7 +498,7 @@ class __TwigTemplate_3b11b210654f720ece2122f293ce932bb701082b22943073a6c74e127a6
                     </li>
                     <li>
                         <div>
-                            <a href=\"#Psychomotricité\">
+                            <a>
                                 <h2>{{ psychomot.titleWhy }}</h2>
                                 <img class=\"psyco_img1\" src=\"{{asset('bundles/psychomot/img/1_Pourquoi.jpg')}}\">
                                 <p>{{ psychomot.txtWhy }}
