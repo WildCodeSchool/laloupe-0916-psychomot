@@ -21,20 +21,20 @@ class __TwigTemplate_70040b5bea3019978baa9de12d9f463971ce4a2d7327b458e0f4051ccaa
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_4725bfc45ce8a087ac0e8d14998a76a146254b2de671ed9d85893018b77a323e = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_4725bfc45ce8a087ac0e8d14998a76a146254b2de671ed9d85893018b77a323e->enter($__internal_4725bfc45ce8a087ac0e8d14998a76a146254b2de671ed9d85893018b77a323e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "PsychomotBundle:psychomot:new.html.twig"));
+        $__internal_de251801d4d08e5f0c0114e9512e5b913264afdd2cff899483e41fbfe17865c2 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_de251801d4d08e5f0c0114e9512e5b913264afdd2cff899483e41fbfe17865c2->enter($__internal_de251801d4d08e5f0c0114e9512e5b913264afdd2cff899483e41fbfe17865c2_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "PsychomotBundle:psychomot:new.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_4725bfc45ce8a087ac0e8d14998a76a146254b2de671ed9d85893018b77a323e->leave($__internal_4725bfc45ce8a087ac0e8d14998a76a146254b2de671ed9d85893018b77a323e_prof);
+        $__internal_de251801d4d08e5f0c0114e9512e5b913264afdd2cff899483e41fbfe17865c2->leave($__internal_de251801d4d08e5f0c0114e9512e5b913264afdd2cff899483e41fbfe17865c2_prof);
 
     }
 
     // line 3
     public function block_body($context, array $blocks = array())
     {
-        $__internal_c351ac6efac8d7205863158665b68b19bd6e688e1b1b3c6eae52bc97fca84637 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_c351ac6efac8d7205863158665b68b19bd6e688e1b1b3c6eae52bc97fca84637->enter($__internal_c351ac6efac8d7205863158665b68b19bd6e688e1b1b3c6eae52bc97fca84637_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_ba41bba6b1327223ae9a4e913cc502608aea267a7f283098a1f1e4f50d443bb5 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_ba41bba6b1327223ae9a4e913cc502608aea267a7f283098a1f1e4f50d443bb5->enter($__internal_ba41bba6b1327223ae9a4e913cc502608aea267a7f283098a1f1e4f50d443bb5_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 4
         echo "    <h1>Psychomot creation</h1>
@@ -62,9 +62,10 @@ class __TwigTemplate_70040b5bea3019978baa9de12d9f463971ce4a2d7327b458e0f4051ccaa
         echo "\">Back to the list</a>
         </li>
     </ul>
+
 ";
         
-        $__internal_c351ac6efac8d7205863158665b68b19bd6e688e1b1b3c6eae52bc97fca84637->leave($__internal_c351ac6efac8d7205863158665b68b19bd6e688e1b1b3c6eae52bc97fca84637_prof);
+        $__internal_ba41bba6b1327223ae9a4e913cc502608aea267a7f283098a1f1e4f50d443bb5->leave($__internal_ba41bba6b1327223ae9a4e913cc502608aea267a7f283098a1f1e4f50d443bb5_prof);
 
     }
 
@@ -101,6 +102,7 @@ class __TwigTemplate_70040b5bea3019978baa9de12d9f463971ce4a2d7327b458e0f4051ccaa
             <a href=\"{{ path('psychomot_index') }}\">Back to the list</a>
         </li>
     </ul>
+
 {% endblock %}
 ";
     }
