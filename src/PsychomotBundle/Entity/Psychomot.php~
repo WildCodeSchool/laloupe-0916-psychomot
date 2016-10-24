@@ -3,13 +3,13 @@
 namespace PsychomotBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Validator\Constraints as Assert;
 
 /**
  * Psychomot
  */
 class Psychomot
 {
-<<<<<<< HEAD
     public $file;
 
     protected function getUploadDir()
@@ -35,7 +35,7 @@ class Psychomot
     {
         if (null !== $this->file) {
             // do whatever you want to generate a unique name
-            $this->logo = uniqid().'.'.$this->file->guessExtension();
+            $this->image = uniqid().'.'.$this->file->guessExtension();
         }
     }
 
@@ -61,26 +61,20 @@ class Psychomot
     }
 
     //** CODE GENERE **/
-=======
->>>>>>> a6a74e602e0b671deee45002a73e5a1a1ab8727f
     /**
      * @var int
      */
     private $id;
 
     /**
-<<<<<<< HEAD
-     * @var string
-=======
-     * @var number
->>>>>>> a6a74e602e0b671deee45002a73e5a1a1ab8727f
+     * @Assert\Regex(pattern="/^(0|(\\+33)|(0033))[1-9][0-9]{8}$/")
      */
     private $tel;
 
     /**
      * @var string
      */
-    private $titleDef;
+    private $titleDef;  
 
     /**
      * @var string
@@ -173,7 +167,7 @@ class Psychomot
     private $contactMail;
 
     /**
-     * @var string
+     *  @Assert\Regex(pattern="/^(0|(\\+33)|(0033))[1-9][0-9]{8}$/")
      */
     private $contactTel;
 
@@ -182,22 +176,8 @@ class Psychomot
      */
     private $contactName;
 
-<<<<<<< HEAD
-    /**
-     * @var string
-     */
-    private $files;
 
-    /**
-     * @var string
-     */
-    private $path;
-
-=======
->>>>>>> a6a74e602e0b671deee45002a73e5a1a1ab8727f
-
-    /**
-     * Get id
+     /** Get id
      *
      * @return integer 
      */
@@ -710,5 +690,33 @@ class Psychomot
     public function getContactName()
     {
         return $this->contactName;
+    }
+    /**
+     * @var string
+     */
+    private $image;
+
+
+    /**
+     * Set image
+     *
+     * @param string $image
+     * @return Psychomot
+     */
+    public function setImage($image)
+    {
+        $this->image = $image;
+
+        return $this;
+    }
+
+    /**
+     * Get image
+     *
+     * @return string 
+     */
+    public function getImage()
+    {
+        return $this->image;
     }
 }

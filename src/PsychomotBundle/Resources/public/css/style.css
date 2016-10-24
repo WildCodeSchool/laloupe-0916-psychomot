@@ -29,10 +29,6 @@
 
 /*--FIN NAVBAR--*/
 
-
-
-
-
 /*--PAGE HOME--*/
 
     #page-home {
@@ -68,18 +64,10 @@
 
 /*--FIN PAGE HOME--*/
 
-
-
-
-
 body {
     margin-top:0;
 
 }
-
-
-
-
 
 /*--DEBUT PSYCHOMOTRICITE--*/
 
@@ -158,12 +146,12 @@ h3 {
     text-overflow: ellipsis;
     position: relative;
     z-index: 5;
-    white-space: normal;
+    white-space: pre-wrap;
     overflow: hidden;
     -webkit-transform: translateX(-20px);
     transform: translateX(-20px);
     -webkit-transition: all 400ms ease;
-    transition: all 400ms ease;
+    transition: all 1000ms ease;
 }
 
 .accordion1 ul li div a h2 {
@@ -182,6 +170,7 @@ h3 {
     width: 600px;
     height: 300px;
     color: black;
+
 }
 
 .accordion1 ul li div a p span {
@@ -189,14 +178,12 @@ h3 {
 }
 
 .accordion1 ul li div a img {
-    width: 500px;
-    height: 575px;
+    max-width: 400px;
     float: right;
     margin-right: 5vw;
     margin-top: -5vw;
     height: auto;
 }
-
 
 @media only screen and (max-width: 758px) {
 
@@ -259,7 +246,7 @@ h3 {
         text-overflow: ellipsis;
         position: relative;
         z-index: 5;
-        white-space: normal;
+        white-space: pre-line;
         overflow: hidden;
         -webkit-transform: translateX(-20px);
         transform: translateX(-20px);
@@ -299,18 +286,20 @@ h3 {
 .accordion1 ul li:nth-child(3) { background-image: url("../img/1_Pourquoi_1.png");height: 700px; }
 
 
-.accordion1 ul li:nth-child(1) { background-color:#e6ffee; }
+.accordion1 ul li:nth-child(1) { background-color:#82bdb5; }
 
-.accordion1 ul li:nth-child(2) { background-color:#b3ffcc; }
+.accordion1 ul li:nth-child(2) { background-color:#82bdb5; }
 
-.accordion1 ul li:nth-child(3) { background-color:#e6ffee; }
+.accordion1 ul li:nth-child(3) { background-color:#82bdb5; }
 
 
 
 .accordion1 ul:hover li { width: 4%; }
 
-.accordion1 ul:hover li:hover { width: 60%;
-    background-image: none;}
+.accordion1 ul:hover li:hover {
+    width: 60%;
+    background-image: none;
+}
 
 .accordion1 ul:hover li:hover a { background: rgba(0, 0, 0, 0); }
 
@@ -324,10 +313,6 @@ h3 {
 
 
 /*--FIN PSYCHOMOTRICITE--*/
-
-
-
-
 
 /*--DEBUT PSYCHOMOTRICIENNES--*/
 
@@ -402,10 +387,6 @@ h3 {
 
 /*--FIN PSYCHOMOTRICIENNES--*/
 
-
-
-
-
 /*--DEBUT INTERVENTION--*/
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
@@ -468,7 +449,7 @@ h3 {
         text-overflow: ellipsis;
         position: relative;
         z-index: 5;
-        /* white-space: nowrap;*/
+        white-space: pre-wrap;
         overflow: hidden;
         -webkit-transform: translateX(-20px);
         transform: translateX(-20px);
@@ -494,6 +475,7 @@ h3 {
         margin-left: 120px;
         /*background: rgba(0, 0, 0, 0.4);
         padding: 5px;*/
+
     }
 
     .accordion ul li:nth-child(1) {

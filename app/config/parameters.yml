@@ -4,7 +4,7 @@ parameters:
     database_port: null
     database_name: psychomot
     database_user: root
-    database_password: jecode4laloupe
+    database_password: F18N01L11H25g
     mailer_transport: gmail
     mailer_host: smtp.gmail.com
     mailer_user: psychomot72@gmail.com
