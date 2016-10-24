@@ -8,12 +8,13 @@
     <link href="http://www.cssscript.com/wp-includes/css/sticky.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="{{ asset('bundles/psychomot/css/style.css') }}">
     <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+
 </head>
 
 
 
 
-<body data-spy="scroll">
+<body data-spy="scroll" data-target=".navbar" data-offset="150">
 {% block body %}{% endblock %}
 
 
@@ -69,6 +70,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script src="https://use.fontawesome.com/fafce886a9.js"></script>
+<script src="//cdn.ckeditor.com/4.5.11/basic/ckeditor.js"></script>
 <script>
     $(document).ready(function() {
         $('.js-scrollTo').on('click', function() { // Au clic sur un élément
