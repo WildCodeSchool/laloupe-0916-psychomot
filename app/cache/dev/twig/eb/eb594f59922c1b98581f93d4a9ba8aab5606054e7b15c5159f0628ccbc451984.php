@@ -1,6 +1,6 @@
 <?php
 
-/* WebProfilerBundle:Profiler:toolbar_js.html.twig */
+/* @WebProfiler/Profiler/toolbar_js.html.twig */
 class __TwigTemplate_d2a89de8b4db03229e5e85c894e51ab180beb108428d02f310fc2d13c7544c93 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
@@ -15,8 +15,8 @@ class __TwigTemplate_d2a89de8b4db03229e5e85c894e51ab180beb108428d02f310fc2d13c75
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_e4015f4f626b9d9b5291428d9b5c31d7a6d151114a12f69eb9543ca3ba83d3ae = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_e4015f4f626b9d9b5291428d9b5c31d7a6d151114a12f69eb9543ca3ba83d3ae->enter($__internal_e4015f4f626b9d9b5291428d9b5c31d7a6d151114a12f69eb9543ca3ba83d3ae_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "WebProfilerBundle:Profiler:toolbar_js.html.twig"));
+        $__internal_1275141640147f102d34cded7f94ece3601c4016c6383f4251cdf82bfb48953a = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_1275141640147f102d34cded7f94ece3601c4016c6383f4251cdf82bfb48953a->enter($__internal_1275141640147f102d34cded7f94ece3601c4016c6383f4251cdf82bfb48953a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Profiler/toolbar_js.html.twig"));
 
         // line 1
         echo "<div id=\"sfwdt";
@@ -130,13 +130,13 @@ class __TwigTemplate_d2a89de8b4db03229e5e85c894e51ab180beb108428d02f310fc2d13c75
 /*]]>*/</script>
 ";
         
-        $__internal_e4015f4f626b9d9b5291428d9b5c31d7a6d151114a12f69eb9543ca3ba83d3ae->leave($__internal_e4015f4f626b9d9b5291428d9b5c31d7a6d151114a12f69eb9543ca3ba83d3ae_prof);
+        $__internal_1275141640147f102d34cded7f94ece3601c4016c6383f4251cdf82bfb48953a->leave($__internal_1275141640147f102d34cded7f94ece3601c4016c6383f4251cdf82bfb48953a_prof);
 
     }
 
     public function getTemplateName()
     {
-        return "WebProfilerBundle:Profiler:toolbar_js.html.twig";
+        return "@WebProfiler/Profiler/toolbar_js.html.twig";
     }
 
     public function isTraitable()

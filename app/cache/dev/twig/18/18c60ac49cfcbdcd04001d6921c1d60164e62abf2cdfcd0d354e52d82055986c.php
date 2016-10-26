@@ -16,52 +16,52 @@ class __TwigTemplate_3e074b839a6387912e40bffb061815b2b0d639854d824aa79b96e1aa763
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_f7e8c61fa772563b330c609400e298840b36c5f8d8d3e319bcca30e69ae644d9 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_f7e8c61fa772563b330c609400e298840b36c5f8d8d3e319bcca30e69ae644d9->enter($__internal_f7e8c61fa772563b330c609400e298840b36c5f8d8d3e319bcca30e69ae644d9_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "FOSUserBundle:Security:login_content.html.twig"));
+        $__internal_2ce2e692d621e528eb5b588cc120c53220927a69965df8b20459a93a234a51aa = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_2ce2e692d621e528eb5b588cc120c53220927a69965df8b20459a93a234a51aa->enter($__internal_2ce2e692d621e528eb5b588cc120c53220927a69965df8b20459a93a234a51aa_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "FOSUserBundle:Security:login_content.html.twig"));
 
         // line 2
         $this->displayBlock('stylesheets', $context, $blocks);
-        // line 6
+        // line 16
         echo "
 ";
-        // line 7
+        // line 17
         if ((isset($context["error"]) ? $context["error"] : $this->getContext($context, "error"))) {
-            // line 8
+            // line 18
             echo "    <div>";
             echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans($this->getAttribute((isset($context["error"]) ? $context["error"] : $this->getContext($context, "error")), "messageKey", array()), $this->getAttribute((isset($context["error"]) ? $context["error"] : $this->getContext($context, "error")), "messageData", array()), "security"), "html", null, true);
             echo "</div>
 ";
         }
-        // line 10
-        echo "<div class=\"card border col-xs-offset-4 col-xs-4\">
-    <img class=\"card-img-top\" src=\"";
-        // line 11
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl(""), "html", null, true);
+        // line 20
+        echo "<div class=\"card col-xs-offset-4 col-xs-4\">
+    <img class=\"card-img-top col-xs-offset-2\" src=\"";
+        // line 21
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("bundles/psychomot/img/Logo250.png"), "html", null, true);
         echo "\" alt=\"Card image cap\">
     <div class=\"card-block\">
         <form action=\"";
-        // line 13
+        // line 23
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("fos_user_security_check");
         echo "\" method=\"post\">
         ";
-        // line 14
+        // line 24
         if ((isset($context["csrf_token"]) ? $context["csrf_token"] : $this->getContext($context, "csrf_token"))) {
-            // line 15
+            // line 25
             echo "            <input type=\"hidden\" name=\"_csrf_token\" value=\"";
             echo twig_escape_filter($this->env, (isset($context["csrf_token"]) ? $context["csrf_token"] : $this->getContext($context, "csrf_token")), "html", null, true);
             echo "\" />
         ";
         }
-        // line 17
+        // line 27
         echo "
             <div class=\"form-group row\">
                 <label for=\"username\" class=\"col-xs-5 col-form-label\">";
-        // line 19
+        // line 29
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans("Votre nom d'utilisateur", array(), "FOSUserBundle"), "html", null, true);
         echo "</label>
                 <div class=\"col-xs-7\">
                     <input class=\"form-control\" type=\"text\" id=\"username\" name=\"_username\" value=\"";
-        // line 21
+        // line 31
         echo twig_escape_filter($this->env, (isset($context["last_username"]) ? $context["last_username"] : $this->getContext($context, "last_username")), "html", null, true);
         echo "\" required=\"required\" />
                 </div>
@@ -70,7 +70,7 @@ class __TwigTemplate_3e074b839a6387912e40bffb061815b2b0d639854d824aa79b96e1aa763
 
             <div class=\"form-group row\">
                 <label for=\"password\" class=\"col-xs-5 col-form-label\">";
-        // line 27
+        // line 37
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans("Votre mot de passe", array(), "FOSUserBundle"), "html", null, true);
         echo "</label>
                 <div class=\"col-xs-7\">
@@ -81,11 +81,11 @@ class __TwigTemplate_3e074b839a6387912e40bffb061815b2b0d639854d824aa79b96e1aa763
                 <div class=\"col-xs-12\">
                     <input type=\"checkbox\"  id=\"remember_me\" name=\"_remember_me\" value=\"on\" />
                     <label for=\"remember_me\">";
-        // line 35
+        // line 45
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans("se rappeller de moi", array(), "FOSUserBundle"), "html", null, true);
         echo "</label>
                     <button type=\"submit\" class=\"btn btn-primary col-xs-offset-3\" id=\"_submit\" name=\"_submit\" >";
-        // line 36
+        // line 46
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans("se connecter", array(), "FOSUserBundle"), "html", null, true);
         echo "</button>
 
@@ -100,15 +100,15 @@ class __TwigTemplate_3e074b839a6387912e40bffb061815b2b0d639854d824aa79b96e1aa763
 </div>
 ";
         
-        $__internal_f7e8c61fa772563b330c609400e298840b36c5f8d8d3e319bcca30e69ae644d9->leave($__internal_f7e8c61fa772563b330c609400e298840b36c5f8d8d3e319bcca30e69ae644d9_prof);
+        $__internal_2ce2e692d621e528eb5b588cc120c53220927a69965df8b20459a93a234a51aa->leave($__internal_2ce2e692d621e528eb5b588cc120c53220927a69965df8b20459a93a234a51aa_prof);
 
     }
 
     // line 2
     public function block_stylesheets($context, array $blocks = array())
     {
-        $__internal_5b48b55eb73f1c49369ebd2221446b5b939a52155500337f4d26cdb41314eade = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_5b48b55eb73f1c49369ebd2221446b5b939a52155500337f4d26cdb41314eade->enter($__internal_5b48b55eb73f1c49369ebd2221446b5b939a52155500337f4d26cdb41314eade_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
+        $__internal_3683fb33cc3ed326bdb5f07eb39963b5557735a23f6e3ee57f93607541a37696 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_3683fb33cc3ed326bdb5f07eb39963b5557735a23f6e3ee57f93607541a37696->enter($__internal_3683fb33cc3ed326bdb5f07eb39963b5557735a23f6e3ee57f93607541a37696_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
 
         // line 3
         echo "    <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css\" integrity=\"sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u\" crossorigin=\"anonymous\">
@@ -116,9 +116,19 @@ class __TwigTemplate_3e074b839a6387912e40bffb061815b2b0d639854d824aa79b96e1aa763
         // line 4
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("bundles/psychomot/css/style.css"), "html", null, true);
         echo "\">
+    <style>
+        .btn-primary {
+            background-color: #82bdb5 ;
+            color: lightblue;
+        }
+        .card-img-top{
+            margin-bottom: 25px;
+        }
+
+    </style>
 ";
         
-        $__internal_5b48b55eb73f1c49369ebd2221446b5b939a52155500337f4d26cdb41314eade->leave($__internal_5b48b55eb73f1c49369ebd2221446b5b939a52155500337f4d26cdb41314eade_prof);
+        $__internal_3683fb33cc3ed326bdb5f07eb39963b5557735a23f6e3ee57f93607541a37696->leave($__internal_3683fb33cc3ed326bdb5f07eb39963b5557735a23f6e3ee57f93607541a37696_prof);
 
     }
 
@@ -134,7 +144,7 @@ class __TwigTemplate_3e074b839a6387912e40bffb061815b2b0d639854d824aa79b96e1aa763
 
     public function getDebugInfo()
     {
-        return array (  117 => 4,  114 => 3,  108 => 2,  89 => 36,  85 => 35,  74 => 27,  65 => 21,  60 => 19,  56 => 17,  50 => 15,  48 => 14,  44 => 13,  39 => 11,  36 => 10,  30 => 8,  28 => 7,  25 => 6,  23 => 2,);
+        return array (  117 => 4,  114 => 3,  108 => 2,  89 => 46,  85 => 45,  74 => 37,  65 => 31,  60 => 29,  56 => 27,  50 => 25,  48 => 24,  44 => 23,  39 => 21,  36 => 20,  30 => 18,  28 => 17,  25 => 16,  23 => 2,);
     }
 
     public function getSource()
@@ -143,13 +153,23 @@ class __TwigTemplate_3e074b839a6387912e40bffb061815b2b0d639854d824aa79b96e1aa763
 {% block stylesheets %}
     <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css\" integrity=\"sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u\" crossorigin=\"anonymous\">
     <link rel=\"stylesheet\" type=\"text/css\" href=\"{{ asset('bundles/psychomot/css/style.css') }}\">
+    <style>
+        .btn-primary {
+            background-color: #82bdb5 ;
+            color: lightblue;
+        }
+        .card-img-top{
+            margin-bottom: 25px;
+        }
+
+    </style>
 {% endblock %}
 
 {% if error %}
     <div>{{ error.messageKey|trans(error.messageData, 'security') }}</div>
 {% endif %}
-<div class=\"card border col-xs-offset-4 col-xs-4\">
-    <img class=\"card-img-top\" src=\"{{ asset('') }}\" alt=\"Card image cap\">
+<div class=\"card col-xs-offset-4 col-xs-4\">
+    <img class=\"card-img-top col-xs-offset-2\" src=\"{{ asset('bundles/psychomot/img/Logo250.png') }}\" alt=\"Card image cap\">
     <div class=\"card-block\">
         <form action=\"{{ path(\"fos_user_security_check\") }}\" method=\"post\">
         {% if csrf_token %}

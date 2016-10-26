@@ -669,6 +669,10 @@ h3 {
     background-color: #82bdb5 ;
     color: lightblue;
 }
+.card-img-top{
+    position: center;
+    padding: 25px 10px 25px 10px;
+}
 
 
 @media screen and (max-width: 625px)
