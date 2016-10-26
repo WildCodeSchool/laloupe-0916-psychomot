@@ -1,6 +1,6 @@
 <?php
 
-/* @WebProfiler/Profiler/base_js.html.twig */
+/* WebProfilerBundle:Profiler:base_js.html.twig */
 class __TwigTemplate_51221ea5f7364a15a917cca9e38ceb27b4462c49ca363805e04f566d39610706 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
@@ -15,8 +15,8 @@ class __TwigTemplate_51221ea5f7364a15a917cca9e38ceb27b4462c49ca363805e04f566d396
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_c42b2f82f13420a81065b33e86c1009f2d211f3edcf17c90a0cbc88c7322962b = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_c42b2f82f13420a81065b33e86c1009f2d211f3edcf17c90a0cbc88c7322962b->enter($__internal_c42b2f82f13420a81065b33e86c1009f2d211f3edcf17c90a0cbc88c7322962b_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Profiler/base_js.html.twig"));
+        $__internal_1dcbb0eb0ec9ac459f02b00db47ab40b3b6d694ff557bfdd8951ab610fdb00a2 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_1dcbb0eb0ec9ac459f02b00db47ab40b3b6d694ff557bfdd8951ab610fdb00a2->enter($__internal_1dcbb0eb0ec9ac459f02b00db47ab40b3b6d694ff557bfdd8951ab610fdb00a2_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "WebProfilerBundle:Profiler:base_js.html.twig"));
 
         // line 1
         echo "<script>/*<![CDATA[*/
@@ -488,13 +488,13 @@ class __TwigTemplate_51221ea5f7364a15a917cca9e38ceb27b4462c49ca363805e04f566d396
 /*]]>*/</script>
 ";
         
-        $__internal_c42b2f82f13420a81065b33e86c1009f2d211f3edcf17c90a0cbc88c7322962b->leave($__internal_c42b2f82f13420a81065b33e86c1009f2d211f3edcf17c90a0cbc88c7322962b_prof);
+        $__internal_1dcbb0eb0ec9ac459f02b00db47ab40b3b6d694ff557bfdd8951ab610fdb00a2->leave($__internal_1dcbb0eb0ec9ac459f02b00db47ab40b3b6d694ff557bfdd8951ab610fdb00a2_prof);
 
     }
 
     public function getTemplateName()
     {
-        return "@WebProfiler/Profiler/base_js.html.twig";
+        return "WebProfilerBundle:Profiler:base_js.html.twig";
     }
 
     public function isTraitable()

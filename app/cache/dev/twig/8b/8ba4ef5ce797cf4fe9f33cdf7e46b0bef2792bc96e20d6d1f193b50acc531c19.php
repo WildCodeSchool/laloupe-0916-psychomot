@@ -15,14 +15,14 @@ class __TwigTemplate_27da32ef12475514794ac08e636e9db2f56c0a4c500b2af3a7e2d8d3b63
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_2327b21268d76fef2d888dc8249c5fd8fce16b971eb326111fb9c411bb1ce012 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_2327b21268d76fef2d888dc8249c5fd8fce16b971eb326111fb9c411bb1ce012->enter($__internal_2327b21268d76fef2d888dc8249c5fd8fce16b971eb326111fb9c411bb1ce012_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "PsychomotBundle:Default:index.html.twig"));
+        $__internal_0b8c52633888b47f9c8ca5090acfab9c793634c2436fd31c6f38edfd26ec358b = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_0b8c52633888b47f9c8ca5090acfab9c793634c2436fd31c6f38edfd26ec358b->enter($__internal_0b8c52633888b47f9c8ca5090acfab9c793634c2436fd31c6f38edfd26ec358b_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "PsychomotBundle:Default:index.html.twig"));
 
         // line 1
         echo "Hello World!
 ";
         
-        $__internal_2327b21268d76fef2d888dc8249c5fd8fce16b971eb326111fb9c411bb1ce012->leave($__internal_2327b21268d76fef2d888dc8249c5fd8fce16b971eb326111fb9c411bb1ce012_prof);
+        $__internal_0b8c52633888b47f9c8ca5090acfab9c793634c2436fd31c6f38edfd26ec358b->leave($__internal_0b8c52633888b47f9c8ca5090acfab9c793634c2436fd31c6f38edfd26ec358b_prof);
 
     }
 
