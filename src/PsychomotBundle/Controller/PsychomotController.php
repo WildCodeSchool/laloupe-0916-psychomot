@@ -133,7 +133,7 @@ class PsychomotController extends Controller
             $subject = $Request->get("object");
             
             $message = "Vous avez reçu un message de :". $Request->get("lastname")." ".$Request->get("firstname")
-                ."\n". $Request->get("email") ."\n\n".$Request->get("message");
+                . "\n". $Request->get("email") ."\n\n".$Request->get("message");
             
             $message = \Swift_Message::newInstance('Test')
                 ->setSubject($subject)

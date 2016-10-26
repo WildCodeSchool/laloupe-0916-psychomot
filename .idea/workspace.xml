@@ -3,19 +3,24 @@
   <component name="ChangeListManager">
     <list default="true" id="49d6fcbf-4b81-4cd0-9090-58978d0c6471" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Security/login_content.html.twig" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Security/login_content.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/0d/5b5b435d50737963686f6d6f7442756e646c655c436f6e74726f6c6c65725c50737963686f6d6f74436f6e74726f6c6c65722365646974416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/annotations/0d/5b5b435d50737963686f6d6f7442756e646c655c436f6e74726f6c6c65725c50737963686f6d6f74436f6e74726f6c6c65722365646974416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/56/5b5b435d50737963686f6d6f7442756e646c655c436f6e74726f6c6c65725c50737963686f6d6f74436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/annotations/56/5b5b435d50737963686f6d6f7442756e646c655c436f6e74726f6c6c65725c50737963686f6d6f74436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/6c/5b5b435d50737963686f6d6f7442756e646c655c436f6e74726f6c6c65725c50737963686f6d6f74436f6e74726f6c6c657223696e646578416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/annotations/6c/5b5b435d50737963686f6d6f7442756e646c655c436f6e74726f6c6c65725c50737963686f6d6f74436f6e74726f6c6c657223696e646578416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/da/5b5b435d50737963686f6d6f7442756e646c655c436f6e74726f6c6c65725c50737963686f6d6f74436f6e74726f6c6c6572236d61696c416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/annotations/da/5b5b435d50737963686f6d6f7442756e646c655c436f6e74726f6c6c65725c50737963686f6d6f74436f6e74726f6c6c6572236d61696c416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/index.csv" afterPath="$PROJECT_DIR$/app/cache/dev/profiler/index.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/5f/5f2af5f3ebe3a6095b21e28ee9de82ef1c91a4febd99a707d3843182c49eb9e4.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/5f/5f2af5f3ebe3a6095b21e28ee9de82ef1c91a4febd99a707d3843182c49eb9e4.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/77/77a78f64f9ec41eba71b197fd898b6c84093e9df955e80223115aebf8f61b85e.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/77/77a78f64f9ec41eba71b197fd898b6c84093e9df955e80223115aebf8f61b85e.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/7d/7d875daade5b47d79128f5e7e4dad14432b4c80e71683d1533c675e9c900e3f1.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/7d/7d875daade5b47d79128f5e7e4dad14432b4c80e71683d1533c675e9c900e3f1.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/8b/8ba4ef5ce797cf4fe9f33cdf7e46b0bef2792bc96e20d6d1f193b50acc531c19.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/8b/8ba4ef5ce797cf4fe9f33cdf7e46b0bef2792bc96e20d6d1f193b50acc531c19.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/8c/8c3e80a7844b5fe480975a01a13cb9dff0ae080c1c23ab4a546378ad0b48af29.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/8c/8c3e80a7844b5fe480975a01a13cb9dff0ae080c1c23ab4a546378ad0b48af29.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/b3/b3efae3f940e0759cb01944d7b6e04b82d3bde0e30834a699023139e37f5e914.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/b3/b3efae3f940e0759cb01944d7b6e04b82d3bde0e30834a699023139e37f5e914.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/c6/c661386533fdeac355851ee91bc824797e8997439791f888541cc0afd8ef27a7.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/c6/c661386533fdeac355851ee91bc824797e8997439791f888541cc0afd8ef27a7.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/cf/cf744f6a25c9ae0553c7a4ea270c45f2801a9279e9ab9803c958ae413d0c3b3e.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/cf/cf744f6a25c9ae0553c7a4ea270c45f2801a9279e9ab9803c958ae413d0c3b3e.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/18/18c60ac49cfcbdcd04001d6921c1d60164e62abf2cdfcd0d354e52d82055986c.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/18/18c60ac49cfcbdcd04001d6921c1d60164e62abf2cdfcd0d354e52d82055986c.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/45/45f64f306fdfbd11c55621bea2752208a14d4f226e506e2d82b4781b439b0691.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/45/45f64f306fdfbd11c55621bea2752208a14d4f226e506e2d82b4781b439b0691.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/4d/4dce77efc0a52aee6444d3fe09a233cef39177adf105a0a08b0e87c4bdba34bf.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/4d/4dce77efc0a52aee6444d3fe09a233cef39177adf105a0a08b0e87c4bdba34bf.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/81/81f7f6aa419e3106fc12c59a146f732b3a2fbf6cc00f6a3a614abfadf9768482.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/81/81f7f6aa419e3106fc12c59a146f732b3a2fbf6cc00f6a3a614abfadf9768482.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/c7/c7a9818350d781596794d96ada1e667ba5c67b083525dda5bd2da7342b3e86ca.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/c7/c7a9818350d781596794d96ada1e667ba5c67b083525dda5bd2da7342b3e86ca.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/e9/e94e7e7d80d6101ea506d86f3159f8ae37829e4b2c8bb48e30c89578b5f4abdf.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/e9/e94e7e7d80d6101ea506d86f3159f8ae37829e4b2c8bb48e30c89578b5f4abdf.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/eb/eb23aaa9b9154bc432414f86f81c530c43e1dc452cc7ee2101bcf1de7e539167.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/eb/eb23aaa9b9154bc432414f86f81c530c43e1dc452cc7ee2101bcf1de7e539167.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/ec/ecf386871ce7b591aa98b39822a6949b1fa672ec106fbadaf7b41b87a781edfc.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/ec/ecf386871ce7b591aa98b39822a6949b1fa672ec106fbadaf7b41b87a781edfc.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/f5/f5de5452affe60566dfb6039708ca531f723b3fafd5a9d311956078f5f47c548.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/f5/f5de5452affe60566dfb6039708ca531f723b3fafd5a9d311956078f5f47c548.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/ff/ffa8e838699dea2763725a3aacb4b8b8c2efaf139a9e3b5a8924a3bf2ea3ffb7.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/ff/ffa8e838699dea2763725a3aacb4b8b8c2efaf139a9e3b5a8924a3bf2ea3ffb7.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/logs/dev.log" afterPath="$PROJECT_DIR$/app/logs/dev.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PsychomotBundle/Controller/PsychomotController.php" afterPath="$PROJECT_DIR$/src/PsychomotBundle/Controller/PsychomotController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PsychomotBundle/Resources/views/psychomot/index.html.twig" afterPath="$PROJECT_DIR$/src/PsychomotBundle/Resources/views/psychomot/index.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PsychomotBundle/Resources/views/psychomot/mail.html.twig" afterPath="$PROJECT_DIR$/src/PsychomotBundle/Resources/views/psychomot/mail.html.twig" />
     </list>
     <ignored path="laloupe-0916-psychomot.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,11 +55,19 @@
       <file leaf-file-name="login_content.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Security/login_content.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-              <folding>
-                <marker date="1477479298583" expanded="true" signature="43:587" ph="{% block stylesheets ...%}" />
-              </folding>
+            <state relative-caret-position="900">
+              <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-853">
+              <caret line="10" column="77" selection-start-line="10" selection-start-column="77" selection-end-line="10" selection-end-column="77" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -62,28 +75,8 @@
       <file leaf-file-name="PsychomotController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/PsychomotBundle/Controller/PsychomotController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="127" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PsychomotBundle/Resources/views/psychomot/index.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="226" column="45" selection-start-line="226" selection-start-column="45" selection-end-line="226" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PsychomotBundle/Resources/public/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="668" column="0" selection-start-line="668" selection-start-column="0" selection-end-line="669" selection-end-column="21" />
+            <state relative-caret-position="365">
+              <caret line="140" column="47" selection-start-line="140" selection-start-column="47" selection-end-line="140" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -114,10 +107,10 @@
         <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
         <option value="$PROJECT_DIR$/app/config/config.yml" />
         <option value="$PROJECT_DIR$/src/PsychomotBundle/Resources/public/css/style.css" />
-        <option value="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Security/login_content.html.twig" />
         <option value="$PROJECT_DIR$/src/PsychomotBundle/Resources/views/psychomot/mail.html.twig" />
-        <option value="$PROJECT_DIR$/src/PsychomotBundle/Controller/PsychomotController.php" />
         <option value="$PROJECT_DIR$/src/PsychomotBundle/Resources/views/psychomot/index.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Security/login_content.html.twig" />
+        <option value="$PROJECT_DIR$/src/PsychomotBundle/Controller/PsychomotController.php" />
       </list>
     </option>
   </component>
@@ -423,6 +416,24 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laloupe-0916-psychomot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laloupe-0916-psychomot" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -486,18 +497,18 @@
       <workItem from="1477041549477" duration="12981000" />
       <workItem from="1477295982540" duration="20176000" />
       <workItem from="1477378118939" duration="842000" />
-      <workItem from="1477405074341" duration="13822000" />
+      <workItem from="1477405074341" duration="16814000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47821000" />
+    <option name="totallyTimeSpent" value="50813000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="37" y="52" width="1329" height="716" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24707717" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24395947" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37037036" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -596,9 +607,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1477479298583" expanded="true" signature="43:587" ph="{% block stylesheets ...%}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -778,14 +787,6 @@
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Group/new.html.twig" />
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/layout.html.twig" />
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Security/login_content.html.twig" />
-    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -804,14 +805,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Group/new.html.twig" />
     <entry file="file://$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Security/login.html.twig">
       <provider selected="true" editor-type-id="text-editor">
@@ -823,26 +816,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/FOSUserBundle/views/layout.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="97" />
           <folding />
         </state>
       </provider>
@@ -863,24 +840,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PsychomotBundle/Resources/public/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="668" column="0" selection-start-line="668" selection-start-column="0" selection-end-line="669" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Security/login_content.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-          <folding>
-            <marker date="1477479298583" expanded="true" signature="43:587" ph="{% block stylesheets ...%}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/PsychomotBundle/Resources/views/psychomot/receiveMail.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -897,6 +856,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="62" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="48" column="46" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PsychomotBundle/Resources/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="668" column="0" selection-start-line="668" selection-start-column="0" selection-end-line="669" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/PsychomotBundle/Resources/views/psychomot/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -905,10 +896,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Security/login_content.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-853">
+          <caret line="10" column="77" selection-start-line="10" selection-start-column="77" selection-end-line="10" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/PsychomotBundle/Controller/PsychomotController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="127" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+        <state relative-caret-position="365">
+          <caret line="140" column="47" selection-start-line="140" selection-start-column="47" selection-end-line="140" selection-end-column="47" />
           <folding />
         </state>
       </provider>
