@@ -664,6 +664,11 @@ h3 {
 
 
 /*--FIN FOOTER--*/
+/*--PAGE LOGIN--*/
+.btn-primary{
+    background-color: #82bdb5 ;
+    color: lightblue;
+}
 
 
 @media screen and (max-width: 625px)

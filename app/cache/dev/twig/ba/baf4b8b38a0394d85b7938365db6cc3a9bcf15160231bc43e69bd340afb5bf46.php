@@ -22,23 +22,23 @@ class __TwigTemplate_3b8cfa9af8ba53d989005f54446cedb4e47e94ad19e8d5b2bff14a0df12
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_60c20699bc614ba0161c22d682bace1e03e105e9565ea57a8097b1e7050c2999 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_60c20699bc614ba0161c22d682bace1e03e105e9565ea57a8097b1e7050c2999->enter($__internal_60c20699bc614ba0161c22d682bace1e03e105e9565ea57a8097b1e7050c2999_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Collector/events.html.twig"));
+        $__internal_d9484e95ad137bd10ef56d61eef72064f29b2bcc31f6d9c29d93d9f7c6158708 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_d9484e95ad137bd10ef56d61eef72064f29b2bcc31f6d9c29d93d9f7c6158708->enter($__internal_d9484e95ad137bd10ef56d61eef72064f29b2bcc31f6d9c29d93d9f7c6158708_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Collector/events.html.twig"));
 
         // line 3
         $context["helper"] = $this;
         // line 1
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_60c20699bc614ba0161c22d682bace1e03e105e9565ea57a8097b1e7050c2999->leave($__internal_60c20699bc614ba0161c22d682bace1e03e105e9565ea57a8097b1e7050c2999_prof);
+        $__internal_d9484e95ad137bd10ef56d61eef72064f29b2bcc31f6d9c29d93d9f7c6158708->leave($__internal_d9484e95ad137bd10ef56d61eef72064f29b2bcc31f6d9c29d93d9f7c6158708_prof);
 
     }
 
     // line 5
     public function block_menu($context, array $blocks = array())
     {
-        $__internal_4a7a46c69b877e5f417245c6e731b5c1f6d3e39ff7489b9110fbe5737a260e83 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_4a7a46c69b877e5f417245c6e731b5c1f6d3e39ff7489b9110fbe5737a260e83->enter($__internal_4a7a46c69b877e5f417245c6e731b5c1f6d3e39ff7489b9110fbe5737a260e83_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "menu"));
+        $__internal_b5beeaa17be57a4473070727e49b0d122b6b6a106027e8372a65569ba32d9b10 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_b5beeaa17be57a4473070727e49b0d122b6b6a106027e8372a65569ba32d9b10->enter($__internal_b5beeaa17be57a4473070727e49b0d122b6b6a106027e8372a65569ba32d9b10_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "menu"));
 
         // line 6
         echo "<span class=\"label\">
@@ -50,15 +50,15 @@ class __TwigTemplate_3b8cfa9af8ba53d989005f54446cedb4e47e94ad19e8d5b2bff14a0df12
 </span>
 ";
         
-        $__internal_4a7a46c69b877e5f417245c6e731b5c1f6d3e39ff7489b9110fbe5737a260e83->leave($__internal_4a7a46c69b877e5f417245c6e731b5c1f6d3e39ff7489b9110fbe5737a260e83_prof);
+        $__internal_b5beeaa17be57a4473070727e49b0d122b6b6a106027e8372a65569ba32d9b10->leave($__internal_b5beeaa17be57a4473070727e49b0d122b6b6a106027e8372a65569ba32d9b10_prof);
 
     }
 
     // line 12
     public function block_panel($context, array $blocks = array())
     {
-        $__internal_79a2bd86538fbbd61707f097b88eaefd4b26b787632ba4f219a3afb9feaf73c5 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_79a2bd86538fbbd61707f097b88eaefd4b26b787632ba4f219a3afb9feaf73c5->enter($__internal_79a2bd86538fbbd61707f097b88eaefd4b26b787632ba4f219a3afb9feaf73c5_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "panel"));
+        $__internal_95b8d790dfe264fbe365a8ff688dedb4ef2cf5090ee1d4325962d3bc8eb5cd33 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_95b8d790dfe264fbe365a8ff688dedb4ef2cf5090ee1d4325962d3bc8eb5cd33->enter($__internal_95b8d790dfe264fbe365a8ff688dedb4ef2cf5090ee1d4325962d3bc8eb5cd33_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "panel"));
 
         // line 13
         echo "    <h2>Event Dispatcher</h2>
@@ -123,7 +123,7 @@ class __TwigTemplate_3b8cfa9af8ba53d989005f54446cedb4e47e94ad19e8d5b2bff14a0df12
     ";
         }
         
-        $__internal_79a2bd86538fbbd61707f097b88eaefd4b26b787632ba4f219a3afb9feaf73c5->leave($__internal_79a2bd86538fbbd61707f097b88eaefd4b26b787632ba4f219a3afb9feaf73c5_prof);
+        $__internal_95b8d790dfe264fbe365a8ff688dedb4ef2cf5090ee1d4325962d3bc8eb5cd33->leave($__internal_95b8d790dfe264fbe365a8ff688dedb4ef2cf5090ee1d4325962d3bc8eb5cd33_prof);
 
     }
 
@@ -139,8 +139,8 @@ class __TwigTemplate_3b8cfa9af8ba53d989005f54446cedb4e47e94ad19e8d5b2bff14a0df12
 
         ob_start();
         try {
-            $__internal_0cb5b13b4839d883e75010d6de1f109f5c5ec34b62266ffd7c14d63e2932a27e = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-            $__internal_0cb5b13b4839d883e75010d6de1f109f5c5ec34b62266ffd7c14d63e2932a27e->enter($__internal_0cb5b13b4839d883e75010d6de1f109f5c5ec34b62266ffd7c14d63e2932a27e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "macro", "render_table"));
+            $__internal_f183aa4a9dfa86c4aef39031a5dbfc6d1ac7b99c62d2ddcd7e0fa300c5b8bae1 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+            $__internal_f183aa4a9dfa86c4aef39031a5dbfc6d1ac7b99c62d2ddcd7e0fa300c5b8bae1->enter($__internal_f183aa4a9dfa86c4aef39031a5dbfc6d1ac7b99c62d2ddcd7e0fa300c5b8bae1_prof = new Twig_Profiler_Profile($this->getTemplateName(), "macro", "render_table"));
 
             // line 53
             echo "    <table>
@@ -330,7 +330,7 @@ $context["listener"], "type", array()) == "Method")) {
             echo "    </table>
 ";
             
-            $__internal_0cb5b13b4839d883e75010d6de1f109f5c5ec34b62266ffd7c14d63e2932a27e->leave($__internal_0cb5b13b4839d883e75010d6de1f109f5c5ec34b62266ffd7c14d63e2932a27e_prof);
+            $__internal_f183aa4a9dfa86c4aef39031a5dbfc6d1ac7b99c62d2ddcd7e0fa300c5b8bae1->leave($__internal_f183aa4a9dfa86c4aef39031a5dbfc6d1ac7b99c62d2ddcd7e0fa300c5b8bae1_prof);
 
         } catch (Exception $e) {
             ob_end_clean();
