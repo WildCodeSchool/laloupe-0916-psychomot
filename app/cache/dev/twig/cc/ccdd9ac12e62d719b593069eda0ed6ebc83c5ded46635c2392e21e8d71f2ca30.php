@@ -15,13 +15,8 @@ class __TwigTemplate_51edca61352b21a37a5937734f8b1c6a0621bff872dd9e3c5ca94ed4542
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-<<<<<<< HEAD
-        $__internal_32421c4dcf7135e3cf34d5cdacfa25df9a1181486e7c59d92bd7e392436b5aab = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_32421c4dcf7135e3cf34d5cdacfa25df9a1181486e7c59d92bd7e392436b5aab->enter($__internal_32421c4dcf7135e3cf34d5cdacfa25df9a1181486e7c59d92bd7e392436b5aab_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/FormTable/form_widget_compound.html.php"));
-=======
-        $__internal_4539953dc9c29deeee04f3852b56350a487e84aea0677cc11e73ccb6a897f759 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_4539953dc9c29deeee04f3852b56350a487e84aea0677cc11e73ccb6a897f759->enter($__internal_4539953dc9c29deeee04f3852b56350a487e84aea0677cc11e73ccb6a897f759_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/FormTable/form_widget_compound.html.php"));
->>>>>>> flo
+        $__internal_902e7ac6decad3ec78390534e897ec215be9a7ba42641e4e69a868930923e1d1 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_902e7ac6decad3ec78390534e897ec215be9a7ba42641e4e69a868930923e1d1->enter($__internal_902e7ac6decad3ec78390534e897ec215be9a7ba42641e4e69a868930923e1d1_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/FormTable/form_widget_compound.html.php"));
 
         // line 1
         echo "<table <?php echo \$view['form']->block(\$form, 'widget_container_attributes') ?>>
@@ -37,11 +32,7 @@ class __TwigTemplate_51edca61352b21a37a5937734f8b1c6a0621bff872dd9e3c5ca94ed4542
 </table>
 ";
         
-<<<<<<< HEAD
-        $__internal_32421c4dcf7135e3cf34d5cdacfa25df9a1181486e7c59d92bd7e392436b5aab->leave($__internal_32421c4dcf7135e3cf34d5cdacfa25df9a1181486e7c59d92bd7e392436b5aab_prof);
-=======
-        $__internal_4539953dc9c29deeee04f3852b56350a487e84aea0677cc11e73ccb6a897f759->leave($__internal_4539953dc9c29deeee04f3852b56350a487e84aea0677cc11e73ccb6a897f759_prof);
->>>>>>> flo
+        $__internal_902e7ac6decad3ec78390534e897ec215be9a7ba42641e4e69a868930923e1d1->leave($__internal_902e7ac6decad3ec78390534e897ec215be9a7ba42641e4e69a868930923e1d1_prof);
 
     }
 

@@ -15,13 +15,8 @@ class __TwigTemplate_1901a1224ad6b2fc7ad6d96bdc8a6105cb2f6dd6970fb2235cf0389892c
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-<<<<<<< HEAD
-        $__internal_1c6e0004107f7476926b0de962718a5b3a8244eb01e999992df159b3de6378a9 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_1c6e0004107f7476926b0de962718a5b3a8244eb01e999992df159b3de6378a9->enter($__internal_1c6e0004107f7476926b0de962718a5b3a8244eb01e999992df159b3de6378a9_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/checkbox_widget.html.php"));
-=======
-        $__internal_835aed8d89075d1da4f3979ff4544ad244c18e7bf035ff0d60f255f2036bfc88 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_835aed8d89075d1da4f3979ff4544ad244c18e7bf035ff0d60f255f2036bfc88->enter($__internal_835aed8d89075d1da4f3979ff4544ad244c18e7bf035ff0d60f255f2036bfc88_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/checkbox_widget.html.php"));
->>>>>>> flo
+        $__internal_1f988a5469538ab2d873ae1ad04ebf9169deab7f4d336cb6684950f494b2b0a0 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_1f988a5469538ab2d873ae1ad04ebf9169deab7f4d336cb6684950f494b2b0a0->enter($__internal_1f988a5469538ab2d873ae1ad04ebf9169deab7f4d336cb6684950f494b2b0a0_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/checkbox_widget.html.php"));
 
         // line 1
         echo "<input type=\"checkbox\"
@@ -31,11 +26,7 @@ class __TwigTemplate_1901a1224ad6b2fc7ad6d96bdc8a6105cb2f6dd6970fb2235cf0389892c
 />
 ";
         
-<<<<<<< HEAD
-        $__internal_1c6e0004107f7476926b0de962718a5b3a8244eb01e999992df159b3de6378a9->leave($__internal_1c6e0004107f7476926b0de962718a5b3a8244eb01e999992df159b3de6378a9_prof);
-=======
-        $__internal_835aed8d89075d1da4f3979ff4544ad244c18e7bf035ff0d60f255f2036bfc88->leave($__internal_835aed8d89075d1da4f3979ff4544ad244c18e7bf035ff0d60f255f2036bfc88_prof);
->>>>>>> flo
+        $__internal_1f988a5469538ab2d873ae1ad04ebf9169deab7f4d336cb6684950f494b2b0a0->leave($__internal_1f988a5469538ab2d873ae1ad04ebf9169deab7f4d336cb6684950f494b2b0a0_prof);
 
     }
 

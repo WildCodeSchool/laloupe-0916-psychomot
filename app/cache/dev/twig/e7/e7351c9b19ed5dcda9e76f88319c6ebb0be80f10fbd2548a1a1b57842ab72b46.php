@@ -15,13 +15,8 @@ class __TwigTemplate_01cfba4ca79f5bc9c6431428a67196f4e6cf95b1d5cb1f65d2908da61e6
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-<<<<<<< HEAD
-        $__internal_a12d17422a708f319258cfb84df8bc212f18fd925f339844b3bb6d2a6b2f3e11 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_a12d17422a708f319258cfb84df8bc212f18fd925f339844b3bb6d2a6b2f3e11->enter($__internal_a12d17422a708f319258cfb84df8bc212f18fd925f339844b3bb6d2a6b2f3e11_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/form_label.html.php"));
-=======
-        $__internal_180ffcf973de1275ac487bc6cd84abca9737dba6decdb9060c0b72ac872c03ce = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_180ffcf973de1275ac487bc6cd84abca9737dba6decdb9060c0b72ac872c03ce->enter($__internal_180ffcf973de1275ac487bc6cd84abca9737dba6decdb9060c0b72ac872c03ce_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/form_label.html.php"));
->>>>>>> flo
+        $__internal_a6c7504ed590f045ba80a468af527601e28d0ee41d934ce258100d09dcc5732e = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_a6c7504ed590f045ba80a468af527601e28d0ee41d934ce258100d09dcc5732e->enter($__internal_a6c7504ed590f045ba80a468af527601e28d0ee41d934ce258100d09dcc5732e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/form_label.html.php"));
 
         // line 1
         echo "<?php if (false !== \$label): ?>
@@ -34,11 +29,7 @@ class __TwigTemplate_01cfba4ca79f5bc9c6431428a67196f4e6cf95b1d5cb1f65d2908da61e6
 <?php endif ?>
 ";
         
-<<<<<<< HEAD
-        $__internal_a12d17422a708f319258cfb84df8bc212f18fd925f339844b3bb6d2a6b2f3e11->leave($__internal_a12d17422a708f319258cfb84df8bc212f18fd925f339844b3bb6d2a6b2f3e11_prof);
-=======
-        $__internal_180ffcf973de1275ac487bc6cd84abca9737dba6decdb9060c0b72ac872c03ce->leave($__internal_180ffcf973de1275ac487bc6cd84abca9737dba6decdb9060c0b72ac872c03ce_prof);
->>>>>>> flo
+        $__internal_a6c7504ed590f045ba80a468af527601e28d0ee41d934ce258100d09dcc5732e->leave($__internal_a6c7504ed590f045ba80a468af527601e28d0ee41d934ce258100d09dcc5732e_prof);
 
     }
 

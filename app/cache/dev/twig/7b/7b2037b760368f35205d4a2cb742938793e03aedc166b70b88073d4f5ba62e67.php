@@ -15,23 +15,14 @@ class __TwigTemplate_a8905e4b62580e18419d6771bd38a50546ef0a2723db3dc0af44ff38677
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-<<<<<<< HEAD
-        $__internal_365b098f47e457ffd9f77af07c6210bcf75884a0b3a61aeaf3b6b8cabb80eb91 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_365b098f47e457ffd9f77af07c6210bcf75884a0b3a61aeaf3b6b8cabb80eb91->enter($__internal_365b098f47e457ffd9f77af07c6210bcf75884a0b3a61aeaf3b6b8cabb80eb91_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/number_widget.html.php"));
-=======
-        $__internal_30a8644e79b3c3be27b958b31ec5903e43a7b64da332e510368148ea5b28473e = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_30a8644e79b3c3be27b958b31ec5903e43a7b64da332e510368148ea5b28473e->enter($__internal_30a8644e79b3c3be27b958b31ec5903e43a7b64da332e510368148ea5b28473e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/number_widget.html.php"));
->>>>>>> flo
+        $__internal_613d6735d81b9790c1ac8ad073da8405f574f89a863a33259c3d7267dab20118 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_613d6735d81b9790c1ac8ad073da8405f574f89a863a33259c3d7267dab20118->enter($__internal_613d6735d81b9790c1ac8ad073da8405f574f89a863a33259c3d7267dab20118_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/number_widget.html.php"));
 
         // line 1
         echo "<?php echo \$view['form']->block(\$form, 'form_widget_simple',  array('type' => isset(\$type) ? \$type : 'text')) ?>
 ";
         
-<<<<<<< HEAD
-        $__internal_365b098f47e457ffd9f77af07c6210bcf75884a0b3a61aeaf3b6b8cabb80eb91->leave($__internal_365b098f47e457ffd9f77af07c6210bcf75884a0b3a61aeaf3b6b8cabb80eb91_prof);
-=======
-        $__internal_30a8644e79b3c3be27b958b31ec5903e43a7b64da332e510368148ea5b28473e->leave($__internal_30a8644e79b3c3be27b958b31ec5903e43a7b64da332e510368148ea5b28473e_prof);
->>>>>>> flo
+        $__internal_613d6735d81b9790c1ac8ad073da8405f574f89a863a33259c3d7267dab20118->leave($__internal_613d6735d81b9790c1ac8ad073da8405f574f89a863a33259c3d7267dab20118_prof);
 
     }
 

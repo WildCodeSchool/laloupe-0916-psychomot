@@ -15,13 +15,8 @@ class __TwigTemplate_1d8e8ae06916a070feb73d168d9d971703f99ac85507717df7ca879c1a6
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-<<<<<<< HEAD
-        $__internal_4ed0713b20071ee09a875b5bd5c706f32c98bd12ac2b41278fcc358f37ed38c4 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_4ed0713b20071ee09a875b5bd5c706f32c98bd12ac2b41278fcc358f37ed38c4->enter($__internal_4ed0713b20071ee09a875b5bd5c706f32c98bd12ac2b41278fcc358f37ed38c4_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:error.xml.twig"));
-=======
-        $__internal_dc0386fd6e0a1a36a30610b8186114b378c5b9d93cfd8a079fa281e847a99ddb = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_dc0386fd6e0a1a36a30610b8186114b378c5b9d93cfd8a079fa281e847a99ddb->enter($__internal_dc0386fd6e0a1a36a30610b8186114b378c5b9d93cfd8a079fa281e847a99ddb_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:error.xml.twig"));
->>>>>>> flo
+        $__internal_b4800f0ddc229cfdf2b3b23008dec07cedc09de7f16852ff8886a88623c5958a = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_b4800f0ddc229cfdf2b3b23008dec07cedc09de7f16852ff8886a88623c5958a->enter($__internal_b4800f0ddc229cfdf2b3b23008dec07cedc09de7f16852ff8886a88623c5958a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:error.xml.twig"));
 
         // line 1
         echo "<?xml version=\"1.0\" encoding=\"";
@@ -36,11 +31,7 @@ class __TwigTemplate_1d8e8ae06916a070feb73d168d9d971703f99ac85507717df7ca879c1a6
         echo "\" />
 ";
         
-<<<<<<< HEAD
-        $__internal_4ed0713b20071ee09a875b5bd5c706f32c98bd12ac2b41278fcc358f37ed38c4->leave($__internal_4ed0713b20071ee09a875b5bd5c706f32c98bd12ac2b41278fcc358f37ed38c4_prof);
-=======
-        $__internal_dc0386fd6e0a1a36a30610b8186114b378c5b9d93cfd8a079fa281e847a99ddb->leave($__internal_dc0386fd6e0a1a36a30610b8186114b378c5b9d93cfd8a079fa281e847a99ddb_prof);
->>>>>>> flo
+        $__internal_b4800f0ddc229cfdf2b3b23008dec07cedc09de7f16852ff8886a88623c5958a->leave($__internal_b4800f0ddc229cfdf2b3b23008dec07cedc09de7f16852ff8886a88623c5958a_prof);
 
     }
 

@@ -1,6 +1,6 @@
 <?php
 
-/* @WebProfiler/Profiler/toolbar_js.html.twig */
+/* WebProfilerBundle:Profiler:toolbar_js.html.twig */
 class __TwigTemplate_d2a89de8b4db03229e5e85c894e51ab180beb108428d02f310fc2d13c7544c93 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
@@ -15,13 +15,8 @@ class __TwigTemplate_d2a89de8b4db03229e5e85c894e51ab180beb108428d02f310fc2d13c75
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-<<<<<<< HEAD
-        $__internal_26f0d93e7f43a3fe16391fdd159808e359bffb5aacebd3e6f17d1914ff716a39 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_26f0d93e7f43a3fe16391fdd159808e359bffb5aacebd3e6f17d1914ff716a39->enter($__internal_26f0d93e7f43a3fe16391fdd159808e359bffb5aacebd3e6f17d1914ff716a39_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Profiler/toolbar_js.html.twig"));
-=======
-        $__internal_6288d32539fb73191edfc0390a98d77d3894642a624961b93ff5bfa5b26191eb = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_6288d32539fb73191edfc0390a98d77d3894642a624961b93ff5bfa5b26191eb->enter($__internal_6288d32539fb73191edfc0390a98d77d3894642a624961b93ff5bfa5b26191eb_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Profiler/toolbar_js.html.twig"));
->>>>>>> flo
+        $__internal_b64d9dff37389622eeeea875585fd32bd3ef09474594da4d0493606d48e1a0c9 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_b64d9dff37389622eeeea875585fd32bd3ef09474594da4d0493606d48e1a0c9->enter($__internal_b64d9dff37389622eeeea875585fd32bd3ef09474594da4d0493606d48e1a0c9_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "WebProfilerBundle:Profiler:toolbar_js.html.twig"));
 
         // line 1
         echo "<div id=\"sfwdt";
@@ -135,17 +130,13 @@ class __TwigTemplate_d2a89de8b4db03229e5e85c894e51ab180beb108428d02f310fc2d13c75
 /*]]>*/</script>
 ";
         
-<<<<<<< HEAD
-        $__internal_26f0d93e7f43a3fe16391fdd159808e359bffb5aacebd3e6f17d1914ff716a39->leave($__internal_26f0d93e7f43a3fe16391fdd159808e359bffb5aacebd3e6f17d1914ff716a39_prof);
-=======
-        $__internal_6288d32539fb73191edfc0390a98d77d3894642a624961b93ff5bfa5b26191eb->leave($__internal_6288d32539fb73191edfc0390a98d77d3894642a624961b93ff5bfa5b26191eb_prof);
->>>>>>> flo
+        $__internal_b64d9dff37389622eeeea875585fd32bd3ef09474594da4d0493606d48e1a0c9->leave($__internal_b64d9dff37389622eeeea875585fd32bd3ef09474594da4d0493606d48e1a0c9_prof);
 
     }
 
     public function getTemplateName()
     {
-        return "@WebProfiler/Profiler/toolbar_js.html.twig";
+        return "WebProfilerBundle:Profiler:toolbar_js.html.twig";
     }
 
     public function isTraitable()

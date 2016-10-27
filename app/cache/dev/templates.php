@@ -110,7 +110,7 @@
   'FOSUserBundle:Resetting:reset_content.html.twig' => '/var/www/html/laloupe-0916-psychomot/vendor/friendsofsymfony/user-bundle/Resources/views/Resetting/reset_content.html.twig',
   'FOSUserBundle:Resetting:email.txt.twig' => '/var/www/html/laloupe-0916-psychomot/vendor/friendsofsymfony/user-bundle/Resources/views/Resetting/email.txt.twig',
   'FOSUserBundle:Resetting:request_content.html.twig' => '/var/www/html/laloupe-0916-psychomot/vendor/friendsofsymfony/user-bundle/Resources/views/Resetting/request_content.html.twig',
-  'FOSUserBundle::layout.html.twig' => '/var/www/html/laloupe-0916-psychomot/app/Resources/FOSUserBundle/views/layout.html.twig',
+  'FOSUserBundle::layout.html.twig' => '/var/www/html/laloupe-0916-psychomot/vendor/friendsofsymfony/user-bundle/Resources/views/layout.html.twig',
   'FOSUserBundle:ChangePassword:change_password_content.html.twig' => '/var/www/html/laloupe-0916-psychomot/vendor/friendsofsymfony/user-bundle/Resources/views/ChangePassword/change_password_content.html.twig',
   'FOSUserBundle:ChangePassword:change_password.html.twig' => '/var/www/html/laloupe-0916-psychomot/vendor/friendsofsymfony/user-bundle/Resources/views/ChangePassword/change_password.html.twig',
   'DebugBundle:Profiler:dump.html.twig' => '/var/www/html/laloupe-0916-psychomot/vendor/symfony/symfony/src/Symfony/Bundle/DebugBundle/Resources/views/Profiler/dump.html.twig',

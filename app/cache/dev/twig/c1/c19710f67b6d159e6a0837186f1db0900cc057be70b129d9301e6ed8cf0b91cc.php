@@ -15,23 +15,14 @@ class __TwigTemplate_f19024e10ec6e67a957a96b02004975ad5394108ac2e940ba9b9e5c8bc5
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-<<<<<<< HEAD
-        $__internal_c7ac02cc1b6e02702692c1d96d16b1b9181871a06d389f76f6e01f77cf4049e1 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_c7ac02cc1b6e02702692c1d96d16b1b9181871a06d389f76f6e01f77cf4049e1->enter($__internal_c7ac02cc1b6e02702692c1d96d16b1b9181871a06d389f76f6e01f77cf4049e1_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/submit_widget.html.php"));
-=======
-        $__internal_9369c30286af417e1b0d43551520617196aa5c6e6d6dc1c1b55f1caf46fe84c7 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_9369c30286af417e1b0d43551520617196aa5c6e6d6dc1c1b55f1caf46fe84c7->enter($__internal_9369c30286af417e1b0d43551520617196aa5c6e6d6dc1c1b55f1caf46fe84c7_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/submit_widget.html.php"));
->>>>>>> flo
+        $__internal_3afbf6d312775969262d9276e04edd0cf1a607e559d0bedb2b4595c2ec54452c = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_3afbf6d312775969262d9276e04edd0cf1a607e559d0bedb2b4595c2ec54452c->enter($__internal_3afbf6d312775969262d9276e04edd0cf1a607e559d0bedb2b4595c2ec54452c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/submit_widget.html.php"));
 
         // line 1
         echo "<?php echo \$view['form']->block(\$form, 'button_widget',  array('type' => isset(\$type) ? \$type : 'submit')) ?>
 ";
         
-<<<<<<< HEAD
-        $__internal_c7ac02cc1b6e02702692c1d96d16b1b9181871a06d389f76f6e01f77cf4049e1->leave($__internal_c7ac02cc1b6e02702692c1d96d16b1b9181871a06d389f76f6e01f77cf4049e1_prof);
-=======
-        $__internal_9369c30286af417e1b0d43551520617196aa5c6e6d6dc1c1b55f1caf46fe84c7->leave($__internal_9369c30286af417e1b0d43551520617196aa5c6e6d6dc1c1b55f1caf46fe84c7_prof);
->>>>>>> flo
+        $__internal_3afbf6d312775969262d9276e04edd0cf1a607e559d0bedb2b4595c2ec54452c->leave($__internal_3afbf6d312775969262d9276e04edd0cf1a607e559d0bedb2b4595c2ec54452c_prof);
 
     }
 

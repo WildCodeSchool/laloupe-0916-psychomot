@@ -15,23 +15,14 @@ class __TwigTemplate_27da32ef12475514794ac08e636e9db2f56c0a4c500b2af3a7e2d8d3b63
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-<<<<<<< HEAD
-        $__internal_044ac49af25ee10002b119842ef9331fa29da676260f27f97d308b57bb756d4a = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_044ac49af25ee10002b119842ef9331fa29da676260f27f97d308b57bb756d4a->enter($__internal_044ac49af25ee10002b119842ef9331fa29da676260f27f97d308b57bb756d4a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "PsychomotBundle:Default:index.html.twig"));
-=======
-        $__internal_8624465cf36c3b9008dd0daf4511920b8f5de29cff1d35e78a925a2997b8055b = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_8624465cf36c3b9008dd0daf4511920b8f5de29cff1d35e78a925a2997b8055b->enter($__internal_8624465cf36c3b9008dd0daf4511920b8f5de29cff1d35e78a925a2997b8055b_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "PsychomotBundle:Default:index.html.twig"));
->>>>>>> flo
+        $__internal_38198aea08052ef393f0a0ea0db3ef528d11cdc216a644807993d6d6fd31bcd6 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_38198aea08052ef393f0a0ea0db3ef528d11cdc216a644807993d6d6fd31bcd6->enter($__internal_38198aea08052ef393f0a0ea0db3ef528d11cdc216a644807993d6d6fd31bcd6_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "PsychomotBundle:Default:index.html.twig"));
 
         // line 1
         echo "Hello World!
 ";
         
-<<<<<<< HEAD
-        $__internal_044ac49af25ee10002b119842ef9331fa29da676260f27f97d308b57bb756d4a->leave($__internal_044ac49af25ee10002b119842ef9331fa29da676260f27f97d308b57bb756d4a_prof);
-=======
-        $__internal_8624465cf36c3b9008dd0daf4511920b8f5de29cff1d35e78a925a2997b8055b->leave($__internal_8624465cf36c3b9008dd0daf4511920b8f5de29cff1d35e78a925a2997b8055b_prof);
->>>>>>> flo
+        $__internal_38198aea08052ef393f0a0ea0db3ef528d11cdc216a644807993d6d6fd31bcd6->leave($__internal_38198aea08052ef393f0a0ea0db3ef528d11cdc216a644807993d6d6fd31bcd6_prof);
 
     }
 

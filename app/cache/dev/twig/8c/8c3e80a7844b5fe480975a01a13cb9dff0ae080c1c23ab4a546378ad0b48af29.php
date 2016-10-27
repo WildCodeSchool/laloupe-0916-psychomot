@@ -15,13 +15,8 @@ class __TwigTemplate_faa50f2944923916e4ac97edeb8c9d86b6f848e6b782e3a581b0d3f7d49
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-<<<<<<< HEAD
-        $__internal_40c3c390aa07125051e11b7f8050eb669811e6236608b8ad0871fed1e95997cb = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_40c3c390aa07125051e11b7f8050eb669811e6236608b8ad0871fed1e95997cb->enter($__internal_40c3c390aa07125051e11b7f8050eb669811e6236608b8ad0871fed1e95997cb_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "PsychomotBundle:psychomot:mail.html.twig"));
-=======
-        $__internal_bc7a00fec4d58ccca41f8d8293becaedeec0146f48f7bf5647279fbd27ea3b0c = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_bc7a00fec4d58ccca41f8d8293becaedeec0146f48f7bf5647279fbd27ea3b0c->enter($__internal_bc7a00fec4d58ccca41f8d8293becaedeec0146f48f7bf5647279fbd27ea3b0c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "PsychomotBundle:psychomot:mail.html.twig"));
->>>>>>> flo
+        $__internal_132eec7103f397f9c3b8daeabdc7a3066190f23be1b2bcda7f030566737022d1 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_132eec7103f397f9c3b8daeabdc7a3066190f23be1b2bcda7f030566737022d1->enter($__internal_132eec7103f397f9c3b8daeabdc7a3066190f23be1b2bcda7f030566737022d1_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "PsychomotBundle:psychomot:mail.html.twig"));
 
         // line 1
         echo "<html>
@@ -35,11 +30,7 @@ class __TwigTemplate_faa50f2944923916e4ac97edeb8c9d86b6f848e6b782e3a581b0d3f7d49
 
 ";
         
-<<<<<<< HEAD
-        $__internal_40c3c390aa07125051e11b7f8050eb669811e6236608b8ad0871fed1e95997cb->leave($__internal_40c3c390aa07125051e11b7f8050eb669811e6236608b8ad0871fed1e95997cb_prof);
-=======
-        $__internal_bc7a00fec4d58ccca41f8d8293becaedeec0146f48f7bf5647279fbd27ea3b0c->leave($__internal_bc7a00fec4d58ccca41f8d8293becaedeec0146f48f7bf5647279fbd27ea3b0c_prof);
->>>>>>> flo
+        $__internal_132eec7103f397f9c3b8daeabdc7a3066190f23be1b2bcda7f030566737022d1->leave($__internal_132eec7103f397f9c3b8daeabdc7a3066190f23be1b2bcda7f030566737022d1_prof);
 
     }
 

@@ -15,13 +15,8 @@ class __TwigTemplate_0a396e70e66dd8386f1659bfaa9c08cf38885f118da49011c614033c3be
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-<<<<<<< HEAD
-        $__internal_b902bcbe8fe8ccfef0e5abfda879f75bb16c4b782cd41cbe9147d74e14b10822 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_b902bcbe8fe8ccfef0e5abfda879f75bb16c4b782cd41cbe9147d74e14b10822->enter($__internal_b902bcbe8fe8ccfef0e5abfda879f75bb16c4b782cd41cbe9147d74e14b10822_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/button_attributes.html.php"));
-=======
-        $__internal_ad7c85eda27547f029024d86a4520424c7b311d220d245a177969b5f3fcfc323 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_ad7c85eda27547f029024d86a4520424c7b311d220d245a177969b5f3fcfc323->enter($__internal_ad7c85eda27547f029024d86a4520424c7b311d220d245a177969b5f3fcfc323_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/button_attributes.html.php"));
->>>>>>> flo
+        $__internal_edcac78658c058884b2d130bd2b372a1d0292bf366a93b2fb5dcdc7ac95cddd2 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_edcac78658c058884b2d130bd2b372a1d0292bf366a93b2fb5dcdc7ac95cddd2->enter($__internal_edcac78658c058884b2d130bd2b372a1d0292bf366a93b2fb5dcdc7ac95cddd2_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/button_attributes.html.php"));
 
         // line 1
         echo "id=\"<?php echo \$view->escape(\$id) ?>\" name=\"<?php echo \$view->escape(\$full_name) ?>\" <?php if (\$disabled): ?>disabled=\"disabled\" <?php endif ?>
@@ -36,11 +31,7 @@ class __TwigTemplate_0a396e70e66dd8386f1659bfaa9c08cf38885f118da49011c614033c3be
 <?php endforeach ?>
 ";
         
-<<<<<<< HEAD
-        $__internal_b902bcbe8fe8ccfef0e5abfda879f75bb16c4b782cd41cbe9147d74e14b10822->leave($__internal_b902bcbe8fe8ccfef0e5abfda879f75bb16c4b782cd41cbe9147d74e14b10822_prof);
-=======
-        $__internal_ad7c85eda27547f029024d86a4520424c7b311d220d245a177969b5f3fcfc323->leave($__internal_ad7c85eda27547f029024d86a4520424c7b311d220d245a177969b5f3fcfc323_prof);
->>>>>>> flo
+        $__internal_edcac78658c058884b2d130bd2b372a1d0292bf366a93b2fb5dcdc7ac95cddd2->leave($__internal_edcac78658c058884b2d130bd2b372a1d0292bf366a93b2fb5dcdc7ac95cddd2_prof);
 
     }
 

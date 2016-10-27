@@ -15,13 +15,8 @@ class __TwigTemplate_2dcbfa4b3bb4148b8b7800fd24c58bc7db0aaf46bec99437fed5f9e4f5c
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-<<<<<<< HEAD
-        $__internal_ce6c4566cf40833940f7abcc03d5516187e24ea5f21f58f7999e6d7d2ee81a57 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_ce6c4566cf40833940f7abcc03d5516187e24ea5f21f58f7999e6d7d2ee81a57->enter($__internal_ce6c4566cf40833940f7abcc03d5516187e24ea5f21f58f7999e6d7d2ee81a57_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Icon/router.svg"));
-=======
-        $__internal_933f5c6b759a667a58db3df309623fa6940f2e687a19b10e35ae088ae2543811 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_933f5c6b759a667a58db3df309623fa6940f2e687a19b10e35ae088ae2543811->enter($__internal_933f5c6b759a667a58db3df309623fa6940f2e687a19b10e35ae088ae2543811_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Icon/router.svg"));
->>>>>>> flo
+        $__internal_d7fa1c901e4725be4d3bd07c8fb003ed63ca12f65cfe15bc218d1860bd4c7b96 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_d7fa1c901e4725be4d3bd07c8fb003ed63ca12f65cfe15bc218d1860bd4c7b96->enter($__internal_d7fa1c901e4725be4d3bd07c8fb003ed63ca12f65cfe15bc218d1860bd4c7b96_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Icon/router.svg"));
 
         // line 1
         echo "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" enable-background=\"new 0 0 24 24\" xml:space=\"preserve\">
@@ -32,11 +27,7 @@ class __TwigTemplate_2dcbfa4b3bb4148b8b7800fd24c58bc7db0aaf46bec99437fed5f9e4f5c
 </svg>
 ";
         
-<<<<<<< HEAD
-        $__internal_ce6c4566cf40833940f7abcc03d5516187e24ea5f21f58f7999e6d7d2ee81a57->leave($__internal_ce6c4566cf40833940f7abcc03d5516187e24ea5f21f58f7999e6d7d2ee81a57_prof);
-=======
-        $__internal_933f5c6b759a667a58db3df309623fa6940f2e687a19b10e35ae088ae2543811->leave($__internal_933f5c6b759a667a58db3df309623fa6940f2e687a19b10e35ae088ae2543811_prof);
->>>>>>> flo
+        $__internal_d7fa1c901e4725be4d3bd07c8fb003ed63ca12f65cfe15bc218d1860bd4c7b96->leave($__internal_d7fa1c901e4725be4d3bd07c8fb003ed63ca12f65cfe15bc218d1860bd4c7b96_prof);
 
     }
 

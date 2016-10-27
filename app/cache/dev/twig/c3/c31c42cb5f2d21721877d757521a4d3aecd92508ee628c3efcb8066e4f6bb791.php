@@ -1,6 +1,6 @@
 <?php
 
-/* @WebProfiler/Profiler/base_js.html.twig */
+/* WebProfilerBundle:Profiler:base_js.html.twig */
 class __TwigTemplate_51221ea5f7364a15a917cca9e38ceb27b4462c49ca363805e04f566d39610706 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
@@ -15,13 +15,8 @@ class __TwigTemplate_51221ea5f7364a15a917cca9e38ceb27b4462c49ca363805e04f566d396
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-<<<<<<< HEAD
-        $__internal_19627b2812dca1884e2e2106e29f6d89afba1b53f67e6aa1ccbb59c39efdd3f4 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_19627b2812dca1884e2e2106e29f6d89afba1b53f67e6aa1ccbb59c39efdd3f4->enter($__internal_19627b2812dca1884e2e2106e29f6d89afba1b53f67e6aa1ccbb59c39efdd3f4_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Profiler/base_js.html.twig"));
-=======
-        $__internal_a7cf8982acdb481927be7b2de171e38e19fc6090b7c8609596446aa3794f5ac3 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_a7cf8982acdb481927be7b2de171e38e19fc6090b7c8609596446aa3794f5ac3->enter($__internal_a7cf8982acdb481927be7b2de171e38e19fc6090b7c8609596446aa3794f5ac3_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Profiler/base_js.html.twig"));
->>>>>>> flo
+        $__internal_8d52bc30d21d85995a964eacf730ab45c60d6bafcf2ca04fe4ec1a5aa4f262e6 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_8d52bc30d21d85995a964eacf730ab45c60d6bafcf2ca04fe4ec1a5aa4f262e6->enter($__internal_8d52bc30d21d85995a964eacf730ab45c60d6bafcf2ca04fe4ec1a5aa4f262e6_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "WebProfilerBundle:Profiler:base_js.html.twig"));
 
         // line 1
         echo "<script>/*<![CDATA[*/
@@ -493,17 +488,13 @@ class __TwigTemplate_51221ea5f7364a15a917cca9e38ceb27b4462c49ca363805e04f566d396
 /*]]>*/</script>
 ";
         
-<<<<<<< HEAD
-        $__internal_19627b2812dca1884e2e2106e29f6d89afba1b53f67e6aa1ccbb59c39efdd3f4->leave($__internal_19627b2812dca1884e2e2106e29f6d89afba1b53f67e6aa1ccbb59c39efdd3f4_prof);
-=======
-        $__internal_a7cf8982acdb481927be7b2de171e38e19fc6090b7c8609596446aa3794f5ac3->leave($__internal_a7cf8982acdb481927be7b2de171e38e19fc6090b7c8609596446aa3794f5ac3_prof);
->>>>>>> flo
+        $__internal_8d52bc30d21d85995a964eacf730ab45c60d6bafcf2ca04fe4ec1a5aa4f262e6->leave($__internal_8d52bc30d21d85995a964eacf730ab45c60d6bafcf2ca04fe4ec1a5aa4f262e6_prof);
 
     }
 
     public function getTemplateName()
     {
-        return "@WebProfiler/Profiler/base_js.html.twig";
+        return "WebProfilerBundle:Profiler:base_js.html.twig";
     }
 
     public function isTraitable()

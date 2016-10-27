@@ -15,13 +15,8 @@ class __TwigTemplate_605539d61a9330a25b5dd4a5a54d7266979e535f76c9a1761b804756218
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-<<<<<<< HEAD
-        $__internal_4628d0b8028f23176c6a3a6b297f4d787a355af98efac8eeed5bc6ef5a105c83 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_4628d0b8028f23176c6a3a6b297f4d787a355af98efac8eeed5bc6ef5a105c83->enter($__internal_4628d0b8028f23176c6a3a6b297f4d787a355af98efac8eeed5bc6ef5a105c83_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:error.js.twig"));
-=======
-        $__internal_224fe777065b25da3f240454df400e2aafc59f1d50d579b7390067ded13c704f = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_224fe777065b25da3f240454df400e2aafc59f1d50d579b7390067ded13c704f->enter($__internal_224fe777065b25da3f240454df400e2aafc59f1d50d579b7390067ded13c704f_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:error.js.twig"));
->>>>>>> flo
+        $__internal_3b2fbf21f70470caad0bef45e90e1476df677a1bb86925aee2353174e1e10e23 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_3b2fbf21f70470caad0bef45e90e1476df677a1bb86925aee2353174e1e10e23->enter($__internal_3b2fbf21f70470caad0bef45e90e1476df677a1bb86925aee2353174e1e10e23_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:error.js.twig"));
 
         // line 1
         echo "/*
@@ -35,11 +30,7 @@ class __TwigTemplate_605539d61a9330a25b5dd4a5a54d7266979e535f76c9a1761b804756218
 */
 ";
         
-<<<<<<< HEAD
-        $__internal_4628d0b8028f23176c6a3a6b297f4d787a355af98efac8eeed5bc6ef5a105c83->leave($__internal_4628d0b8028f23176c6a3a6b297f4d787a355af98efac8eeed5bc6ef5a105c83_prof);
-=======
-        $__internal_224fe777065b25da3f240454df400e2aafc59f1d50d579b7390067ded13c704f->leave($__internal_224fe777065b25da3f240454df400e2aafc59f1d50d579b7390067ded13c704f_prof);
->>>>>>> flo
+        $__internal_3b2fbf21f70470caad0bef45e90e1476df677a1bb86925aee2353174e1e10e23->leave($__internal_3b2fbf21f70470caad0bef45e90e1476df677a1bb86925aee2353174e1e10e23_prof);
 
     }
 

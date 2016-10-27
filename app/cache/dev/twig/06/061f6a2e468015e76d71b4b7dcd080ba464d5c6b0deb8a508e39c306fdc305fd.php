@@ -15,23 +15,14 @@ class __TwigTemplate_b3c122f3b19a4b18a8ca80672f2a56944111f9442e0a13db81809287e18
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-<<<<<<< HEAD
-        $__internal_72b2e1927f10272b25c03faf36bf1d9bad617fc3089822a1775f2d9a1d9f34e3 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_72b2e1927f10272b25c03faf36bf1d9bad617fc3089822a1775f2d9a1d9f34e3->enter($__internal_72b2e1927f10272b25c03faf36bf1d9bad617fc3089822a1775f2d9a1d9f34e3_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/password_widget.html.php"));
-=======
-        $__internal_837cb9dfc8e7fbce22aa4b622ac769653c4827d559109739670068a2d35caf6e = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_837cb9dfc8e7fbce22aa4b622ac769653c4827d559109739670068a2d35caf6e->enter($__internal_837cb9dfc8e7fbce22aa4b622ac769653c4827d559109739670068a2d35caf6e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/password_widget.html.php"));
->>>>>>> flo
+        $__internal_8d1d5e315ce0b0e8d0ec55888d4a53cbb00e9115fb1127640422533728f01152 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_8d1d5e315ce0b0e8d0ec55888d4a53cbb00e9115fb1127640422533728f01152->enter($__internal_8d1d5e315ce0b0e8d0ec55888d4a53cbb00e9115fb1127640422533728f01152_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/password_widget.html.php"));
 
         // line 1
         echo "<?php echo \$view['form']->block(\$form, 'form_widget_simple',  array('type' => isset(\$type) ? \$type : 'password')) ?>
 ";
         
-<<<<<<< HEAD
-        $__internal_72b2e1927f10272b25c03faf36bf1d9bad617fc3089822a1775f2d9a1d9f34e3->leave($__internal_72b2e1927f10272b25c03faf36bf1d9bad617fc3089822a1775f2d9a1d9f34e3_prof);
-=======
-        $__internal_837cb9dfc8e7fbce22aa4b622ac769653c4827d559109739670068a2d35caf6e->leave($__internal_837cb9dfc8e7fbce22aa4b622ac769653c4827d559109739670068a2d35caf6e_prof);
->>>>>>> flo
+        $__internal_8d1d5e315ce0b0e8d0ec55888d4a53cbb00e9115fb1127640422533728f01152->leave($__internal_8d1d5e315ce0b0e8d0ec55888d4a53cbb00e9115fb1127640422533728f01152_prof);
 
     }
 

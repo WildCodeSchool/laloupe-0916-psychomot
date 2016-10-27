@@ -15,13 +15,8 @@ class __TwigTemplate_f170ae50bf73cfc874fcd0482a7cc4f5ad63401f37115de0447e7207e50
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-<<<<<<< HEAD
-        $__internal_29af7c6e60d48515be736efb689d73cdc889937ed33ea5317941c14ab97b63d2 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_29af7c6e60d48515be736efb689d73cdc889937ed33ea5317941c14ab97b63d2->enter($__internal_29af7c6e60d48515be736efb689d73cdc889937ed33ea5317941c14ab97b63d2_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Icon/menu.svg"));
-=======
-        $__internal_3fb73f2069536310dea9b869904cda643fd42a5cb3c96d1e0f31ebd62a519fd6 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_3fb73f2069536310dea9b869904cda643fd42a5cb3c96d1e0f31ebd62a519fd6->enter($__internal_3fb73f2069536310dea9b869904cda643fd42a5cb3c96d1e0f31ebd62a519fd6_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Icon/menu.svg"));
->>>>>>> flo
+        $__internal_c5d2f479ccfc03853619a662369f7479a95a4c836dc5affcf2bd91546846f80a = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_c5d2f479ccfc03853619a662369f7479a95a4c836dc5affcf2bd91546846f80a->enter($__internal_c5d2f479ccfc03853619a662369f7479a95a4c836dc5affcf2bd91546846f80a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Icon/menu.svg"));
 
         // line 1
         echo "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" xml:space=\"preserve\">
@@ -29,11 +24,7 @@ class __TwigTemplate_f170ae50bf73cfc874fcd0482a7cc4f5ad63401f37115de0447e7207e50
 </svg>
 ";
         
-<<<<<<< HEAD
-        $__internal_29af7c6e60d48515be736efb689d73cdc889937ed33ea5317941c14ab97b63d2->leave($__internal_29af7c6e60d48515be736efb689d73cdc889937ed33ea5317941c14ab97b63d2_prof);
-=======
-        $__internal_3fb73f2069536310dea9b869904cda643fd42a5cb3c96d1e0f31ebd62a519fd6->leave($__internal_3fb73f2069536310dea9b869904cda643fd42a5cb3c96d1e0f31ebd62a519fd6_prof);
->>>>>>> flo
+        $__internal_c5d2f479ccfc03853619a662369f7479a95a4c836dc5affcf2bd91546846f80a->leave($__internal_c5d2f479ccfc03853619a662369f7479a95a4c836dc5affcf2bd91546846f80a_prof);
 
     }
 

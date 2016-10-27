@@ -15,13 +15,8 @@ class __TwigTemplate_7bdeba25cd0b6e1602ea1f72a7eb9f9f06084accb769d7e4c1fb84be6f2
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-<<<<<<< HEAD
-        $__internal_f628de1a8a8f3ebb0a820a36f2e3cb231c34e41b2c147393c17e8b7166566284 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_f628de1a8a8f3ebb0a820a36f2e3cb231c34e41b2c147393c17e8b7166566284->enter($__internal_f628de1a8a8f3ebb0a820a36f2e3cb231c34e41b2c147393c17e8b7166566284_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "WebProfilerBundle:Profiler:bag.html.twig"));
-=======
-        $__internal_3db5311596c4e6269893742fae9bf3006a82eb969625ea60ce4a828cd60662b7 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_3db5311596c4e6269893742fae9bf3006a82eb969625ea60ce4a828cd60662b7->enter($__internal_3db5311596c4e6269893742fae9bf3006a82eb969625ea60ce4a828cd60662b7_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "WebProfilerBundle:Profiler:bag.html.twig"));
->>>>>>> flo
+        $__internal_8e2b4df7de473c4ee074cce93be16c923ab92b9d16eb1354b50a7b7d34bd5c19 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_8e2b4df7de473c4ee074cce93be16c923ab92b9d16eb1354b50a7b7d34bd5c19->enter($__internal_8e2b4df7de473c4ee074cce93be16c923ab92b9d16eb1354b50a7b7d34bd5c19_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "WebProfilerBundle:Profiler:bag.html.twig"));
 
         // line 1
         echo "<table class=\"";
@@ -75,11 +70,7 @@ class __TwigTemplate_7bdeba25cd0b6e1602ea1f72a7eb9f9f06084accb769d7e4c1fb84be6f2
 </table>
 ";
         
-<<<<<<< HEAD
-        $__internal_f628de1a8a8f3ebb0a820a36f2e3cb231c34e41b2c147393c17e8b7166566284->leave($__internal_f628de1a8a8f3ebb0a820a36f2e3cb231c34e41b2c147393c17e8b7166566284_prof);
-=======
-        $__internal_3db5311596c4e6269893742fae9bf3006a82eb969625ea60ce4a828cd60662b7->leave($__internal_3db5311596c4e6269893742fae9bf3006a82eb969625ea60ce4a828cd60662b7_prof);
->>>>>>> flo
+        $__internal_8e2b4df7de473c4ee074cce93be16c923ab92b9d16eb1354b50a7b7d34bd5c19->leave($__internal_8e2b4df7de473c4ee074cce93be16c923ab92b9d16eb1354b50a7b7d34bd5c19_prof);
 
     }
 

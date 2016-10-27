@@ -15,13 +15,8 @@ class __TwigTemplate_8a3bd504e68f96babae807be624ceac0c777aef8f224701cd49b5d27849
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-<<<<<<< HEAD
-        $__internal_c8221bc58af0154ef9fb3b3c9e4d1ae91c18e87398cda7ac10b9030712834957 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_c8221bc58af0154ef9fb3b3c9e4d1ae91c18e87398cda7ac10b9030712834957->enter($__internal_c8221bc58af0154ef9fb3b3c9e4d1ae91c18e87398cda7ac10b9030712834957_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Profiler/toolbar.css.twig"));
-=======
-        $__internal_9016cf15bf7c392c65573f2a325db418af4ec05dc1ab7ba4fa347cb772cc6c10 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_9016cf15bf7c392c65573f2a325db418af4ec05dc1ab7ba4fa347cb772cc6c10->enter($__internal_9016cf15bf7c392c65573f2a325db418af4ec05dc1ab7ba4fa347cb772cc6c10_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Profiler/toolbar.css.twig"));
->>>>>>> flo
+        $__internal_25ea01f7dbcfb9647e870f9f82c72c917eb76047105b17529ccf521b9ce096a4 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_25ea01f7dbcfb9647e870f9f82c72c917eb76047105b17529ccf521b9ce096a4->enter($__internal_25ea01f7dbcfb9647e870f9f82c72c917eb76047105b17529ccf521b9ce096a4_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Profiler/toolbar.css.twig"));
 
         // line 2
         $context["colors"] = array("success" => "#4F805D", "warning" => "#A46A1F", "error" => "#B0413E");
@@ -543,11 +538,7 @@ class __TwigTemplate_8a3bd504e68f96babae807be624ceac0c777aef8f224701cd49b5d27849
 }
 ";
         
-<<<<<<< HEAD
-        $__internal_c8221bc58af0154ef9fb3b3c9e4d1ae91c18e87398cda7ac10b9030712834957->leave($__internal_c8221bc58af0154ef9fb3b3c9e4d1ae91c18e87398cda7ac10b9030712834957_prof);
-=======
-        $__internal_9016cf15bf7c392c65573f2a325db418af4ec05dc1ab7ba4fa347cb772cc6c10->leave($__internal_9016cf15bf7c392c65573f2a325db418af4ec05dc1ab7ba4fa347cb772cc6c10_prof);
->>>>>>> flo
+        $__internal_25ea01f7dbcfb9647e870f9f82c72c917eb76047105b17529ccf521b9ce096a4->leave($__internal_25ea01f7dbcfb9647e870f9f82c72c917eb76047105b17529ccf521b9ce096a4_prof);
 
     }
 

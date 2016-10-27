@@ -15,22 +15,13 @@ class __TwigTemplate_8e27b8531b79ddb4e71b50ff400fe28b8bcf95649edcb114b0c57c56ed9
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-<<<<<<< HEAD
-        $__internal_964bbc4e0d77b03411b563a5073789a10ef236e06585db1f0d02a5ef7e774a47 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_964bbc4e0d77b03411b563a5073789a10ef236e06585db1f0d02a5ef7e774a47->enter($__internal_964bbc4e0d77b03411b563a5073789a10ef236e06585db1f0d02a5ef7e774a47_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:exception.rdf.twig"));
-=======
-        $__internal_1f3bb8f54ab6015465fbd26bf39b1c56f308f2d52badf3d089026830aba57377 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_1f3bb8f54ab6015465fbd26bf39b1c56f308f2d52badf3d089026830aba57377->enter($__internal_1f3bb8f54ab6015465fbd26bf39b1c56f308f2d52badf3d089026830aba57377_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:exception.rdf.twig"));
->>>>>>> flo
+        $__internal_9df2483e4ce5a7c79020e0d18d4c60bbf6f0f19c25edc668189887a165483c75 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_9df2483e4ce5a7c79020e0d18d4c60bbf6f0f19c25edc668189887a165483c75->enter($__internal_9df2483e4ce5a7c79020e0d18d4c60bbf6f0f19c25edc668189887a165483c75_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:exception.rdf.twig"));
 
         // line 1
         $this->loadTemplate("@Twig/Exception/exception.xml.twig", "TwigBundle:Exception:exception.rdf.twig", 1)->display(array_merge($context, array("exception" => (isset($context["exception"]) ? $context["exception"] : $this->getContext($context, "exception")))));
         
-<<<<<<< HEAD
-        $__internal_964bbc4e0d77b03411b563a5073789a10ef236e06585db1f0d02a5ef7e774a47->leave($__internal_964bbc4e0d77b03411b563a5073789a10ef236e06585db1f0d02a5ef7e774a47_prof);
-=======
-        $__internal_1f3bb8f54ab6015465fbd26bf39b1c56f308f2d52badf3d089026830aba57377->leave($__internal_1f3bb8f54ab6015465fbd26bf39b1c56f308f2d52badf3d089026830aba57377_prof);
->>>>>>> flo
+        $__internal_9df2483e4ce5a7c79020e0d18d4c60bbf6f0f19c25edc668189887a165483c75->leave($__internal_9df2483e4ce5a7c79020e0d18d4c60bbf6f0f19c25edc668189887a165483c75_prof);
 
     }
 

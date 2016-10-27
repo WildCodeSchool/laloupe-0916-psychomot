@@ -15,13 +15,8 @@ class __TwigTemplate_dd7afbbbce2597639e8a68bcdb48ac63092cf93fde85202102cda4605a3
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-<<<<<<< HEAD
-        $__internal_6a3da4c1c950263ff7a322e6d008e588ebea8753246a17a401630f2583d5dc5f = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_6a3da4c1c950263ff7a322e6d008e588ebea8753246a17a401630f2583d5dc5f->enter($__internal_6a3da4c1c950263ff7a322e6d008e588ebea8753246a17a401630f2583d5dc5f_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Icon/search.svg"));
-=======
-        $__internal_26b9a711af6210c43cf0084f37e0eb3a3ea204c2bf04b785b181c62a70b79e19 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_26b9a711af6210c43cf0084f37e0eb3a3ea204c2bf04b785b181c62a70b79e19->enter($__internal_26b9a711af6210c43cf0084f37e0eb3a3ea204c2bf04b785b181c62a70b79e19_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Icon/search.svg"));
->>>>>>> flo
+        $__internal_65d5203eafc4c1eaeef4d89ac96f3187741d71d5f9fa7c3166eda006cd55de74 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_65d5203eafc4c1eaeef4d89ac96f3187741d71d5f9fa7c3166eda006cd55de74->enter($__internal_65d5203eafc4c1eaeef4d89ac96f3187741d71d5f9fa7c3166eda006cd55de74_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Icon/search.svg"));
 
         // line 1
         echo "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" enable-background=\"new 0 0 24 24\" xml:space=\"preserve\">
@@ -33,11 +28,7 @@ class __TwigTemplate_dd7afbbbce2597639e8a68bcdb48ac63092cf93fde85202102cda4605a3
 </svg>
 ";
         
-<<<<<<< HEAD
-        $__internal_6a3da4c1c950263ff7a322e6d008e588ebea8753246a17a401630f2583d5dc5f->leave($__internal_6a3da4c1c950263ff7a322e6d008e588ebea8753246a17a401630f2583d5dc5f_prof);
-=======
-        $__internal_26b9a711af6210c43cf0084f37e0eb3a3ea204c2bf04b785b181c62a70b79e19->leave($__internal_26b9a711af6210c43cf0084f37e0eb3a3ea204c2bf04b785b181c62a70b79e19_prof);
->>>>>>> flo
+        $__internal_65d5203eafc4c1eaeef4d89ac96f3187741d71d5f9fa7c3166eda006cd55de74->leave($__internal_65d5203eafc4c1eaeef4d89ac96f3187741d71d5f9fa7c3166eda006cd55de74_prof);
 
     }
 
