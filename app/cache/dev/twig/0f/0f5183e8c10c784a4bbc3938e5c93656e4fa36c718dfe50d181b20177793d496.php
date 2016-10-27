@@ -1,6 +1,6 @@
 <?php
 
-/* WebProfilerBundle:Profiler:toolbar_item.html.twig */
+/* @WebProfiler/Profiler/toolbar_item.html.twig */
 class __TwigTemplate_976046db4fcddd9c9e666dc1185b6fdd9904f6949bf116c46c21bad02dfe8184 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
@@ -15,8 +15,8 @@ class __TwigTemplate_976046db4fcddd9c9e666dc1185b6fdd9904f6949bf116c46c21bad02df
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_529ab12111da53ccc9139e89c366125a42d05ffef2ce72c7ba64cdc830f9f476 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_529ab12111da53ccc9139e89c366125a42d05ffef2ce72c7ba64cdc830f9f476->enter($__internal_529ab12111da53ccc9139e89c366125a42d05ffef2ce72c7ba64cdc830f9f476_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "WebProfilerBundle:Profiler:toolbar_item.html.twig"));
+        $__internal_16e497fda547ad91667722bbb0b051ab17a0f61c5f5b43006bb99a7a52531041 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_16e497fda547ad91667722bbb0b051ab17a0f61c5f5b43006bb99a7a52531041->enter($__internal_16e497fda547ad91667722bbb0b051ab17a0f61c5f5b43006bb99a7a52531041_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Profiler/toolbar_item.html.twig"));
 
         // line 1
         echo "<div class=\"sf-toolbar-block sf-toolbar-block-";
@@ -49,13 +49,13 @@ class __TwigTemplate_976046db4fcddd9c9e666dc1185b6fdd9904f6949bf116c46c21bad02df
 </div>
 ";
         
-        $__internal_529ab12111da53ccc9139e89c366125a42d05ffef2ce72c7ba64cdc830f9f476->leave($__internal_529ab12111da53ccc9139e89c366125a42d05ffef2ce72c7ba64cdc830f9f476_prof);
+        $__internal_16e497fda547ad91667722bbb0b051ab17a0f61c5f5b43006bb99a7a52531041->leave($__internal_16e497fda547ad91667722bbb0b051ab17a0f61c5f5b43006bb99a7a52531041_prof);
 
     }
 
     public function getTemplateName()
     {
-        return "WebProfilerBundle:Profiler:toolbar_item.html.twig";
+        return "@WebProfiler/Profiler/toolbar_item.html.twig";
     }
 
     public function isTraitable()
