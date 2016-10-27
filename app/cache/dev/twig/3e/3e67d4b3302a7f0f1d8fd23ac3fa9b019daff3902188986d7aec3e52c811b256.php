@@ -15,8 +15,13 @@ class __TwigTemplate_3591df4acef062a24391c9796bebc32ea1e650358d2f607d5a4fb0e9511
 
     protected function doDisplay(array $context, array $blocks = array())
     {
+<<<<<<< HEAD
         $__internal_47a7620c8c64f2fa7517bee149cdc7f0b29d7a5cac5510cc6108c042a62644a6 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_47a7620c8c64f2fa7517bee149cdc7f0b29d7a5cac5510cc6108c042a62644a6->enter($__internal_47a7620c8c64f2fa7517bee149cdc7f0b29d7a5cac5510cc6108c042a62644a6_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "WebProfilerBundle:Profiler:profiler.css.twig"));
+=======
+        $__internal_cfb85a11897c968442510e45c864e5756e288edda312d873561d6250ec1e69dc = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_cfb85a11897c968442510e45c864e5756e288edda312d873561d6250ec1e69dc->enter($__internal_cfb85a11897c968442510e45c864e5756e288edda312d873561d6250ec1e69dc_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "WebProfilerBundle:Profiler:profiler.css.twig"));
+>>>>>>> flo
 
         // line 3
         $context["mixins"] = array("break_long_words" => "-ms-word-break: break-all; word-break: break-all; word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto;", "monospace_font" => "font-family: monospace; font-size: 13px; font-size-adjust: 0.5;", "sans_serif_font" => "font-family: Helvetica, Arial, sans-serif;", "subtle_border_and_shadow" => "background: #FFF; border: 1px solid #E0E0E0; box-shadow: 0px 0px 1px rgba(128, 128, 128, .2);");
@@ -1061,7 +1066,11 @@ table.logs .sf-call-stack abbr {
 }
 ";
         
+<<<<<<< HEAD
         $__internal_47a7620c8c64f2fa7517bee149cdc7f0b29d7a5cac5510cc6108c042a62644a6->leave($__internal_47a7620c8c64f2fa7517bee149cdc7f0b29d7a5cac5510cc6108c042a62644a6_prof);
+=======
+        $__internal_cfb85a11897c968442510e45c864e5756e288edda312d873561d6250ec1e69dc->leave($__internal_cfb85a11897c968442510e45c864e5756e288edda312d873561d6250ec1e69dc_prof);
+>>>>>>> flo
 
     }
 

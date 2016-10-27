@@ -15,8 +15,13 @@ class __TwigTemplate_f007d5b977e54323d335841ee9e365c91c92030965638df87aa06d75438
 
     protected function doDisplay(array $context, array $blocks = array())
     {
+<<<<<<< HEAD
         $__internal_0036ab3b3670eab479c699694f91d77fc57579e93ee285c606c720afa2ef81e2 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_0036ab3b3670eab479c699694f91d77fc57579e93ee285c606c720afa2ef81e2->enter($__internal_0036ab3b3670eab479c699694f91d77fc57579e93ee285c606c720afa2ef81e2_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/widget_attributes.html.php"));
+=======
+        $__internal_edae65651e99543078d830f288431b80f76160d1dc7a5bb0d66284123afa6aaf = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_edae65651e99543078d830f288431b80f76160d1dc7a5bb0d66284123afa6aaf->enter($__internal_edae65651e99543078d830f288431b80f76160d1dc7a5bb0d66284123afa6aaf_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/widget_attributes.html.php"));
+>>>>>>> flo
 
         // line 1
         echo "id=\"<?php echo \$view->escape(\$id) ?>\" name=\"<?php echo \$view->escape(\$full_name) ?>\"<?php if (\$read_only): ?> readonly=\"readonly\"<?php endif ?>
@@ -34,7 +39,11 @@ class __TwigTemplate_f007d5b977e54323d335841ee9e365c91c92030965638df87aa06d75438
 <?php endforeach ?>
 ";
         
+<<<<<<< HEAD
         $__internal_0036ab3b3670eab479c699694f91d77fc57579e93ee285c606c720afa2ef81e2->leave($__internal_0036ab3b3670eab479c699694f91d77fc57579e93ee285c606c720afa2ef81e2_prof);
+=======
+        $__internal_edae65651e99543078d830f288431b80f76160d1dc7a5bb0d66284123afa6aaf->leave($__internal_edae65651e99543078d830f288431b80f76160d1dc7a5bb0d66284123afa6aaf_prof);
+>>>>>>> flo
 
     }
 

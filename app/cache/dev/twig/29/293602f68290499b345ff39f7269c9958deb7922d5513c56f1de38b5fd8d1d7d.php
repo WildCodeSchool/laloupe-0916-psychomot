@@ -15,8 +15,13 @@ class __TwigTemplate_f3854fccc9cc7051135145fe9fb76749e304e7cde38fc4a020a45557ea6
 
     protected function doDisplay(array $context, array $blocks = array())
     {
+<<<<<<< HEAD
         $__internal_7b7c0c6063c1fc0f0a4a2e7a7adf9acb899626ecae7add42c64aaef087919a52 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_7b7c0c6063c1fc0f0a4a2e7a7adf9acb899626ecae7add42c64aaef087919a52->enter($__internal_7b7c0c6063c1fc0f0a4a2e7a7adf9acb899626ecae7add42c64aaef087919a52_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/button_row.html.php"));
+=======
+        $__internal_23e73da227ce725279e9999daf9e3ca694f402f51a7017063d0cef4c096ff7f2 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_23e73da227ce725279e9999daf9e3ca694f402f51a7017063d0cef4c096ff7f2->enter($__internal_23e73da227ce725279e9999daf9e3ca694f402f51a7017063d0cef4c096ff7f2_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/button_row.html.php"));
+>>>>>>> flo
 
         // line 1
         echo "<div>
@@ -24,7 +29,11 @@ class __TwigTemplate_f3854fccc9cc7051135145fe9fb76749e304e7cde38fc4a020a45557ea6
 </div>
 ";
         
+<<<<<<< HEAD
         $__internal_7b7c0c6063c1fc0f0a4a2e7a7adf9acb899626ecae7add42c64aaef087919a52->leave($__internal_7b7c0c6063c1fc0f0a4a2e7a7adf9acb899626ecae7add42c64aaef087919a52_prof);
+=======
+        $__internal_23e73da227ce725279e9999daf9e3ca694f402f51a7017063d0cef4c096ff7f2->leave($__internal_23e73da227ce725279e9999daf9e3ca694f402f51a7017063d0cef4c096ff7f2_prof);
+>>>>>>> flo
 
     }
 

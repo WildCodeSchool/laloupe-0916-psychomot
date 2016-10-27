@@ -1,6 +1,6 @@
 <?php
 
-/* TwigBundle:Exception:logs.html.twig */
+/* @Twig/Exception/logs.html.twig */
 class __TwigTemplate_d774d530be2e877b79ba8ebc6ab6b9503b4d3659a9c83424903a67031bebb1d5 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
@@ -15,8 +15,13 @@ class __TwigTemplate_d774d530be2e877b79ba8ebc6ab6b9503b4d3659a9c83424903a67031be
 
     protected function doDisplay(array $context, array $blocks = array())
     {
+<<<<<<< HEAD
         $__internal_39682698b4f693db560aa914d2e48f846cfd53c13f9c1f1c24d430352459e5c5 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_39682698b4f693db560aa914d2e48f846cfd53c13f9c1f1c24d430352459e5c5->enter($__internal_39682698b4f693db560aa914d2e48f846cfd53c13f9c1f1c24d430352459e5c5_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:logs.html.twig"));
+=======
+        $__internal_02a196944ee8b34b36b35a85858f8edb08c9699da6e4c35042dc62412abb396d = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_02a196944ee8b34b36b35a85858f8edb08c9699da6e4c35042dc62412abb396d->enter($__internal_02a196944ee8b34b36b35a85858f8edb08c9699da6e4c35042dc62412abb396d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Twig/Exception/logs.html.twig"));
+>>>>>>> flo
 
         // line 1
         echo "<ol class=\"traces logs\">
@@ -49,13 +54,17 @@ class __TwigTemplate_d774d530be2e877b79ba8ebc6ab6b9503b4d3659a9c83424903a67031be
         echo "</ol>
 ";
         
+<<<<<<< HEAD
         $__internal_39682698b4f693db560aa914d2e48f846cfd53c13f9c1f1c24d430352459e5c5->leave($__internal_39682698b4f693db560aa914d2e48f846cfd53c13f9c1f1c24d430352459e5c5_prof);
+=======
+        $__internal_02a196944ee8b34b36b35a85858f8edb08c9699da6e4c35042dc62412abb396d->leave($__internal_02a196944ee8b34b36b35a85858f8edb08c9699da6e4c35042dc62412abb396d_prof);
+>>>>>>> flo
 
     }
 
     public function getTemplateName()
     {
-        return "TwigBundle:Exception:logs.html.twig";
+        return "@Twig/Exception/logs.html.twig";
     }
 
     public function isTraitable()
