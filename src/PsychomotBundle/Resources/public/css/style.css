@@ -87,7 +87,7 @@ body {
 @import url(http://fonts.googleapis.com/css?family=Montserrat:700);
 
 #Psychomotricité {
-    max-width: 25000px;
+    max-width: 2500px;
     height: 700px;
     background-color: #82BDB5;
 }
@@ -295,6 +295,7 @@ h3 {
 }
 
 .accordion1 ul li:nth-child(1) { background-image: url("../img/1_questcequecest_1.png");height: 700px; }
+/*.accordion1 ul li:nth-child(1) { background-image: url("../uploads/{{ psychomot.image1 }}");height: 700px;}*/
 
 .accordion1 ul li:nth-child(2) { background-image: url("../img/1_Pour_qui_1.png");height: 700px; }
 

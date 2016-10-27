@@ -35,12 +35,7 @@
 
 /*--PAGE HOME--*/
 
-#page-home {
-    background: url(../img/Acceuil.jpg) no-repeat;
-    background-size: cover;
-    height: 700px;
-    margin-top: 0;
-}
+
 
 #title {
     padding-top: 100px;
@@ -88,7 +83,7 @@ body {
 
 #Psychomotricité {
     max-width: 2500px;
-    height: 1000px;
+    height: 1400px;
     background-color: #82BDB5;
 }
 
@@ -107,7 +102,7 @@ h3 {
 
 .accordion1 {
     max-width: 2500px;
-    height: 1000px;
+    height: 1400px;
     overflow: hidden;
 }
 
@@ -124,7 +119,7 @@ h3 {
     vertical-align: bottom;
     position: relative;
     width: 16.666%;
-    height: 1000px;
+    height: 1400px;
     background-repeat: no-repeat;
     background-position: center center;
     transition: all 500ms ease;
@@ -138,7 +133,7 @@ h3 {
 
 .accordion1 ul li div a {
     display: block;
-    height: 1000px;
+    height: 1400px;
     width: 100%;
     position: relative;
     z-index: 3;
@@ -179,8 +174,8 @@ h3 {
 .accordion1 ul li div a p {
     top: 20px;
     font-size: 16px;
-    width: 700px;
-    height: 350px;
+
+    height: 500px;
     overflow: auto;
     color: black;
 }

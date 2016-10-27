@@ -39,7 +39,7 @@
                 <li><a class="js-scrollTo" href="#consultation">Interventions</a></li>
                 <li><a class="js-scrollTo" href="#page-contact">Contact</a></li>
                 <li><a>{{ psychomot.tel }}</a></li>
-                <li><input type="submit" value="Edit" /> </li>
+                <li><input type="submit" value="Mise à jour" /> </li>
             </ul>
             <div>
                 {{ form_widget(form.tel, {'attr': {'class': 'form-control'}}) }}
@@ -51,7 +51,7 @@
     <!-- Fin Nav Bar -->
 
 
-    <br/>
+
 
     <!--Début Psychomotricité-->
 
@@ -59,8 +59,9 @@
         <div class="accordion1">
             <ul>
                 <li>
-                    <div class="rows">
+                    <div>
                         <a>
+
                             <!-- <img src="http://www.designchemical.com/lab/jquery/demo/images/section_1.png"></img>
                 <h2>Lorem Ipsum</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p> -->
@@ -69,17 +70,18 @@
                                 {{ form_widget(form.titleDef, {'attr': {'class': 'form-control'}}) }}
                                 {{ form_errors(form.titleDef) }}
 
-                                <img class="psyco_img1" src="{{asset('bundles/psychomot/img/1_questcequecest_500-575.jpg')}}">
+                                <P>
+                                <img src="{{ app.request.basepath }}/uploads/{{ psychomot.image1 }}">
 
 
-                                <p> {{ psychomot.txtDef }} </p>
-                                </br>
-                            </div>
-                            <div>
+                                    {{form.children.file1.vars.label}}
+                                    {{ form_widget(form.file1) }}
+                                    {{ form_errors(form.file1) }}</P>
+
+                                <p> {{ psychomot.txtDef }}
+                                    </br>
                                 {{ form_widget(form.txtDef, {'attr': {'class': 'form-control'}}) }}
-                                {{ form_errors(form.txtDef) }}
-
-
+                                {{ form_errors(form.txtDef) }}</p>
 
                                 <!-- <img class="psyco_img1" src="./img/SAM_2242-500_375.JPG"> -->
 
@@ -94,14 +96,18 @@
                                 <h2>{{ psychomot.titleWho }}</h2>
                                 {{ form_widget(form.titleWho, {'attr': {'class': 'form-control'}}) }}
                                 {{ form_errors(form.titleWho) }}
+                                <p>
+                                    <img src="{{ app.request.basepath }}/uploads/{{ psychomot.image2 }}">
 
-                                <img class="psyco_img1" src="{{asset('bundles/psychomot/img/1_Pour_qui.jpg')}}">
-                                <p>{{ psychomot.txtWho }}</p>
-                            </div>
-                            <div>
+                                    {{form.children.file2.vars.label}}
+                                    {{ form_widget(form.file2) }}
+                                    {{ form_errors(form.file2) }}</P>
+
+                                <p>{{ psychomot.txtWho }}
+
                                 </br>
                                 {{ form_widget(form.txtWho, {'attr': {'class': 'form-control'}}) }}
-                                {{ form_errors(form.txtWho) }}
+                                {{ form_errors(form.txtWho) }}</p>
 
                             </div>
                         </a>
@@ -114,14 +120,17 @@
                                 <h2>{{ psychomot.titleWhy }}</h2>
                                 {{ form_widget(form.titleWhy, {'attr': {'class': 'form-control'}}) }}
                                 {{ form_errors(form.titleWhy) }}
+                                <p>
+                                    <img src="{{ app.request.basepath }}/uploads/{{ psychomot.image3 }}">
+                                    {{form.children.file3.vars.label}}
+                                    {{ form_widget(form.file3) }}
+                                    {{ form_errors(form.file3) }}</P>
 
-                                <img class="psyco_img1" src="{{asset('bundles/psychomot/img/1_Pourquoi.jpg')}}">
-                                <p>{{ psychomot.txtWhy }}</p>
-                            </div>
-                            <div>
+                                <p>{{ psychomot.txtWhy }}
+
                                 </br>
                                 {{ form_widget(form.txtWhy, {'attr': {'class': 'form-control'}}) }}
-                                {{ form_errors(form.txtWhy) }}
+                                {{ form_errors(form.txtWhy) }}</p>
 
                             </div>
                         </a>
@@ -134,21 +143,30 @@
     <!--Fin Psychomotricité-->
 
 
-
+<div>
+    </br>
+</div>
 
     <!--Début Psychomotriciennes-->
 
     <div class="row">
+        </br>
         <div id="psychomot">
             <H3>{{ psychomot.titlePsy }}</H3>
-            <div>
-                {{ form_widget(form.titlePsy, {'attr': {'class': 'form-control'}}) }}
+
+                <P> {{ form_widget(form.titlePsy) }}</P>
                 {{ form_errors(form.titlePsy) }}
-            </div>
+
             <div class="fond">
                 <div class="left col-xs-12 col-sm-6 col-md-6">
                     <div class="col-xs-12">
-                        <img src="{{asset('bundles/psychomot/img/Psy2.jpg') }}" alt="Margaux Charrier" />
+                        <!--<img src="{{asset('bundles/psychomot/img/Psy2.jpg') }}" alt="Margaux Charrier" />-->
+                        <img src="{{ app.request.basepath }}/uploads/{{ psychomot.image4 }}">
+
+                        {{form.children.file4.vars.label}}
+                        {{ form_widget(form.file4) }}
+                        {{ form_errors(form.file4) }}
+
                         <div class="border">
                             <h3>{{ psychomot.namePsy1 }}</h3>
                             <div>
@@ -166,7 +184,13 @@
                 </div>
                 <div class="right col-xs-12 col-sm-6 col-md-6">
                     <div class="col-xs-12">
-                        <img src="{{asset('bundles/psychomot/img/Psy1.jpg') }}" alt="Adeline Florentin" />
+                        <!--<img src="{{asset('bundles/psychomot/img/Psy1.jpg') }}" alt="Adeline Florentin" />-->
+                        <img src="{{ app.request.basepath }}/uploads/{{ psychomot.image5 }}">
+
+                        {{form.children.file5.vars.label}}
+                        {{ form_widget(form.file5) }}
+                        {{ form_errors(form.file5) }}
+
                         <div class="border">
                             <h3>{{ psychomot.namePsy2 }}</h3>
                             <div>
@@ -318,9 +342,13 @@
     </div>
 
     <!--Fin Contact-->
+    <div>
+    <img src="{{ app.request.basepath }}/uploads/{{ psychomot.image }}">
 
-
-
+    {{form.children.file.vars.label}}
+    {{ form_widget(form.file) }}
+    {{ form_errors(form.file) }}
+    </div>
 
 
     <li>

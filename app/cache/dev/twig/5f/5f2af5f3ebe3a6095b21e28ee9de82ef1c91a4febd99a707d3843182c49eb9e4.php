@@ -21,20 +21,20 @@ class __TwigTemplate_3b11b210654f720ece2122f293ce932bb701082b22943073a6c74e127a6
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_03b04e0c3531a58ad5cc8df808c159e397d0f1c8400b0e9c223e92d4c1c97e6b = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_03b04e0c3531a58ad5cc8df808c159e397d0f1c8400b0e9c223e92d4c1c97e6b->enter($__internal_03b04e0c3531a58ad5cc8df808c159e397d0f1c8400b0e9c223e92d4c1c97e6b_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "PsychomotBundle:psychomot:index.html.twig"));
+        $__internal_4115651068db2f941a484664276b5d788f9189017d6b0c29a12ccc173354c919 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_4115651068db2f941a484664276b5d788f9189017d6b0c29a12ccc173354c919->enter($__internal_4115651068db2f941a484664276b5d788f9189017d6b0c29a12ccc173354c919_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "PsychomotBundle:psychomot:index.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_03b04e0c3531a58ad5cc8df808c159e397d0f1c8400b0e9c223e92d4c1c97e6b->leave($__internal_03b04e0c3531a58ad5cc8df808c159e397d0f1c8400b0e9c223e92d4c1c97e6b_prof);
+        $__internal_4115651068db2f941a484664276b5d788f9189017d6b0c29a12ccc173354c919->leave($__internal_4115651068db2f941a484664276b5d788f9189017d6b0c29a12ccc173354c919_prof);
 
     }
 
     // line 3
     public function block_body($context, array $blocks = array())
     {
-        $__internal_f30d5cfb71571a54124e5682e9320b6178c1e543efed21432e371b7b7ecdcc64 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_f30d5cfb71571a54124e5682e9320b6178c1e543efed21432e371b7b7ecdcc64->enter($__internal_f30d5cfb71571a54124e5682e9320b6178c1e543efed21432e371b7b7ecdcc64_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_e836c9abef173a719dbd423e284fac5b8a068cafc136518a493df9f4b479f3af = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_e836c9abef173a719dbd423e284fac5b8a068cafc136518a493df9f4b479f3af->enter($__internal_e836c9abef173a719dbd423e284fac5b8a068cafc136518a493df9f4b479f3af_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 4
         echo "
@@ -107,27 +107,33 @@ class __TwigTemplate_3b11b210654f720ece2122f293ce932bb701082b22943073a6c74e127a6
                                 <!-- <img src=\"http://www.designchemical.com/lab/jquery/demo/images/section_1.png\"></img>
                     <h2>Lorem Ipsum</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p> -->
-                                <div>
+
                                     <h2 class=\"psyco_titre1\"> ";
             // line 67
             echo twig_escape_filter($this->env, $this->getAttribute($context["psychomot"], "titleDef", array()), "html", null, true);
             echo "</h2>
-                                    <img class=\"psyco_img1\" src=\"";
+                                    <!--<img class=\"psyco_img1\" src=\"";
             // line 68
             echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("bundles/psychomot/img/1_questcequecest_500-575.jpg"), "html", null, true);
+            echo "\">-->
+                                    <img src=\"";
+            // line 69
+            echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute((isset($context["app"]) ? $context["app"] : $this->getContext($context, "app")), "request", array()), "basepath", array()), "html", null, true);
+            echo "/uploads/";
+            echo twig_escape_filter($this->env, $this->getAttribute($context["psychomot"], "image1", array()), "html", null, true);
             echo "\">
                                     <p class=\"psyco_texte1\"> ";
-            // line 69
+            // line 70
             echo twig_escape_filter($this->env, $this->getAttribute($context["psychomot"], "txtDef", array()), "html", null, true);
             echo " </p>
-                                
+
                                     <!-- <img class=\"psyco_img1\" src=\"./img/SAM_2242-500_375.JPG\"> -->
 
                                     <!-- <img class=\"psyco_img1\" src=\"";
-            // line 73
+            // line 74
             echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("bundles/psychomot/img/1_questcequecest_500-575.jpg"), "html", null, true);
             echo "\"> -->
-                                </div>
+
                             </a>
                         </div>
                     </li>
@@ -135,15 +141,21 @@ class __TwigTemplate_3b11b210654f720ece2122f293ce932bb701082b22943073a6c74e127a6
                         <div>
                             <a>
                                 <h2>";
-            // line 81
+            // line 82
             echo twig_escape_filter($this->env, $this->getAttribute($context["psychomot"], "titleWho", array()), "html", null, true);
             echo "</h2>
-                                <img class=\"psyco_img1\" src=\"";
-            // line 82
+                                <!-- <img class=\"psyco_img1\" src=\"";
+            // line 83
             echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("bundles/psychomot/img/1_Pour_qui.jpg"), "html", null, true);
+            echo "\">-->
+                                <img src=\"";
+            // line 84
+            echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute((isset($context["app"]) ? $context["app"] : $this->getContext($context, "app")), "request", array()), "basepath", array()), "html", null, true);
+            echo "/uploads/";
+            echo twig_escape_filter($this->env, $this->getAttribute($context["psychomot"], "image2", array()), "html", null, true);
             echo "\">
                                 <p>";
-            // line 83
+            // line 85
             echo twig_escape_filter($this->env, $this->getAttribute($context["psychomot"], "txtWho", array()), "html", null, true);
             echo "</p>
                             </a>
@@ -153,15 +165,21 @@ class __TwigTemplate_3b11b210654f720ece2122f293ce932bb701082b22943073a6c74e127a6
                         <div>
                             <a>
                                 <h2>";
-            // line 90
+            // line 92
             echo twig_escape_filter($this->env, $this->getAttribute($context["psychomot"], "titleWhy", array()), "html", null, true);
             echo "</h2>
-                                <img class=\"psyco_img1\" src=\"";
-            // line 91
+                                <!-- <img class=\"psyco_img1\" src=\"";
+            // line 93
             echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("bundles/psychomot/img/1_Pourquoi.jpg"), "html", null, true);
+            echo "\">-->
+                                <img src=\"";
+            // line 94
+            echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute((isset($context["app"]) ? $context["app"] : $this->getContext($context, "app")), "request", array()), "basepath", array()), "html", null, true);
+            echo "/uploads/";
+            echo twig_escape_filter($this->env, $this->getAttribute($context["psychomot"], "image3", array()), "html", null, true);
             echo "\">
                                 <p>";
-            // line 92
+            // line 95
             echo twig_escape_filter($this->env, $this->getAttribute($context["psychomot"], "txtWhy", array()), "html", null, true);
             echo "
                                 </p>
@@ -174,48 +192,67 @@ class __TwigTemplate_3b11b210654f720ece2122f293ce932bb701082b22943073a6c74e127a6
 
         <!--Fin Psychomotricité-->
 
-
+        <div></br></br>
+        </div>
 
 
         <!--Début Psychomotriciennes-->
 
         <div class=\"row\">
-            <div id=\"psychomot\" class=\"fond\">
-                <div class=\"left col-xs-12 col-sm-6 col-md-6\">
-                    <div class=\"col-xs-12\">
-                        <img src=\"";
-            // line 112
-            echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("bundles/psychomot/img/Psy2.jpg"), "html", null, true);
-            echo "\" alt=\"Margaux Charrier\" />
-                        <div class=\"border\">
-                            <h3>";
+            <div id=\"psychomot\">
+                <H3>";
             // line 114
+            echo twig_escape_filter($this->env, $this->getAttribute($context["psychomot"], "titlePsy", array()), "html", null, true);
+            echo "</H3>
+                <div class=\"fond\">
+                    <div class=\"left col-xs-12 col-sm-6 col-md-6\">
+                        <div class=\"col-xs-12\">
+                            <!--<img src=\"";
+            // line 118
+            echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("bundles/psychomot/img/Psy2.jpg"), "html", null, true);
+            echo "\" alt=\"Margaux Charrier\" />-->
+                            <img src=\"";
+            // line 119
+            echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute((isset($context["app"]) ? $context["app"] : $this->getContext($context, "app")), "request", array()), "basepath", array()), "html", null, true);
+            echo "/uploads/";
+            echo twig_escape_filter($this->env, $this->getAttribute($context["psychomot"], "image4", array()), "html", null, true);
+            echo "\">
+                            <div class=\"border\">
+                                <h3>";
+            // line 121
             echo twig_escape_filter($this->env, $this->getAttribute($context["psychomot"], "namePsy1", array()), "html", null, true);
             echo "</h3>
-                            <h5>Psychomotricienne diplomée</h5>
-                            <p>";
-            // line 116
+                                <h5>Psychomotricienne diplomée</h5>
+                                <p>";
+            // line 123
             echo twig_escape_filter($this->env, $this->getAttribute($context["psychomot"], "txtPsy1", array()), "html", null, true);
             echo "</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class=\"right col-xs-12 col-sm-6 col-md-6\">
-                    <div class=\"col-xs-12\">
-                        <img src=\"";
-            // line 122
+                    <div class=\"right col-xs-12 col-sm-6 col-md-6\">
+                        <div class=\"col-xs-12\">
+                            <!--<img src=\"";
+            // line 129
             echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("bundles/psychomot/img/Psy1.jpg"), "html", null, true);
-            echo "\" alt=\"Adeline Florentin\" />
-                        <div class=\"border\">
-                            <h3>";
-            // line 124
+            echo "\" alt=\"Adeline Florentin\" />-->
+                            <img src=\"";
+            // line 130
+            echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute((isset($context["app"]) ? $context["app"] : $this->getContext($context, "app")), "request", array()), "basepath", array()), "html", null, true);
+            echo "/uploads/";
+            echo twig_escape_filter($this->env, $this->getAttribute($context["psychomot"], "image5", array()), "html", null, true);
+            echo "\">
+                            <div class=\"border\">
+                                <h3>";
+            // line 132
             echo twig_escape_filter($this->env, $this->getAttribute($context["psychomot"], "namePsy2", array()), "html", null, true);
             echo "</h3>
-                            <h5>Psychomotricienne diplomée</h5>
-                            <p>";
-            // line 126
+                                <h5>Psychomotricienne diplomée</h5>
+                                <p>";
+            // line 134
             echo twig_escape_filter($this->env, $this->getAttribute($context["psychomot"], "txtPsy2", array()), "html", null, true);
             echo "</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -238,11 +275,11 @@ class __TwigTemplate_3b11b210654f720ece2122f293ce932bb701082b22943073a6c74e127a6
                                 <div class=\"row\">
                                     <div class=\"accordion col-xs-4\">
                                         <h2>";
-            // line 148
+            // line 157
             echo twig_escape_filter($this->env, $this->getAttribute($context["psychomot"], "titleConsult", array()), "html", null, true);
             echo "</h2>
                                         <p>";
-            // line 149
+            // line 158
             echo twig_escape_filter($this->env, $this->getAttribute($context["psychomot"], "txtConsult", array()), "html", null, true);
             echo "</p>
                                     </div>
@@ -256,11 +293,11 @@ class __TwigTemplate_3b11b210654f720ece2122f293ce932bb701082b22943073a6c74e127a6
                                 <div class=\"row\">
                                     <div class=\"accordion col-xs-4\">
                                         <h2>";
-            // line 160
+            // line 169
             echo twig_escape_filter($this->env, $this->getAttribute($context["psychomot"], "titleInterv", array()), "html", null, true);
             echo "</h2>
                                         <p>";
-            // line 161
+            // line 170
             echo twig_escape_filter($this->env, $this->getAttribute($context["psychomot"], "txtInterv", array()), "html", null, true);
             echo "</p>
                                     </div>
@@ -275,11 +312,11 @@ class __TwigTemplate_3b11b210654f720ece2122f293ce932bb701082b22943073a6c74e127a6
                                 <div class=\"row\">
                                     <div class=\"accordion col-xs-4\">
                                         <h2>";
-            // line 173
+            // line 182
             echo twig_escape_filter($this->env, $this->getAttribute($context["psychomot"], "titleBilan", array()), "html", null, true);
             echo "</h2>
                                         <p>";
-            // line 174
+            // line 183
             echo twig_escape_filter($this->env, $this->getAttribute($context["psychomot"], "txtBilan", array()), "html", null, true);
             echo "</p>
                                     </div>
@@ -303,19 +340,19 @@ class __TwigTemplate_3b11b210654f720ece2122f293ce932bb701082b22943073a6c74e127a6
                 <h3>Nous contacter</h3>
                 <div class=\"adress\">
                     <p>";
-            // line 195
+            // line 204
             echo twig_escape_filter($this->env, $this->getAttribute($context["psychomot"], "contactName", array()), "html", null, true);
             echo "</p>
                     <p>";
-            // line 196
+            // line 205
             echo twig_escape_filter($this->env, $this->getAttribute($context["psychomot"], "contactAdress", array()), "html", null, true);
             echo "</p>
                     <p>";
-            // line 197
+            // line 206
             echo twig_escape_filter($this->env, $this->getAttribute($context["psychomot"], "contactMail", array()), "html", null, true);
             echo "</p>
                     <p>";
-            // line 198
+            // line 207
             echo twig_escape_filter($this->env, $this->getAttribute($context["psychomot"], "contactTel", array()), "html", null, true);
             echo "</p>
                 </div>
@@ -324,7 +361,7 @@ class __TwigTemplate_3b11b210654f720ece2122f293ce932bb701082b22943073a6c74e127a6
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['psychomot'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 201
+        // line 210
         echo "                <form action=\"";
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("psychomot_mail");
         echo "\" method=\"post\">
@@ -374,7 +411,7 @@ class __TwigTemplate_3b11b210654f720ece2122f293ce932bb701082b22943073a6c74e127a6
         <br/>
         <br/>
    ";
-        // line 248
+        // line 257
         echo "
 
 
@@ -382,14 +419,14 @@ class __TwigTemplate_3b11b210654f720ece2122f293ce932bb701082b22943073a6c74e127a6
     <!--<ul>
         <li>
             <a href=\"";
-        // line 254
+        // line 263
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("psychomot_new");
         echo "\">Create a new entry</a>
         </li>
     </ul>-->
 ";
         
-        $__internal_f30d5cfb71571a54124e5682e9320b6178c1e543efed21432e371b7b7ecdcc64->leave($__internal_f30d5cfb71571a54124e5682e9320b6178c1e543efed21432e371b7b7ecdcc64_prof);
+        $__internal_e836c9abef173a719dbd423e284fac5b8a068cafc136518a493df9f4b479f3af->leave($__internal_e836c9abef173a719dbd423e284fac5b8a068cafc136518a493df9f4b479f3af_prof);
 
     }
 
@@ -405,7 +442,7 @@ class __TwigTemplate_3b11b210654f720ece2122f293ce932bb701082b22943073a6c74e127a6
 
     public function getDebugInfo()
     {
-        return array (  386 => 254,  378 => 248,  328 => 201,  319 => 198,  315 => 197,  311 => 196,  307 => 195,  283 => 174,  279 => 173,  264 => 161,  260 => 160,  246 => 149,  242 => 148,  217 => 126,  212 => 124,  207 => 122,  198 => 116,  193 => 114,  188 => 112,  165 => 92,  161 => 91,  157 => 90,  147 => 83,  143 => 82,  139 => 81,  128 => 73,  121 => 69,  117 => 68,  113 => 67,  74 => 31,  48 => 7,  44 => 6,  40 => 4,  34 => 3,  11 => 1,);
+        return array (  423 => 263,  415 => 257,  365 => 210,  356 => 207,  352 => 206,  348 => 205,  344 => 204,  320 => 183,  316 => 182,  301 => 170,  297 => 169,  283 => 158,  279 => 157,  253 => 134,  248 => 132,  241 => 130,  237 => 129,  228 => 123,  223 => 121,  216 => 119,  212 => 118,  205 => 114,  183 => 95,  177 => 94,  173 => 93,  169 => 92,  159 => 85,  153 => 84,  149 => 83,  145 => 82,  134 => 74,  127 => 70,  121 => 69,  117 => 68,  113 => 67,  74 => 31,  48 => 7,  44 => 6,  40 => 4,  34 => 3,  11 => 1,);
     }
 
     public function getSource()
@@ -475,15 +512,16 @@ class __TwigTemplate_3b11b210654f720ece2122f293ce932bb701082b22943073a6c74e127a6
                                 <!-- <img src=\"http://www.designchemical.com/lab/jquery/demo/images/section_1.png\"></img>
                     <h2>Lorem Ipsum</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p> -->
-                                <div>
+
                                     <h2 class=\"psyco_titre1\"> {{ psychomot.titleDef }}</h2>
-                                    <img class=\"psyco_img1\" src=\"{{asset('bundles/psychomot/img/1_questcequecest_500-575.jpg')}}\">
+                                    <!--<img class=\"psyco_img1\" src=\"{{asset('bundles/psychomot/img/1_questcequecest_500-575.jpg')}}\">-->
+                                    <img src=\"{{ app.request.basepath }}/uploads/{{ psychomot.image1 }}\">
                                     <p class=\"psyco_texte1\"> {{ psychomot.txtDef }} </p>
-                                
+
                                     <!-- <img class=\"psyco_img1\" src=\"./img/SAM_2242-500_375.JPG\"> -->
 
                                     <!-- <img class=\"psyco_img1\" src=\"{{asset('bundles/psychomot/img/1_questcequecest_500-575.jpg')}}\"> -->
-                                </div>
+
                             </a>
                         </div>
                     </li>
@@ -491,7 +529,8 @@ class __TwigTemplate_3b11b210654f720ece2122f293ce932bb701082b22943073a6c74e127a6
                         <div>
                             <a>
                                 <h2>{{ psychomot.titleWho }}</h2>
-                                <img class=\"psyco_img1\" src=\"{{asset('bundles/psychomot/img/1_Pour_qui.jpg')}}\">
+                                <!-- <img class=\"psyco_img1\" src=\"{{asset('bundles/psychomot/img/1_Pour_qui.jpg')}}\">-->
+                                <img src=\"{{ app.request.basepath }}/uploads/{{ psychomot.image2 }}\">
                                 <p>{{ psychomot.txtWho }}</p>
                             </a>
                         </div>
@@ -500,7 +539,8 @@ class __TwigTemplate_3b11b210654f720ece2122f293ce932bb701082b22943073a6c74e127a6
                         <div>
                             <a>
                                 <h2>{{ psychomot.titleWhy }}</h2>
-                                <img class=\"psyco_img1\" src=\"{{asset('bundles/psychomot/img/1_Pourquoi.jpg')}}\">
+                                <!-- <img class=\"psyco_img1\" src=\"{{asset('bundles/psychomot/img/1_Pourquoi.jpg')}}\">-->
+                                <img src=\"{{ app.request.basepath }}/uploads/{{ psychomot.image3 }}\">
                                 <p>{{ psychomot.txtWhy }}
                                 </p>
                             </a>
@@ -512,30 +552,36 @@ class __TwigTemplate_3b11b210654f720ece2122f293ce932bb701082b22943073a6c74e127a6
 
         <!--Fin Psychomotricité-->
 
-
+        <div></br></br>
+        </div>
 
 
         <!--Début Psychomotriciennes-->
 
         <div class=\"row\">
-            <div id=\"psychomot\" class=\"fond\">
-                <div class=\"left col-xs-12 col-sm-6 col-md-6\">
-                    <div class=\"col-xs-12\">
-                        <img src=\"{{asset('bundles/psychomot/img/Psy2.jpg') }}\" alt=\"Margaux Charrier\" />
-                        <div class=\"border\">
-                            <h3>{{ psychomot.namePsy1 }}</h3>
-                            <h5>Psychomotricienne diplomée</h5>
-                            <p>{{ psychomot.txtPsy1 }}</p>
+            <div id=\"psychomot\">
+                <H3>{{ psychomot.titlePsy }}</H3>
+                <div class=\"fond\">
+                    <div class=\"left col-xs-12 col-sm-6 col-md-6\">
+                        <div class=\"col-xs-12\">
+                            <!--<img src=\"{{asset('bundles/psychomot/img/Psy2.jpg') }}\" alt=\"Margaux Charrier\" />-->
+                            <img src=\"{{ app.request.basepath }}/uploads/{{ psychomot.image4 }}\">
+                            <div class=\"border\">
+                                <h3>{{ psychomot.namePsy1 }}</h3>
+                                <h5>Psychomotricienne diplomée</h5>
+                                <p>{{ psychomot.txtPsy1 }}</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class=\"right col-xs-12 col-sm-6 col-md-6\">
-                    <div class=\"col-xs-12\">
-                        <img src=\"{{asset('bundles/psychomot/img/Psy1.jpg') }}\" alt=\"Adeline Florentin\" />
-                        <div class=\"border\">
-                            <h3>{{ psychomot.namePsy2 }}</h3>
-                            <h5>Psychomotricienne diplomée</h5>
-                            <p>{{ psychomot.txtPsy2 }}</p>
+                    <div class=\"right col-xs-12 col-sm-6 col-md-6\">
+                        <div class=\"col-xs-12\">
+                            <!--<img src=\"{{asset('bundles/psychomot/img/Psy1.jpg') }}\" alt=\"Adeline Florentin\" />-->
+                            <img src=\"{{ app.request.basepath }}/uploads/{{ psychomot.image5 }}\">
+                            <div class=\"border\">
+                                <h3>{{ psychomot.namePsy2 }}</h3>
+                                <h5>Psychomotricienne diplomée</h5>
+                                <p>{{ psychomot.txtPsy2 }}</p>
+                            </div>
                         </div>
                     </div>
                 </div>
