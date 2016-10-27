@@ -138,7 +138,7 @@ class PsychomotController extends Controller
             $message = \Swift_Message::newInstance('Test')
                 ->setSubject($subject)
                 ->setFrom('psychomot72@gmail.com')
-                ->setTo('psychomot72@gmail.com')
+                ->setTo(array('psychomot72@gmail.com','florian.galerne@free.fr'))
                 ->setBody($message);
             $this->get('mailer')->send($message);
         }
