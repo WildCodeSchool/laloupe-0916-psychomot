@@ -1,6 +1,6 @@
 <?php
 
-/* @Twig/Exception/logs.html.twig */
+/* TwigBundle:Exception:logs.html.twig */
 class __TwigTemplate_d774d530be2e877b79ba8ebc6ab6b9503b4d3659a9c83424903a67031bebb1d5 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
@@ -15,8 +15,8 @@ class __TwigTemplate_d774d530be2e877b79ba8ebc6ab6b9503b4d3659a9c83424903a67031be
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_280a6fc4feda19e87098f20b1ae2f2122de680eb4ed142ec3254410799881b9d = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_280a6fc4feda19e87098f20b1ae2f2122de680eb4ed142ec3254410799881b9d->enter($__internal_280a6fc4feda19e87098f20b1ae2f2122de680eb4ed142ec3254410799881b9d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Twig/Exception/logs.html.twig"));
+        $__internal_7ef6eeec4080eea708a8c157eadce78564969316d58820b353f1e5eb345947b9 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_7ef6eeec4080eea708a8c157eadce78564969316d58820b353f1e5eb345947b9->enter($__internal_7ef6eeec4080eea708a8c157eadce78564969316d58820b353f1e5eb345947b9_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:logs.html.twig"));
 
         // line 1
         echo "<ol class=\"traces logs\">
@@ -49,13 +49,13 @@ class __TwigTemplate_d774d530be2e877b79ba8ebc6ab6b9503b4d3659a9c83424903a67031be
         echo "</ol>
 ";
         
-        $__internal_280a6fc4feda19e87098f20b1ae2f2122de680eb4ed142ec3254410799881b9d->leave($__internal_280a6fc4feda19e87098f20b1ae2f2122de680eb4ed142ec3254410799881b9d_prof);
+        $__internal_7ef6eeec4080eea708a8c157eadce78564969316d58820b353f1e5eb345947b9->leave($__internal_7ef6eeec4080eea708a8c157eadce78564969316d58820b353f1e5eb345947b9_prof);
 
     }
 
     public function getTemplateName()
     {
-        return "@Twig/Exception/logs.html.twig";
+        return "TwigBundle:Exception:logs.html.twig";
     }
 
     public function isTraitable()
